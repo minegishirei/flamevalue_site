@@ -1,0 +1,401 @@
+<script>
+
+
+    var color_sets = {
+        "white": {
+            "char": "",
+            "line": "",
+            "backgound": ""
+        },
+        "gray": {
+            "char": "#white",
+            "line": ["#FFFFFF", "#FFFFFF"],
+            "background": "#23282e"
+        },
+        "black": {
+            "char": "#white",
+            "line": ['#00bbdd', '#404B69', '#DBEDF3'],
+            "background": "#000"
+        }
+    }
+    color_table = color_sets["black"]
+
+
+
+    var width, height = setsize();
+
+    //added by mine
+
+    function setsize() {
+        //PC ver(横幅の方が広い)
+        if (window.innerWidth > window.innerHeight) {
+            width = 800;
+            height = 600;
+        } else {
+            width = 500;
+            height = 1000;
+        }
+        //return width, height
+        return window.innerWidth, window.innerHeight
+    }
+
+    function ScrollToBottom() {
+        id = "footer"
+        ScrollWindow(id)
+    }
+
+    function ScrollWindow(id_name) {
+        var element = document.getElementById(id_name);
+        var rect = element.getBoundingClientRect();
+        var elemtop = rect.top + window.pageYOffset;
+        document.documentElement.scrollTop = elemtop;
+    }
+
+
+    var svg = d3.select("body").append("svg")
+        .attr("width", width)
+        .attr("height", height)
+        .attr("id", "svg")
+        .style(
+            "background-color", color_table["background"])
+
+    var color = d3.scaleOrdinal()
+        .range(["#f7d147", "#03a6a6", "#fe736c", "#ec5a31", "#d8345f", "#a7d129", "#f8eeb4", "#fe736c", "#616f39", "#ff6363", "#a7d129", "#d8345f", "#db2ae2"]);
+
+    var simulation = d3.forceSimulation()
+        .velocityDecay(0.4) //摩擦
+        .force('charge', d3.forceManyBody()) //詳細設定は後で
+        .force('link', d3.forceLink().id(function (d) {
+            return d.id;
+        })) //詳細設定は後で
+        .force('colllision', d3.forceCollide(40)) //nodeの衝突半径：Nodeの最大値と同じ
+        .force('positioningX', d3.forceX()) //詳細設定は後で
+        .force('positioningY', d3.forceY()) //詳細設定は後で
+        .force('center', d3.forceCenter(width / 2, height / 2)); //重力の中心
+    //"svg"にZoomイベントを設定
+    var zoom = d3.zoom()
+        .scaleExtent([1 / 4, 4])
+        .on('zoom', SVGzoomed);
+
+    svg.call(zoom);
+
+    //"svg"上に"g"をappendしてdragイベントを設定
+    var g = svg.append("g")
+        .call(d3.drag()
+            .on('drag', SVGdragged))
+
+    function SVGzoomed() {
+        g.attr("transform", d3.event.transform);
+    }
+
+    function SVGdragged(d) {
+        d3.select(this).attr('cx', d.x = d3.event.x).attr('cy', d.y = d3.event.y);
+    };
+
+
+
+
+
+
+    //ここからスタート
+    //url = "http://www.minekawada.com/static/imgpro/networkdata/{{ username }}.json"
+    url = "https://raw.githubusercontent.com/kawadasatoshi/twitter_network/main/{{ username }}.json"
+    d3.json(url, function (error, graph) {
+        if (error) throw error;
+
+
+        var link = g.append("g") //svg⇒gに
+            .attr("class", "links")
+            .selectAll("line")
+            .data(graph.links)
+            .enter().append("line")
+            .attr("stroke", color_table["line"][Math.floor(Math.random() * color_table["line"].length)]) //輪郭線の色指定追加
+            .attr("stroke-width", function (d) {
+                return Math.sqrt(d.value);
+            });
+        set_title_description(graph.nodes)
+
+        // nodeの定義
+        var node = g.append('g')
+            .attr('class', 'nodes')
+            .selectAll('g')
+            .data(graph.nodes)
+            .enter()
+            .append('g')
+            .call(d3.drag()
+                .on('start', dragstarted)
+                .on('drag', dragged)
+                .on('end', dragended));
+
+        node.append("image")
+            .attr('xlink:href',
+                function (d) {
+                    if (typeof d.image === "undefined") {
+                        return "https://applimura.com/wp-content/uploads/2019/08/twittericon13.jpg"
+                    }
+                    else {
+                        return d.image
+                    }
+                })
+            .attr('x', function (d) { return -25; })
+            .attr('y', function (d) { return -25; })
+            .attr("width", nodeSize)
+            .attr("height", nodeSize)
+            .attr('clip-path', "circle()")
+            .on('click', clicked);
+
+        //図形判定
+        function nodeTypeID(d) {
+            var nodetype
+            var arrRect = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 0]
+
+            if (arrRect.indexOf(d) >= 0) {
+                //Rect
+                return "rect"
+            } else {
+                //Circle
+                return "circle"
+            }
+        }
+
+        function linkColor(d) {
+            if (d["info"]["relation"]) {
+                if (d["info"]["relation"] == "following") {
+                    return "#white"
+                } else if (d["info"]["relation"] == "talked") {
+                    return "#red"
+                }
+            } else {
+                return "#666666"
+            }
+        }
+
+        function nodeSize(d) {
+            return 50;
+        }
+
+        var Defs = svg.append("defs");
+
+        //Rect
+        var figRect = Defs.append('rect')
+            .attr("id", "rect")
+            .attr('width', 60)
+            .attr('height', 30)
+            .attr('rx', 7)
+            .attr('ry', 7)
+            .attr('x', -(60 / 2))
+            .attr('y', -(40 / 2));
+
+
+        simulation
+            .nodes(graph.nodes)
+            .on("tick", ticked);
+
+        simulation.force("link")
+            .links(graph.links)
+            .distance(function () { return 10; })
+        //.strength(function(){ return 2; })
+
+
+
+        simulation.force('charge')
+            .strength(function (d) {
+                return -1000
+            }) //node間の力
+
+        simulation.force('positioningX') //X方向の中心に向けた引力
+            .strength(0.04)
+
+        simulation.force('positioningY') //Y方向の中心に向けた引力
+            .strength(0.04)
+
+        function ticked() {
+            link
+                .attr("x1", function (d) {
+                    return d.source.x;
+                })
+                .attr("y1", function (d) {
+                    return d.source.y;
+                })
+                .attr("x2", function (d) {
+                    return d.target.x;
+                })
+                .attr("y2", function (d) {
+                    return d.target.y;
+                });
+
+            node
+                .attr("cx", function (d) {
+                    return d.x;
+                })
+                .attr("cy", function (d) {
+                    return d.y;
+                })
+                .attr('transform', function (d) {
+                    return 'translate(' + d.x + ',' + d.y + ')'
+                }); //nodesの要素が連動して動くように設定
+        }
+    });
+
+    function dragstarted(d) {
+        if (!d3.event.active) simulation.alphaTarget(0.3).restart();
+        d.fx = d.x;
+        d.fy = d.y;
+    }
+
+    function dragged(d) {
+        d.fx = d3.event.x;
+        d.fy = d3.event.y;
+    }
+
+    function dragended(d) {
+        if (!d3.event.active) simulation.alphaTarget(0);
+        d.fx = null;
+        d.fy = null;
+    }
+
+    function upload_image() {
+        html2canvas(document.getElementById("svg"), {
+            onrendered: function (canvas) {
+                //imgタグのsrcの中に、html2canvasがレンダリングした画像を指定する。
+                var imgData = canvas.toDataURL();
+                console.log('here')
+                document.getElementById("result").src = imgData;
+            }
+        });
+    }
+
+    function clicked(d) {
+        d.fx = d3.event.x;
+        d.fy = d3.event.y;
+
+        vibrate();
+
+        try {
+            screenname_tag = document.getElementById("screenname")
+            screenname_tag.innerHTML = d.id
+        } catch {
+
+        }
+        /*
+        try {
+            explain_tag = document.getElementById("explain")
+            explain_tag.innerHTML = d["info"]["user"]["description"]
+            console.log(d)
+            //explain_tag.innerHTML = "<h3>" +  + "</h3>"
+        }
+        catch {
+
+        }
+        */
+
+
+
+        try {
+            follower_tag = document.getElementById("follower-num")
+            follower_tag.innerHTML = d["info"]["user"]["followers_count"]
+            console.log(d)
+        } catch {
+
+        }
+
+        try {
+            follow_tag = document.getElementById("follow-num")
+            follow_tag.innerHTML = d["info"]["user"]["friends_count"]
+        } catch {
+
+        }
+
+        try {
+            tweet_tag = document.getElementById("tweet-num")
+            tweet_tag.innerHTML = d["info"]["user"]["statuses_count"]
+        } catch {
+
+        }
+
+
+        try {
+            new_network_tag = document.getElementById("new-network")
+            new_network_tag.setAttribute("href", "./" + d.id)
+
+            new_network_image_tag = document.getElementById("new_network_image")
+            new_network_image_tag.setAttribute("src", d.image)
+        } catch {
+
+        }
+
+        try {
+            document.getElementById("timeline").remove();
+
+            div = document.createElement('div');
+            div.setAttribute("id", "timeline");
+            document.getElementById("twitter-timeline-handler")
+                .appendChild(div);
+
+            a_tag = document.createElement('a');
+            a_tag.setAttribute("id", "twitter-timeline");
+            a_tag.setAttribute("class", "twitter-timeline");
+            a_tag.setAttribute("data-theme", "dark");
+            a_tag.setAttribute("data-width", "400");
+            a_tag.setAttribute("data-height", "500");
+            a_tag.setAttribute("href", "https://twitter.com/" + d.id + "?ref_src=twsrc%5Etfw");
+            div.appendChild(a_tag);
+
+            $.ajax({
+                "timeout": 1000,
+                "url": "http" + (document.URL.match(/^https:/) ? "s" : "") + "://platform.twitter.com/widgets.js",
+                "dataType": "script",
+                "cache": false,
+            })
+        } catch {
+
+        }
+
+
+    }
+
+
+    function set_title_description(nodes) {
+        console.log(nodes[0])
+        user_info = nodes[0]["info"]["user"]
+        console.log(user_info)
+        username = user_info["name"]
+        screenname = user_info["screen_name"]
+
+        title_tag = document.getElementById("id_title")
+        text = randomechoice([
+            "一目でわかる！" + screenname +"の相関図！",
+            stand_out(screenname),
+            stand_out(username)
+        ])
+        title_tag.textContent = text
+        console.log(text)
+
+        description_tag = document.getElementById("description")
+        description_text = randomechoice([
+            //username + "さんの人間関係をtwitter上から観察。　曰く「" + user_info["description"],
+            user_info["description"]
+        ])
+        description_tag.setAttribute("content", description_text)
+    }
+
+    function randomechoice(mylist){
+        return mylist[Math.floor(Math.random() * mylist.length)]
+    }
+
+    function stand_out(text){
+        return_text = ""
+        let tmp_list = text.split('')
+        for( char of [...text]){
+            return_text += (char + " ")
+        }
+        return return_text
+    }
+
+    function vibrate(){
+        
+    }
+
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.js"></script>

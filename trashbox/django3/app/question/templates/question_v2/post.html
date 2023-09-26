@@ -1,0 +1,78 @@
+{% extends 'question_v2/base.html' %}
+
+{% block "main_block" %}
+{% include "question_v2/header.html" %}
+
+<main>
+
+    <!-- ask questions -->
+    <section class=" section-bg1 section-padding" style="padding: 30px">
+        <div class="container">
+        </div>
+    </section>
+    <!-- End ask questions -->
+    <!--? Testimonial Area Start -->
+    <section class="testimonial-area section-bg1">
+        <div class="container">
+            <div class="testimonial-wrapper">
+                <div class="row align-items-center justify-content-center">
+                    <div class=" col-lg-10 col-md-12 col-sm-11">
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                                <form method="post" action="/questions/new_page">
+                                    {% csrf_token %}
+                                    <div class="testimonial-caption">
+                                        <img src="/static/question_v2/assets/img/icon/quotes-sign.png" alt=""
+                                            class="quotes-sign">
+                                            <br>
+                                            <br>
+                                        <p>
+                                            登録不要。
+                                        </p>
+                                        <p>
+
+                                            まずは送ってみましょう。
+                                        </p>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <h2 style="color: white;">
+                                            エラーメッセージ
+                                        </h2>
+                                        <textarea class="form-control w-100" name="error_message" id="error_message" cols="30" rows="10" onfocus="this.placeholder = ''" onblur="this.placeholder = '*Past Error Message'" placeholder=" *Past Error Message"></textarea>
+                                    </div>
+                                    <div class="form-group">
+                                        <h2 style="color: white;">
+                                            コード
+                                        </h2>
+                                        <textarea class="form-control w-100" name="code" id="code" cols="30" rows="10" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Code '" placeholder=" Your Code"></textarea>
+                                    </div>
+                                    <div class="form-group">
+                                        <h2 style="color: white;">
+                                            補足
+                                        </h2>
+                                        <textarea class="form-control w-100" name="supplement" id="supplement" cols="30" rows="3" onfocus="this.placeholder = ''" onblur="this.placeholder = 'comment '" placeholder=" Comment"></textarea>
+                                    </div>
+                                    <div class="form-group mt-3">
+                                        <button type="submit" class="button button-contactForm boxed-btn" >Send</button>
+                                    </div>
+                                    <input name="create_new_page" id="create_new_page" value="True" type="hidden">
+                                    
+                                </form>
+
+                            <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+
+                    </div>
+                    <!-- Testimonial End -->
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!--? Testimonial Area End -->
+</main>
+
+{% endblock %}

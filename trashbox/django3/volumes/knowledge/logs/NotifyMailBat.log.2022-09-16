@@ -1,0 +1,31 @@
+INFO  2022-09-16 07:32:37,119 AbstractBat(31) NotifyMailBat is start.
+INFO  2022-09-16 10:23:47,886 AbstractBat(31) NotifyMailBat is start.
+INFO  2022-09-16 10:23:48,006 NotifyMailBat(52) Notify process started.
+INFO  2022-09-16 10:23:48,809 NotifyMailBat(70) Notify process finished. count: 0
+INFO  2022-09-16 10:23:48,812 NotifyMailBat(72) Notify event started.
+INFO  2022-09-16 10:23:49,103 NotifyMailBat(74) Notify event finished.
+INFO  2022-09-16 10:23:49,105 AbstractBat(43) Finished
+INFO  2022-09-16 11:07:14,886 AbstractBat(31) NotifyMailBat is start.
+INFO  2022-09-16 11:07:15,004 NotifyMailBat(52) Notify process started.
+INFO  2022-09-16 11:07:15,780 NotifyMailBat(70) Notify process finished. count: 0
+INFO  2022-09-16 11:07:15,783 NotifyMailBat(72) Notify event started.
+INFO  2022-09-16 11:07:16,076 NotifyMailBat(74) Notify event finished.
+INFO  2022-09-16 11:07:16,080 AbstractBat(43) Finished
+INFO  2022-09-16 12:50:42,483 AbstractBat(31) NotifyMailBat is start.
+INFO  2022-09-16 12:50:42,608 NotifyMailBat(52) Notify process started.
+INFO  2022-09-16 12:50:43,375 NotifyMailBat(70) Notify process finished. count: 0
+INFO  2022-09-16 12:50:43,377 NotifyMailBat(72) Notify event started.
+INFO  2022-09-16 12:50:43,649 NotifyMailBat(74) Notify event finished.
+INFO  2022-09-16 12:50:43,652 AbstractBat(43) Finished
+INFO  2022-09-16 12:50:55,867 AbstractBat(31) NotifyMailBat is start.
+INFO  2022-09-16 12:50:55,982 NotifyMailBat(52) Notify process started.
+INFO  2022-09-16 12:50:56,730 NotifyMailBat(70) Notify process finished. count: 0
+INFO  2022-09-16 12:50:56,733 NotifyMailBat(72) Notify event started.
+INFO  2022-09-16 12:50:57,008 NotifyMailBat(74) Notify event finished.
+INFO  2022-09-16 12:50:57,011 AbstractBat(43) Finished
+INFO  2022-09-16 22:14:58,050 AbstractBat(31) NotifyMailBat is start.
+INFO  2022-09-16 22:14:58,186 NotifyMailBat(52) Notify process started.
+INFO  2022-09-16 22:14:58,950 NotifyMailBat(70) Notify process finished. count: 0
+INFO  2022-09-16 22:14:58,953 NotifyMailBat(72) Notify event started.
+INFO  2022-09-16 22:14:59,251 NotifyMailBat(74) Notify event finished.
+INFO  2022-09-16 22:14:59,254 AbstractBat(43) Finished

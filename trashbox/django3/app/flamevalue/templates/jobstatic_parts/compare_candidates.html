@@ -1,0 +1,56 @@
+<div class="x_panel">
+    <div class="x_title">
+        <h2>比較対象を選ぶ</h2>
+        <ul class="nav navbar-right panel_toolbox">
+            <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i
+                        class="fa fa-wrench"></i></a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Settings 1</a>
+                    <a class="dropdown-item" href="#">Settings 2</a>
+                </div>
+            </li>
+            <li><a class="close-link"><i class="fa fa-close"></i></a>
+            </li>
+        </ul>
+        <div class="clearfix"></div>
+    </div>
+    <form action="/compare.html">
+        <div class="x_content" style="height: 360px; overflow-y: scroll;">
+            {% for row in FLAMEWORKDICT %}
+            <article class="media event">
+                <a class="pull-left date" style="background-color: white;">
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" name="candidate" value="{{ row.name }}">
+                        </label>
+                    </div>
+                </a>
+                <a class="pull-left date" style="padding-right: 10px; background-color: white;">
+                    <img src="{{ row.image }}" width="42px">
+                </a>
+                <div class="media-body">
+                    <a class="title" href="./{{ row.name }}">{{ row.name }}</a><br>
+                    <a class="title" href="./{{ row.name }}">{{ row.stars }} {{ row.total_score }}</a>
+                    <p>年収{{ row.basic.money }}万円 / 総求人数{{ row.basic.count }}件 </p>
+                </div>
+            </article>
+            <hr>
+            {% endfor %}
+            <style>
+                input[type=checkbox] {
+                    transform: scale(2);
+                    margin: 17px 18px 17px 14px;
+                }
+            </style>
+        </div>
+        <button type="submit" class="btn btn-success">Submit</button>
+        <script>
+            on_submit_compare = () => {
+                document.querySelector('.messageCheckbox').checked;
+            }
+        </script>
+    </form>
+</div>

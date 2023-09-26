@@ -1,0 +1,57 @@
+<!--▼サイドメニュー-->
+<div class="side_menu_section">
+
+    <!--▽サイドバーリード-->
+    <div class="read_S">
+        <div class="read_TXT">運営者</div>
+    </div>
+    <!--△サイドバーリード-->
+
+    <!--▽バナー-->
+    <div class="side_menu_box" align="center">
+        <a class="twitter-timeline" data-height="400" data-theme="dark" href="https://twitter.com/se_maintain?ref_src=twsrc%5Etfw">Tweets by se_maintain</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+    <!--△バナー-->
+
+
+    <!--▽サイドバーリード-->
+    <div class="read_S">
+        <div class="read_TXT">人気記事ランキング</div>
+    </div>
+    <div class="side_menu_box_border">
+        {% for page in pop_page_list %}
+        <li class="side_menu_List"><a href="/{{ page.category }}/{{ page.htmlname }}">{{ page.title }}</a></li>
+        {% endfor %}
+    </div>
+
+
+
+    <!--▽サイドバーリード-->
+    <div class="read_S">
+        <div class="read_TXT">カテゴリー一覧</div>
+    </div>
+    <!--△サイドバーリード-->
+
+    <div class="side_menu_box_border">
+        {% for category in category_list %}
+        <li class="side_menu_List"><a href="/index.html">{{ category }}</a></li>
+        {% endfor %}
+    </div>
+
+
+
+    <!--▽サイドバーリード-->
+    <div class="read_S">
+        <div class="read_TXT">アクセス</div>
+    </div>
+    <!--△サイドバーリード-->
+
+    <div class="side_menu_box_border">
+        <li class="side_menu_List"><a href="#">サイトマップ</a></li>
+        <li class="side_menu_List"><a href="#">お問い合わせ</a></li>
+        <li class="side_menu_List"><a href="#">運営者情報</a></li>
+    </div>
+
+
+</div>
+<!--▲サイドメニュー-->

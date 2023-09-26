@@ -1,0 +1,281 @@
+{% extends 'oreilly/base.html' %}
+
+{% block headblock %}
+<title>
+
+</title>
+
+<link rel="icon" href="{{ favicon }}">
+{% endblock %}
+
+
+{% block headerblock %}
+{% include "parts/header/header.html" %}
+{% endblock %}
+
+
+{% block mainblock %}
+
+<!--.wrap = container (width: 90%) -->
+<div class="wrap">
+    <div class="grid">
+
+        <!-- .end .column -->
+        <div class="column">
+            <img class="img_size" src="{{ img }}" alt="{{ title }}">
+        </div>
+        <style>
+            .img_size {
+                width: 300px;
+            }
+        </style>
+
+        <div class="column">
+            <h3>{{ ans }}</h3>
+            <p>
+                {{ description }}
+            </p>
+        </div>
+
+    </div>
+</div>
+
+<!--.wrap = container (width: 90%) -->
+<div class="wrap">
+    <div class="grid">
+
+        <div class="column">
+            <strong>
+                引用元
+            </strong>
+            <br>
+            <br>
+            <p>
+                <a href="{{ url }}">{{ title }}</a>
+            </p>
+        </div>
+    </div>
+</div>
+
+
+{% if comment_list %}
+<!--.wrap = container (width: 90%) -->
+<div class="wrap">
+    <div class="grid">
+
+        <div class="column">
+            <strong>
+                内容と書評
+            </strong>
+            <br>
+            <br>
+            {% for comment in comment_list %}
+            <h4>{{ comment.title }}</h4>
+            <pre>
+{{ comment.comment }}
+</pre>
+
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% endif %}
+
+
+
+<div class="wrap">
+    <div class="grid">
+
+        <div class="column">
+            <strong>
+                関連書籍
+            </strong>
+            <div class="footnav">
+                <ul class="horizontal-list">
+                    {% for litag in all_relation %}
+                    <li class="down_shadow thumbnail item ">
+                        <a href="./{{ litag.book_id }}">
+                            <img class="thumbnail" src="{{ litag.img }}" alt="{{ litag.title }}">
+                        </a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+
+
+
+
+
+            <style>
+                .thumbnailtitle {
+                    width: 200px;
+                    overflow-wrap: break-word;
+                }
+
+                .footnav {
+                    padding-top: 20px;
+                    opacity: 0;
+                }
+
+
+                .footnav {
+                    display: flex;
+                    background-color: rgba(0, 0, 0, 0);
+                    opacity: 1;
+                }
+
+                .footnav:hover {
+                    z-index: 5;
+                    -webkit-transition: 0.5s ease-in-out;
+                    -moz-transition: 0.5s ease-in-out;
+                    -o-transition: 0.5s ease-in-out;
+                    transition: 0.5s ease-in-out;
+                    opacity: 1;
+                    background: rgba(70, 69, 69, 0);
+                }
+
+                .horizontal-list {
+                    height: 260px;
+                    scroll-behavior: smooth;
+                    overflow-x: auto;
+                    white-space: nowrap;
+                    display: inline-block;
+                    -ms-overflow-style: none;
+                    /* IE, Edge 対応 */
+                    scrollbar-width: none;
+                    /* Firefox 対応 */
+                }
+
+                .horizontal-list::-webkit-scrollbar {
+                    /* Chrome, Safari 対応 */
+                    display: none;
+                }
+
+                .item {
+                    /* 横スクロール用 */
+                    display: inline-block;
+                    width: 200px;
+                }
+
+                .thumbnail {
+                    object-fit: cover;
+                    /* この一行を追加するだけ！ */
+                }
+
+
+                .down_shadow {
+                    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(128, 128, 128, 0.1);
+                    /*アニメーションの設定*/
+                    opacity: 0.6;
+                    transition: all .3s;
+                }
+
+                /*hoverをしたらボックスの影が拡がり色が濃くなる*/
+                .down_shadow:hover {
+                    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5), 0 0 50px rgba(128, 128, 128, 0.1);
+                    opacity: 1.0;
+                    border-color: transparent;
+                }
+
+                .hidetitle {
+                    width: 200px;
+                    text-overflow: initial;
+                }
+            </style>
+
+
+
+            <script>
+                window.onload = function () {
+                    splittaglist = document.getElementsByName("splittitle")
+                    console.log(splittaglist)
+                    for (var splittag in splittaglist) {
+                        splittag = splittaglist[splittag]
+                        console.log(splittag)
+                        const text = splittag.textContent
+                        if (text.length <= 11) {
+                            splittag.innerHTML = text + "<br>."
+                            continue
+                        }
+                        strlist = text.match(/.{11}/g);
+                        splittag.innerHTML = strlist[0] + "<br>" + text.slice(11)
+                    }
+                }
+            </script>
+        </div>
+    </div>
+</div>
+
+
+<!--.wrap = container (width: 90%) -->
+<div class="wrap">
+    <div class="grid">
+
+        <div class="column">
+            <h4>
+                コメント送信
+            </h4>
+            <br>
+            <br>
+            <div class="cp_iptxt">
+                <label class="ef">
+                    <form method="POST" action="">{% csrf_token %}
+                        <input type="text" name="title" class="name" placeholder="名前orタイトル" />
+                        <textarea type="textarea" name="comment" class="comment" rows="4" cols="40"
+                            placeholder="コメント"></textarea>
+                        <input type="submit" name="submit" />
+                    </form>
+                </label>
+            </div>
+            <style>
+                .cp_iptxt {
+                    position: relative;
+                    width: 80%;
+                    margin: 40px 3%;
+                }
+
+                .cp_iptxt input[type='text'] {
+                    font: 15px/24px sans-serif;
+                    box-sizing: border-box;
+                    width: 100%;
+                    padding: 0.3em;
+                    transition: 0.3s;
+                    letter-spacing: 1px;
+                    color: #aaaaaa;
+                    border: 1px solid #1b2538;
+                    border-radius: 4px;
+                }
+
+                .ef input[type='text']:focus {
+                    border: 1px solid #da3c41;
+                    outline: none;
+                    box-shadow: 0 0 5px 1px rgba(218, 60, 65, .5);
+                }
+
+                .comment {
+                    width: 100%;
+                    height: 200px;
+                }
+            </style>
+        </div>
+
+        <br>
+    </div>
+</div>
+
+
+
+
+<style>
+    .new_title {
+        width: 70%;
+    }
+</style>
+
+{% endblock %}
+
+
+
+{% block downheaderblock %}
+
+{% endblock %}

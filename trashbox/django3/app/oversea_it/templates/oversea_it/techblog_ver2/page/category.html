@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ja">
+	{% include 'oversea_it/techblog_ver2/parts/head.html' %}
+<body>
+
+<!-- Begin Nav
+================================================== -->
+<nav class="navbar navbar-toggleable-md navbar-light bg-white fixed-top mediumnavigation">
+<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+{% include 'oversea_it/techblog_ver2/parts/header.html' %}
+</nav>
+<!-- End Nav
+================================================== -->
+
+<!-- Begin Site Title
+================================================== -->
+<div class="container">
+	<div class="mainheading">
+		<h1 class="sitetitle">{{ title }}</h1>
+		<p class="lead">
+			 {{ description }}
+		</p>
+	</div>
+<!-- End Site Title
+================================================== -->
+
+
+	<!-- Begin List Posts
+	================================================== -->
+	<section class="recent-posts">
+	<div class="section-title">
+		<h2><span>記事一覧</span></h2>
+	</div>
+	<div class="card-columns listrecent">
+		{% for tweet in tweet_list %}
+		<!-- begin post -->
+		<div class="card">
+			<a href = "/index.html?editor=True&user={{ tweet.user.screen_name }}&tweet_id={{ tweet.id }}&since={{ tweet.date }}&until={{ tweet.date2 }}">
+				<blockquote class="twitter-tweet" width="100%">
+					<a href="https://twitter.com/WealthNation__/status/{{ tweet.id }}/"></a>
+				</blockquote>
+			</a>
+			<div class="card-block">
+				<h2 class="card-title">
+					<a href = "/index.html?editor=True&user={{ tweet.user.screen_name }}&tweet_id={{ tweet.id }}&since={{ tweet.date }}&until={{ tweet.date2 }}">
+						詳しく見る
+					</a>
+				</h2>
+				<h4 class="card-text">{{ tweet.description }}</h4>
+				<div class="metafooter">
+					<div class="wrapfooter">
+						<span class="post-read-more"><a href="/{{ tweet.id }}" title="Read Story"><svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25"><path d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z" fill-rule="evenodd"></path></svg></a></span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- end post -->
+		{% endfor %}
+		<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+	</div>
+	</section>
+	<!-- End List Posts
+	================================================== -->
+
+<!-- Begin Footer
+================================================== -->
+{% include 'blog/techblog_ver2/parts/footer.html' %}
+<!-- End Footer
+================================================== -->
+</div>
+<!-- /.container -->
+
+
+
+<!-- Bootstrap core JavaScript
+    ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="/static/techblog_ver2/assets/js/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="/static/techblog_ver2/assets/js/bootstrap.min.js"></script>
+<script src="/static/techblog_ver2/assets/js/ie10-viewport-bug-workaround.js"></script>
+</body>
+</html>

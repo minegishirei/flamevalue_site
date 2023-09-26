@@ -1,0 +1,57 @@
+version: "3"
+
+services:
+  nginx:
+    #image: nginx
+    build:
+      ./nginx
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx/:/etc/nginx/
+      - ./nginx/uwsgi_params:/etc/nginx/uwsgi_params
+      - ./nginx/conf:/etc/nginx/conf.d
+      - ./app/static:/static
+    tty:
+      true
+    links:
+      - djangoapp
+  djangoapp:
+    user: root
+    build: .
+    environment:
+      ENV: DEV
+    expose:
+      - "5000"
+    volumes:
+      - ./app:/app
+      - ./God:/God
+      - ./volumes/django_volumes/flamevalue:/flamevalue
+      - ./volumes/django_volumes/user_database:/user_database
+      - ./volumes/django_volumes/sqlite:/sqlite
+    command: ./cmd.sh
+    container_name: djangoapp
+    #command: python3 manage.py runserver 0.0.0.0:5000 
+    links:
+      - db
+  db:
+    user: root
+    image: mariadb
+    command: mysqld --character-set-server=utf8 --collation-server=utf8_unicode_ci
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpw
+      MYSQL_DATABASE: stock_database
+      MYSQL_USER: user
+      MYSQL_PASSWORD: passw0rd
+    ports:
+      - "3306:3306"
+    volumes:
+      # 初期データを投入するSQLが格納されているdir
+      - ./db/mysql-init:/docker-entrypoint-initdb.d
+      # 永続化するときにマウントするdir
+      - ./db/mysql-data:/var/lib/mysql
+
+
+
+

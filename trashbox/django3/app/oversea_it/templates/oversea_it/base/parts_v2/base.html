@@ -1,0 +1,165 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>{{ title }}</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="{{description}}" name="description">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="/static/oversea_it/js/sidr/jquery.sidr.min.js" async></script>
+    <script src="/static/oversea_it/js/pagetop_scroll.js" async></script>
+    <script src="/static/oversea_it/respond.min.js" async></script>
+  
+    <link href="/static/oversea_it/boilerplate.css" rel="stylesheet">
+
+    <link href="/static/oversea_it/style.css" rel="stylesheet">
+    <link href="/static/oversea_it/js/sidr/jquery.sidr.dark.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <!-- Favicons -->
+    <link href="{{ favicon }}" rel="icon">
+    <link href="{{ favicon }}" rel="apple-touch-icon">
+
+    <!-- TWITTER -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@se_maintain">
+    <meta name="twitter:creator" content="@se_maintain">
+    <meta name="twitter:title" content="{{ title }}">
+    <meta name="twitter:description" content="{{ description }}">
+    <meta name="twitter:image" content="{{ img }}">
+    <!-- TWITTER -->
+
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-B6Y7NSQNF5"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-B6Y7NSQNF5');
+    </script>
+</head>
+
+<body>
+
+    <!--▼ページトップエリア-->
+    <div id="top_area" class="fluid">
+
+        <div class="top_bar">
+            <div class="gridContainer clearfix">
+                <div>
+                    <h1 class="h1_TXT">{{ title }}</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="logo_area">
+            <div class="gridContainer clearfix">
+
+
+                <div class="Social_button">
+                    <div class="ajuster">
+                        <!--ツイッターボタン ▶-->
+                        <div class="Social_b">
+                            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button"
+                                data-show-count="false">Tweet</a>
+                        </div>
+                        <!--◀ ツイッターボタン-->
+
+                        <div style="clear: both"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <div style="clear: both"></div>
+    <!--▲ページトップエリア-->
+
+
+    <!--▼ナビゲーションバー-->
+    <div class="Navigationbar">
+        <div class="gridContainer clearfix">
+            <!--▼ボタン（PC表示時のナビボタン）-->
+            <div class="navi_button_set">
+                <div class="navi_button"><a href="/index.html">HOME</a></div>
+                {% for category in category_list %}
+                <div class="navi_button"><a href="/index.html">{{ category }}</a></div>
+                {% endfor %}
+                <style>
+                    .navi_button {
+                        text-transform: uppercase;
+                    }
+                </style>
+            </div>
+            <!--▲ボタン（PC表示時のナビボタン）-->
+
+            <!--▼スライドメニュー-->
+            <div class="S_menu">
+                <div class="home_link"><a href="/index.html"><i class="fa fa-home"></i></a></div>
+                <div class="sider_menu">
+                    <a class="drawer" href="#sidr"><i class="fas fa-bars" style="font-weight: 900;"></i></a>
+                </div>
+                <div style="clear:both"></div>
+                <div id="sidr-right">
+                    <ul style="margin-top:30px">
+                        <!--▼ボタン（タブレット・スマホ表示時のナビボタン）-->
+
+                        {% for category in category_list %}
+                        <li><a href="/index.html">{{ category }}</a></li>
+                        {% endfor %}
+                        <li><a class="drawer" href="#sidr" style="font-size:90%;">◀ CLOSE</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <!--▲スライドメニュー-->
+
+        </div>
+    </div>
+    <!--▲ナビゲーションバー-->
+
+
+    {% block mainblock %}
+
+    {% endblock %}
+
+
+
+    <!--▼フッター-->
+    <div id="footer">
+
+        <div class="foot_top">
+            <div class="gridContainer clearfix">
+                当サイトに掲載された記事・写真の無断転載を禁じます。
+            </div>
+        </div>
+
+        <div class="foot_under">
+            <div class="gridContainer clearfix">
+                Copyright © Movist Template All rights reserved.
+            </div>
+        </div>
+
+    </div>
+    <!--▲フッター-->
+    <p id="pageTopaaa"><a href="#"><i class="fa fa-chevron-up" aria-hidden="true"></i></a></p>
+
+
+    <script>
+        $(document).ready(function () {
+            $('.drawer').sidr({
+                name: 'sidr-right',
+                side: 'right'
+            });
+        });
+    </script>
+</body>
+
+</html>

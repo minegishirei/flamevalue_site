@@ -1,0 +1,3346 @@
+{'access_token': '968269222525587456-nTufoFnhYpNIY1sLQwB9WYGiDlAIEMM', 'access_secret': 'rhoqnAXt3VHz9dnNv8DlyDUd9V1fijfw2Of091UkjVUTV', 'consumer_key': 'nAllJpqiUKtnUG4aHrk2G6T9v', 'consumer_secret': 'QAY2CnNGt2onuun6QckyYniZeh753q6X4dEXw9mS3pjTecPk9Y'}
+<Response [200]>
+[
+    {
+        "created_at": "Sat May 28 14:37:33 +0000 2022",
+        "id": 1530558904752652289,
+        "id_str": "1530558904752652289",
+        "text": "Check me out @xtremepentest if you liked this thread!! I'm gonna be tweeting more about Linux, networking, security etc.",
+        "truncated": false,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [
+                {
+                    "screen_name": "xtremepentest",
+                    "name": "Traw",
+                    "id": 1412506741317701636,
+                    "id_str": "1412506741317701636",
+                    "indices": [
+                        13,
+                        27
+                    ]
+                }
+            ],
+            "urls": []
+        },
+        "metadata": {
+            "iso_language_code": "en",
+            "result_type": "recent"
+        },
+        "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+        "in_reply_to_status_id": 1530558902009573376,
+        "in_reply_to_status_id_str": "1530558902009573376",
+        "in_reply_to_user_id": 1412506741317701636,
+        "in_reply_to_user_id_str": "1412506741317701636",
+        "in_reply_to_screen_name": "xtremepentest",
+        "user": {
+            "id": 1412506741317701636,
+            "id_str": "1412506741317701636",
+            "name": "Traw",
+            "screen_name": "xtremepentest",
+            "location": "BSc Network Engineering ",
+            "description": "Helping people master Linux🐧 & transit  from We₿ 2 to We₿ 3 Security.\n\n Daily tweets on Linux🐧, Security🐱‍💻 and Networking🌐.",
+            "url": "https://t.co/RF6rJBjBzl",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/RF6rJBjBzl",
+                            "expanded_url": "http://bio.link/xtremepentest",
+                            "display_url": "bio.link/xtremepentest",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 18972,
+            "friends_count": 188,
+            "listed_count": 215,
+            "created_at": "Tue Jul 06 20:21:55 +0000 2021",
+            "favourites_count": 5404,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 4130,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1495374168497528839/WriT_ow8_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1495374168497528839/WriT_ow8_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1412506741317701636/1645359969",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none",
+            "withheld_in_countries": []
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 1,
+        "favorite_count": 22,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Sat May 28 14:37:33 +0000 2022",
+        "id": 1530558902009573376,
+        "id_str": "1530558902009573376",
+        "text": "This should be enough information to help you understand the Linux directory structure and how to use it.\n\nThat's i… https://t.co/VJeKTCZRw6",
+        "truncated": true,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/VJeKTCZRw6",
+                    "expanded_url": "https://twitter.com/i/web/status/1530558902009573376",
+                    "display_url": "twitter.com/i/web/status/1…",
+                    "indices": [
+                        117,
+                        140
+                    ]
+                }
+            ]
+        },
+        "metadata": {
+            "iso_language_code": "en",
+            "result_type": "recent"
+        },
+        "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+        "in_reply_to_status_id": 1530558899140673537,
+        "in_reply_to_status_id_str": "1530558899140673537",
+        "in_reply_to_user_id": 1412506741317701636,
+        "in_reply_to_user_id_str": "1412506741317701636",
+        "in_reply_to_screen_name": "xtremepentest",
+        "user": {
+            "id": 1412506741317701636,
+            "id_str": "1412506741317701636",
+            "name": "Traw",
+            "screen_name": "xtremepentest",
+            "location": "BSc Network Engineering ",
+            "description": "Helping people master Linux🐧 & transit  from We₿ 2 to We₿ 3 Security.\n\n Daily tweets on Linux🐧, Security🐱‍💻 and Networking🌐.",
+            "url": "https://t.co/RF6rJBjBzl",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/RF6rJBjBzl",
+                            "expanded_url": "http://bio.link/xtremepentest",
+                            "display_url": "bio.link/xtremepentest",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 18972,
+            "friends_count": 188,
+            "listed_count": 215,
+            "created_at": "Tue Jul 06 20:21:55 +0000 2021",
+            "favourites_count": 5404,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 4130,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1495374168497528839/WriT_ow8_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1495374168497528839/WriT_ow8_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1412506741317701636/1645359969",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none",
+            "withheld_in_countries": []
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 25,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Sat May 28 14:37:32 +0000 2022",
+        "id": 1530558899140673537,
+        "id_str": "1530558899140673537",
+        "text": "/𝘀𝗿𝘃 – 𝗦𝗲𝗿𝘃𝗶𝗰𝗲 𝗱𝗮𝘁𝗮\n\nThis is the service directory, which stores service data. If you run a server, such as a web s… https://t.co/oZoD0s0D07",
+        "truncated": true,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/oZoD0s0D07",
+                    "expanded_url": "https://twitter.com/i/web/status/1530558899140673537",
+                    "display_url": "twitter.com/i/web/status/1…",
+                    "indices": [
+                        117,
+                        140
+                    ]
+                }
+            ]
+        },
+        "metadata": {
+            "iso_language_code": "en",
+            "result_type": "recent"
+        },
+        "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+        "in_reply_to_status_id": 1530558895948812288,
+        "in_reply_to_status_id_str": "1530558895948812288",
+        "in_reply_to_user_id": 1412506741317701636,
+        "in_reply_to_user_id_str": "1412506741317701636",
+        "in_reply_to_screen_name": "xtremepentest",
+        "user": {
+            "id": 1412506741317701636,
+            "id_str": "1412506741317701636",
+            "name": "Traw",
+            "screen_name": "xtremepentest",
+            "location": "BSc Network Engineering ",
+            "description": "Helping people master Linux🐧 & transit  from We₿ 2 to We₿ 3 Security.\n\n Daily tweets on Linux🐧, Security🐱‍💻 and Networking🌐.",
+            "url": "https://t.co/RF6rJBjBzl",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/RF6rJBjBzl",
+                            "expanded_url": "http://bio.link/xtremepentest",
+                            "display_url": "bio.link/xtremepentest",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 18972,
+            "friends_count": 188,
+            "listed_count": 215,
+            "created_at": "Tue Jul 06 20:21:55 +0000 2021",
+            "favourites_count": 5404,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 4130,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1495374168497528839/WriT_ow8_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1495374168497528839/WriT_ow8_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1412506741317701636/1645359969",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none",
+            "withheld_in_countries": []
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 1,
+        "favorite_count": 31,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Sat May 28 14:37:31 +0000 2022",
+        "id": 1530558895948812288,
+        "id_str": "1530558895948812288",
+        "text": "For example:\n– /var/crash stores information about crashed processes.\n– /var/log contains log files for the system… https://t.co/bAIceGTFot",
+        "truncated": true,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/bAIceGTFot",
+                    "expanded_url": "https://twitter.com/i/web/status/1530558895948812288",
+                    "display_url": "twitter.com/i/web/status/1…",
+                    "indices": [
+                        116,
+                        139
+                    ]
+                }
+            ]
+        },
+        "metadata": {
+            "iso_language_code": "en",
+            "result_type": "recent"
+        },
+        "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+        "in_reply_to_status_id": 1530558892861685761,
+        "in_reply_to_status_id_str": "1530558892861685761",
+        "in_reply_to_user_id": 1412506741317701636,
+        "in_reply_to_user_id_str": "1412506741317701636",
+        "in_reply_to_screen_name": "xtremepentest",
+        "user": {
+            "id": 1412506741317701636,
+            "id_str": "1412506741317701636",
+            "name": "Traw",
+            "screen_name": "xtremepentest",
+            "location": "BSc Network Engineering ",
+            "description": "Helping people master Linux🐧 & transit  from We₿ 2 to We₿ 3 Security.\n\n Daily tweets on Linux🐧, Security🐱‍💻 and Networking🌐.",
+            "url": "https://t.co/RF6rJBjBzl",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/RF6rJBjBzl",
+                            "expanded_url": "http://bio.link/xtremepentest",
+                            "display_url": "bio.link/xtremepentest",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 18972,
+            "friends_count": 188,
+            "listed_count": 215,
+            "created_at": "Tue Jul 06 20:21:55 +0000 2021",
+            "favourites_count": 5404,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 4130,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1495374168497528839/WriT_ow8_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1495374168497528839/WriT_ow8_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1412506741317701636/1645359969",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none",
+            "withheld_in_countries": []
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 1,
+        "favorite_count": 27,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Sat May 28 14:37:31 +0000 2022",
+        "id": 1530558892861685761,
+        "id_str": "1530558892861685761",
+        "text": "/𝘃𝗮𝗿 - 𝗩𝗮𝗿𝗶𝗮𝗯𝗹𝗲 𝗱𝗮𝘁𝗮 𝗳𝗶𝗹𝗲𝘀\n\n'/var' contains variable data that is expected to grow in size (such as system logging… https://t.co/DaPEEst8UX",
+        "truncated": true,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/DaPEEst8UX",
+                    "expanded_url": "https://twitter.com/i/web/status/1530558892861685761",
+                    "display_url": "twitter.com/i/web/status/1…",
+                    "indices": [
+                        116,
+                        139
+                    ]
+                }
+            ]
+        },
+        "metadata": {
+            "iso_language_code": "en",
+            "result_type": "recent"
+        },
+        "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+        "in_reply_to_status_id": 1530558889892139015,
+        "in_reply_to_status_id_str": "1530558889892139015",
+        "in_reply_to_user_id": 1412506741317701636,
+        "in_reply_to_user_id_str": "1412506741317701636",
+        "in_reply_to_screen_name": "xtremepentest",
+        "user": {
+            "id": 1412506741317701636,
+            "id_str": "1412506741317701636",
+            "name": "Traw",
+            "screen_name": "xtremepentest",
+            "location": "BSc Network Engineering ",
+            "description": "Helping people master Linux🐧 & transit  from We₿ 2 to We₿ 3 Security.\n\n Daily tweets on Linux🐧, Security🐱‍💻 and Networking🌐.",
+            "url": "https://t.co/RF6rJBjBzl",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/RF6rJBjBzl",
+                            "expanded_url": "http://bio.link/xtremepentest",
+                            "display_url": "bio.link/xtremepentest",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 18972,
+            "friends_count": 188,
+            "listed_count": 215,
+            "created_at": "Tue Jul 06 20:21:55 +0000 2021",
+            "favourites_count": 5404,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 4130,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1495374168497528839/WriT_ow8_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1495374168497528839/WriT_ow8_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1412506741317701636/1645359969",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none",
+            "withheld_in_countries": []
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 2,
+        "favorite_count": 27,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Sat May 28 14:37:30 +0000 2022",
+        "id": 1530558889892139015,
+        "id_str": "1530558889892139015",
+        "text": "- ‘/usr/sbin’ contains administrator-specific commands.\n- ‘/usr/lib’ contains the system libraries\n- ‘/usr/share’co… https://t.co/5ph37dwTdA",
+        "truncated": true,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/5ph37dwTdA",
+                    "expanded_url": "https://twitter.com/i/web/status/1530558889892139015",
+                    "display_url": "twitter.com/i/web/status/1…",
+                    "indices": [
+                        117,
+                        140
+                    ]
+                }
+            ]
+        },
+        "metadata": {
+            "iso_language_code": "en",
+            "result_type": "recent"
+        },
+        "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+        "in_reply_to_status_id": 1530558886373097478,
+        "in_reply_to_status_id_str": "1530558886373097478",
+        "in_reply_to_user_id": 1412506741317701636,
+        "in_reply_to_user_id_str": "1412506741317701636",
+        "in_reply_to_screen_name": "xtremepentest",
+        "user": {
+            "id": 1412506741317701636,
+            "id_str": "1412506741317701636",
+            "name": "Traw",
+            "screen_name": "xtremepentest",
+            "location": "BSc Network Engineering ",
+            "description": "Helping people master Linux🐧 & transit  from We₿ 2 to We₿ 3 Security.\n\n Daily tweets on Linux🐧, Security🐱‍💻 and Networking🌐.",
+            "url": "https://t.co/RF6rJBjBzl",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/RF6rJBjBzl",
+                            "expanded_url": "http://bio.link/xtremepentest",
+                            "display_url": "bio.link/xtremepentest",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 18972,
+            "friends_count": 188,
+            "listed_count": 215,
+            "created_at": "Tue Jul 06 20:21:55 +0000 2021",
+            "favourites_count": 5404,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 4130,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1495374168497528839/WriT_ow8_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1495374168497528839/WriT_ow8_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1412506741317701636/1645359969",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none",
+            "withheld_in_countries": []
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 1,
+        "favorite_count": 26,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Sat May 28 14:37:29 +0000 2022",
+        "id": 1530558886373097478,
+        "id_str": "1530558886373097478",
+        "text": "/𝘂𝘀𝗿 – 𝗨𝘀𝗲𝗿 𝗯𝗶𝗻𝗮𝗿𝗶𝗲𝘀 𝗮𝗻𝗱 𝗽𝗿𝗼𝗴𝗿𝗮𝗺 𝗱𝗮𝘁𝗮\n\nHere you can find executable files, libraries, source of most of the system… https://t.co/gKtZYCbTcN",
+        "truncated": true,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/gKtZYCbTcN",
+                    "expanded_url": "https://twitter.com/i/web/status/1530558886373097478",
+                    "display_url": "twitter.com/i/web/status/1…",
+                    "indices": [
+                        116,
+                        139
+                    ]
+                }
+            ]
+        },
+        "metadata": {
+            "iso_language_code": "en",
+            "result_type": "recent"
+        },
+        "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+        "in_reply_to_status_id": 1530558883189641216,
+        "in_reply_to_status_id_str": "1530558883189641216",
+        "in_reply_to_user_id": 1412506741317701636,
+        "in_reply_to_user_id_str": "1412506741317701636",
+        "in_reply_to_screen_name": "xtremepentest",
+        "user": {
+            "id": 1412506741317701636,
+            "id_str": "1412506741317701636",
+            "name": "Traw",
+            "screen_name": "xtremepentest",
+            "location": "BSc Network Engineering ",
+            "description": "Helping people master Linux🐧 & transit  from We₿ 2 to We₿ 3 Security.\n\n Daily tweets on Linux🐧, Security🐱‍💻 and Networking🌐.",
+            "url": "https://t.co/RF6rJBjBzl",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/RF6rJBjBzl",
+                            "expanded_url": "http://bio.link/xtremepentest",
+                            "display_url": "bio.link/xtremepentest",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 18972,
+            "friends_count": 188,
+            "listed_count": 215,
+            "created_at": "Tue Jul 06 20:21:55 +0000 2021",
+            "favourites_count": 5404,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 4130,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1495374168497528839/WriT_ow8_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1495374168497528839/WriT_ow8_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1412506741317701636/1645359969",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none",
+            "withheld_in_countries": []
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 2,
+        "favorite_count": 26,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Sat May 28 14:37:28 +0000 2022",
+        "id": 1530558883189641216,
+        "id_str": "1530558883189641216",
+        "text": "However, keep in mind that the contents of the /tmp directories are deleted when your system restarts so don't stor… https://t.co/QGALYUg6bX",
+        "truncated": true,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/QGALYUg6bX",
+                    "expanded_url": "https://twitter.com/i/web/status/1530558883189641216",
+                    "display_url": "twitter.com/i/web/status/1…",
+                    "indices": [
+                        117,
+                        140
+                    ]
+                }
+            ]
+        },
+        "metadata": {
+            "iso_language_code": "en",
+            "result_type": "recent"
+        },
+        "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+        "in_reply_to_status_id": 1530557965262106624,
+        "in_reply_to_status_id_str": "1530557965262106624",
+        "in_reply_to_user_id": 1412506741317701636,
+        "in_reply_to_user_id_str": "1412506741317701636",
+        "in_reply_to_screen_name": "xtremepentest",
+        "user": {
+            "id": 1412506741317701636,
+            "id_str": "1412506741317701636",
+            "name": "Traw",
+            "screen_name": "xtremepentest",
+            "location": "BSc Network Engineering ",
+            "description": "Helping people master Linux🐧 & transit  from We₿ 2 to We₿ 3 Security.\n\n Daily tweets on Linux🐧, Security🐱‍💻 and Networking🌐.",
+            "url": "https://t.co/RF6rJBjBzl",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/RF6rJBjBzl",
+                            "expanded_url": "http://bio.link/xtremepentest",
+                            "display_url": "bio.link/xtremepentest",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 18972,
+            "friends_count": 188,
+            "listed_count": 215,
+            "created_at": "Tue Jul 06 20:21:55 +0000 2021",
+            "favourites_count": 5404,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 4130,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1495374168497528839/WriT_ow8_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1495374168497528839/WriT_ow8_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1412506741317701636/1645359969",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none",
+            "withheld_in_countries": []
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 1,
+        "favorite_count": 27,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Sat May 28 14:33:49 +0000 2022",
+        "id": 1530557965262106624,
+        "id_str": "1530557965262106624",
+        "text": "/𝘁𝗺𝗽 – 𝗧𝗲𝗺𝗽𝗼𝗿𝗮𝗿𝘆 𝗳𝗶𝗹𝗲𝘀\n\nThis directory, as the name implies, stores temporary files. This directory is used by many… https://t.co/gMgLDhXwHP",
+        "truncated": true,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/gMgLDhXwHP",
+                    "expanded_url": "https://twitter.com/i/web/status/1530557965262106624",
+                    "display_url": "twitter.com/i/web/status/1…",
+                    "indices": [
+                        117,
+                        140
+                    ]
+                }
+            ]
+        },
+        "metadata": {
+            "iso_language_code": "en",
+            "result_type": "recent"
+        },
+        "source": "<a href=\"https://typeshare.co\" rel=\"nofollow\">Typeshare.co</a>",
+        "in_reply_to_status_id": 1530557964540690435,
+        "in_reply_to_status_id_str": "1530557964540690435",
+        "in_reply_to_user_id": 1412506741317701636,
+        "in_reply_to_user_id_str": "1412506741317701636",
+        "in_reply_to_screen_name": "xtremepentest",
+        "user": {
+            "id": 1412506741317701636,
+            "id_str": "1412506741317701636",
+            "name": "Traw",
+            "screen_name": "xtremepentest",
+            "location": "BSc Network Engineering ",
+            "description": "Helping people master Linux🐧 & transit  from We₿ 2 to We₿ 3 Security.\n\n Daily tweets on Linux🐧, Security🐱‍💻 and Networking🌐.",
+            "url": "https://t.co/RF6rJBjBzl",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/RF6rJBjBzl",
+                            "expanded_url": "http://bio.link/xtremepentest",
+                            "display_url": "bio.link/xtremepentest",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 18972,
+            "friends_count": 188,
+            "listed_count": 215,
+            "created_at": "Tue Jul 06 20:21:55 +0000 2021",
+            "favourites_count": 5404,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 4130,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1495374168497528839/WriT_ow8_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1495374168497528839/WriT_ow8_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1412506741317701636/1645359969",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none",
+            "withheld_in_countries": []
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 2,
+        "favorite_count": 33,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Sat May 28 14:33:49 +0000 2022",
+        "id": 1530557964540690435,
+        "id_str": "1530557964540690435",
+        "text": "/𝘀𝗯𝗶𝗻 – 𝗦𝘆𝘀𝘁𝗲𝗺 𝗯𝗶𝗻𝗮𝗿𝗶𝗲𝘀\n\nThis is similar to the /bin directory. The only distinction is that it contains binaries t… https://t.co/2NMgDKaSHd",
+        "truncated": true,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/2NMgDKaSHd",
+                    "expanded_url": "https://twitter.com/i/web/status/1530557964540690435",
+                    "display_url": "twitter.com/i/web/status/1…",
+                    "indices": [
+                        117,
+                        140
+                    ]
+                }
+            ]
+        },
+        "metadata": {
+            "iso_language_code": "en",
+            "result_type": "recent"
+        },
+        "source": "<a href=\"https://typeshare.co\" rel=\"nofollow\">Typeshare.co</a>",
+        "in_reply_to_status_id": 1530557963781406720,
+        "in_reply_to_status_id_str": "1530557963781406720",
+        "in_reply_to_user_id": 1412506741317701636,
+        "in_reply_to_user_id_str": "1412506741317701636",
+        "in_reply_to_screen_name": "xtremepentest",
+        "user": {
+            "id": 1412506741317701636,
+            "id_str": "1412506741317701636",
+            "name": "Traw",
+            "screen_name": "xtremepentest",
+            "location": "BSc Network Engineering ",
+            "description": "Helping people master Linux🐧 & transit  from We₿ 2 to We₿ 3 Security.\n\n Daily tweets on Linux🐧, Security🐱‍💻 and Networking🌐.",
+            "url": "https://t.co/RF6rJBjBzl",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/RF6rJBjBzl",
+                            "expanded_url": "http://bio.link/xtremepentest",
+                            "display_url": "bio.link/xtremepentest",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 18972,
+            "friends_count": 188,
+            "listed_count": 215,
+            "created_at": "Tue Jul 06 20:21:55 +0000 2021",
+            "favourites_count": 5404,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 4130,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1495374168497528839/WriT_ow8_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1495374168497528839/WriT_ow8_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1412506741317701636/1645359969",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none",
+            "withheld_in_countries": []
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 3,
+        "favorite_count": 33,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Sat May 28 14:33:49 +0000 2022",
+        "id": 1530557963781406720,
+        "id_str": "1530557963781406720",
+        "text": "/𝗿𝗼𝗼𝘁 – 𝗧𝗵𝗲 𝗵𝗼𝗺𝗲 𝗱𝗶𝗿𝗲𝗰𝘁𝗼𝗿𝘆 𝗼𝗳 𝘁𝗵𝗲 𝘂𝘀𝗲𝗿\n\nThere is also a /root directory, which serves as the root user's home direc… https://t.co/umr0yGRLTY",
+        "truncated": true,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/umr0yGRLTY",
+                    "expanded_url": "https://twitter.com/i/web/status/1530557963781406720",
+                    "display_url": "twitter.com/i/web/status/1…",
+                    "indices": [
+                        117,
+                        140
+                    ]
+                }
+            ]
+        },
+        "metadata": {
+            "iso_language_code": "en",
+            "result_type": "recent"
+        },
+        "source": "<a href=\"https://typeshare.co\" rel=\"nofollow\">Typeshare.co</a>",
+        "in_reply_to_status_id": 1530557962955128833,
+        "in_reply_to_status_id_str": "1530557962955128833",
+        "in_reply_to_user_id": 1412506741317701636,
+        "in_reply_to_user_id_str": "1412506741317701636",
+        "in_reply_to_screen_name": "xtremepentest",
+        "user": {
+            "id": 1412506741317701636,
+            "id_str": "1412506741317701636",
+            "name": "Traw",
+            "screen_name": "xtremepentest",
+            "location": "BSc Network Engineering ",
+            "description": "Helping people master Linux🐧 & transit  from We₿ 2 to We₿ 3 Security.\n\n Daily tweets on Linux🐧, Security🐱‍💻 and Networking🌐.",
+            "url": "https://t.co/RF6rJBjBzl",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/RF6rJBjBzl",
+                            "expanded_url": "http://bio.link/xtremepentest",
+                            "display_url": "bio.link/xtremepentest",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 18972,
+            "friends_count": 188,
+            "listed_count": 215,
+            "created_at": "Tue Jul 06 20:21:55 +0000 2021",
+            "favourites_count": 5404,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 4130,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1495374168497528839/WriT_ow8_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1495374168497528839/WriT_ow8_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1412506741317701636/1645359969",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none",
+            "withheld_in_countries": []
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 2,
+        "favorite_count": 30,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Sat May 28 14:33:49 +0000 2022",
+        "id": 1530557962955128833,
+        "id_str": "1530557962955128833",
+        "text": "In Linux, for example, if you want to check processor information, you can simply navigate to the file /proc/cpuinf… https://t.co/nn0TpVMzYz",
+        "truncated": true,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/nn0TpVMzYz",
+                    "expanded_url": "https://twitter.com/i/web/status/1530557962955128833",
+                    "display_url": "twitter.com/i/web/status/1…",
+                    "indices": [
+                        117,
+                        140
+                    ]
+                }
+            ]
+        },
+        "metadata": {
+            "iso_language_code": "en",
+            "result_type": "recent"
+        },
+        "source": "<a href=\"https://typeshare.co\" rel=\"nofollow\">Typeshare.co</a>",
+        "in_reply_to_status_id": 1530557962036695041,
+        "in_reply_to_status_id_str": "1530557962036695041",
+        "in_reply_to_user_id": 1412506741317701636,
+        "in_reply_to_user_id_str": "1412506741317701636",
+        "in_reply_to_screen_name": "xtremepentest",
+        "user": {
+            "id": 1412506741317701636,
+            "id_str": "1412506741317701636",
+            "name": "Traw",
+            "screen_name": "xtremepentest",
+            "location": "BSc Network Engineering ",
+            "description": "Helping people master Linux🐧 & transit  from We₿ 2 to We₿ 3 Security.\n\n Daily tweets on Linux🐧, Security🐱‍💻 and Networking🌐.",
+            "url": "https://t.co/RF6rJBjBzl",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/RF6rJBjBzl",
+                            "expanded_url": "http://bio.link/xtremepentest",
+                            "display_url": "bio.link/xtremepentest",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 18972,
+            "friends_count": 188,
+            "listed_count": 215,
+            "created_at": "Tue Jul 06 20:21:55 +0000 2021",
+            "favourites_count": 5404,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 4130,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1495374168497528839/WriT_ow8_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1495374168497528839/WriT_ow8_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1412506741317701636/1645359969",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none",
+            "withheld_in_countries": []
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 1,
+        "favorite_count": 29,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Sat May 28 14:33:49 +0000 2022",
+        "id": 1530557962036695041,
+        "id_str": "1530557962036695041",
+        "text": "/𝗽𝗿𝗼𝗰 – 𝗣𝗿𝗼𝗰𝗲𝘀𝘀 𝗮𝗻𝗱 𝗸𝗲𝗿𝗻𝗲𝗹 𝗳𝗶𝗹𝗲𝘀\n\nThe directory '/proc' contains information about currently running processes and… https://t.co/TtrEzfyCaJ",
+        "truncated": true,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/TtrEzfyCaJ",
+                    "expanded_url": "https://twitter.com/i/web/status/1530557962036695041",
+                    "display_url": "twitter.com/i/web/status/1…",
+                    "indices": [
+                        116,
+                        139
+                    ]
+                }
+            ]
+        },
+        "metadata": {
+            "iso_language_code": "en",
+            "result_type": "recent"
+        },
+        "source": "<a href=\"https://typeshare.co\" rel=\"nofollow\">Typeshare.co</a>",
+        "in_reply_to_status_id": 1530557961294299136,
+        "in_reply_to_status_id_str": "1530557961294299136",
+        "in_reply_to_user_id": 1412506741317701636,
+        "in_reply_to_user_id_str": "1412506741317701636",
+        "in_reply_to_screen_name": "xtremepentest",
+        "user": {
+            "id": 1412506741317701636,
+            "id_str": "1412506741317701636",
+            "name": "Traw",
+            "screen_name": "xtremepentest",
+            "location": "BSc Network Engineering ",
+            "description": "Helping people master Linux🐧 & transit  from We₿ 2 to We₿ 3 Security.\n\n Daily tweets on Linux🐧, Security🐱‍💻 and Networking🌐.",
+            "url": "https://t.co/RF6rJBjBzl",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/RF6rJBjBzl",
+                            "expanded_url": "http://bio.link/xtremepentest",
+                            "display_url": "bio.link/xtremepentest",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 18972,
+            "friends_count": 188,
+            "listed_count": 215,
+            "created_at": "Tue Jul 06 20:21:55 +0000 2021",
+            "favourites_count": 5404,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 4130,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1495374168497528839/WriT_ow8_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1495374168497528839/WriT_ow8_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1412506741317701636/1645359969",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none",
+            "withheld_in_countries": []
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 1,
+        "favorite_count": 27,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Sat May 28 14:33:49 +0000 2022",
+        "id": 1530557961294299136,
+        "id_str": "1530557961294299136",
+        "text": "/𝗼𝗽𝘁 – 𝗢𝗽𝘁𝗶𝗼𝗻𝗮𝗹 𝘀𝗼𝗳𝘁𝘄𝗮𝗿𝗲\n\nIn Linux, the /opt directory is an optional folder that usually contains manually install… https://t.co/LlnqTYu3r8",
+        "truncated": true,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/LlnqTYu3r8",
+                    "expanded_url": "https://twitter.com/i/web/status/1530557961294299136",
+                    "display_url": "twitter.com/i/web/status/1…",
+                    "indices": [
+                        117,
+                        140
+                    ]
+                }
+            ]
+        },
+        "metadata": {
+            "iso_language_code": "en",
+            "result_type": "recent"
+        },
+        "source": "<a href=\"https://typeshare.co\" rel=\"nofollow\">Typeshare.co</a>",
+        "in_reply_to_status_id": 1530557960484691970,
+        "in_reply_to_status_id_str": "1530557960484691970",
+        "in_reply_to_user_id": 1412506741317701636,
+        "in_reply_to_user_id_str": "1412506741317701636",
+        "in_reply_to_screen_name": "xtremepentest",
+        "user": {
+            "id": 1412506741317701636,
+            "id_str": "1412506741317701636",
+            "name": "Traw",
+            "screen_name": "xtremepentest",
+            "location": "BSc Network Engineering ",
+            "description": "Helping people master Linux🐧 & transit  from We₿ 2 to We₿ 3 Security.\n\n Daily tweets on Linux🐧, Security🐱‍💻 and Networking🌐.",
+            "url": "https://t.co/RF6rJBjBzl",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/RF6rJBjBzl",
+                            "expanded_url": "http://bio.link/xtremepentest",
+                            "display_url": "bio.link/xtremepentest",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 18972,
+            "friends_count": 188,
+            "listed_count": 215,
+            "created_at": "Tue Jul 06 20:21:55 +0000 2021",
+            "favourites_count": 5404,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 4130,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1495374168497528839/WriT_ow8_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1495374168497528839/WriT_ow8_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1412506741317701636/1645359969",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none",
+            "withheld_in_countries": []
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 1,
+        "favorite_count": 28,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Sat May 28 14:33:48 +0000 2022",
+        "id": 1530557960484691970,
+        "id_str": "1530557960484691970",
+        "text": "/𝗺𝗻𝘁 - 𝗠𝗼𝘂𝗻𝘁 𝗱𝗶𝗿𝗲𝗰𝘁𝗼𝗿𝘆\n\nThe /mnt directory, like the previously mentioned media folder, is where you (or the system… https://t.co/9I8rRWx4Ar",
+        "truncated": true,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/9I8rRWx4Ar",
+                    "expanded_url": "https://twitter.com/i/web/status/1530557960484691970",
+                    "display_url": "twitter.com/i/web/status/1…",
+                    "indices": [
+                        117,
+                        140
+                    ]
+                }
+            ]
+        },
+        "metadata": {
+            "iso_language_code": "en",
+            "result_type": "recent"
+        },
+        "source": "<a href=\"https://typeshare.co\" rel=\"nofollow\">Typeshare.co</a>",
+        "in_reply_to_status_id": 1530557959641747456,
+        "in_reply_to_status_id_str": "1530557959641747456",
+        "in_reply_to_user_id": 1412506741317701636,
+        "in_reply_to_user_id_str": "1412506741317701636",
+        "in_reply_to_screen_name": "xtremepentest",
+        "user": {
+            "id": 1412506741317701636,
+            "id_str": "1412506741317701636",
+            "name": "Traw",
+            "screen_name": "xtremepentest",
+            "location": "BSc Network Engineering ",
+            "description": "Helping people master Linux🐧 & transit  from We₿ 2 to We₿ 3 Security.\n\n Daily tweets on Linux🐧, Security🐱‍💻 and Networking🌐.",
+            "url": "https://t.co/RF6rJBjBzl",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/RF6rJBjBzl",
+                            "expanded_url": "http://bio.link/xtremepentest",
+                            "display_url": "bio.link/xtremepentest",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 18972,
+            "friends_count": 188,
+            "listed_count": 215,
+            "created_at": "Tue Jul 06 20:21:55 +0000 2021",
+            "favourites_count": 5404,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 4130,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1495374168497528839/WriT_ow8_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1495374168497528839/WriT_ow8_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1412506741317701636/1645359969",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none",
+            "withheld_in_countries": []
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 1,
+        "favorite_count": 29,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Sat May 28 14:33:48 +0000 2022",
+        "id": 1530557959641747456,
+        "id_str": "1530557959641747456",
+        "text": "/𝗺𝗲𝗱𝗶𝗮 - 𝗠𝗼𝘂𝗻𝘁 𝗽𝗼𝗶𝗻𝘁 𝗳𝗼𝗿 𝗿𝗲𝗺𝗼𝘃𝗮𝗯𝗹𝗲 𝗺𝗲𝗱𝗶𝗮\n\nmedia directory contains sub-directories in which removable media such as… https://t.co/Dh3C8kcHFA",
+        "truncated": true,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/Dh3C8kcHFA",
+                    "expanded_url": "https://twitter.com/i/web/status/1530557959641747456",
+                    "display_url": "twitter.com/i/web/status/1…",
+                    "indices": [
+                        117,
+                        140
+                    ]
+                }
+            ]
+        },
+        "metadata": {
+            "iso_language_code": "en",
+            "result_type": "recent"
+        },
+        "source": "<a href=\"https://typeshare.co\" rel=\"nofollow\">Typeshare.co</a>",
+        "in_reply_to_status_id": 1530557958890917888,
+        "in_reply_to_status_id_str": "1530557958890917888",
+        "in_reply_to_user_id": 1412506741317701636,
+        "in_reply_to_user_id_str": "1412506741317701636",
+        "in_reply_to_screen_name": "xtremepentest",
+        "user": {
+            "id": 1412506741317701636,
+            "id_str": "1412506741317701636",
+            "name": "Traw",
+            "screen_name": "xtremepentest",
+            "location": "BSc Network Engineering ",
+            "description": "Helping people master Linux🐧 & transit  from We₿ 2 to We₿ 3 Security.\n\n Daily tweets on Linux🐧, Security🐱‍💻 and Networking🌐.",
+            "url": "https://t.co/RF6rJBjBzl",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/RF6rJBjBzl",
+                            "expanded_url": "http://bio.link/xtremepentest",
+                            "display_url": "bio.link/xtremepentest",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 18972,
+            "friends_count": 188,
+            "listed_count": 215,
+            "created_at": "Tue Jul 06 20:21:55 +0000 2021",
+            "favourites_count": 5404,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 4130,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1495374168497528839/WriT_ow8_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1495374168497528839/WriT_ow8_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1412506741317701636/1645359969",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none",
+            "withheld_in_countries": []
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 1,
+        "favorite_count": 27,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Sat May 28 14:33:48 +0000 2022",
+        "id": 1530557958890917888,
+        "id_str": "1530557958890917888",
+        "text": "In Windows, the equivalent would be a dynamically linked library or DLL.",
+        "truncated": false,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": []
+        },
+        "metadata": {
+            "iso_language_code": "en",
+            "result_type": "recent"
+        },
+        "source": "<a href=\"https://typeshare.co\" rel=\"nofollow\">Typeshare.co</a>",
+        "in_reply_to_status_id": 1530557958077173763,
+        "in_reply_to_status_id_str": "1530557958077173763",
+        "in_reply_to_user_id": 1412506741317701636,
+        "in_reply_to_user_id_str": "1412506741317701636",
+        "in_reply_to_screen_name": "xtremepentest",
+        "user": {
+            "id": 1412506741317701636,
+            "id_str": "1412506741317701636",
+            "name": "Traw",
+            "screen_name": "xtremepentest",
+            "location": "BSc Network Engineering ",
+            "description": "Helping people master Linux🐧 & transit  from We₿ 2 to We₿ 3 Security.\n\n Daily tweets on Linux🐧, Security🐱‍💻 and Networking🌐.",
+            "url": "https://t.co/RF6rJBjBzl",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/RF6rJBjBzl",
+                            "expanded_url": "http://bio.link/xtremepentest",
+                            "display_url": "bio.link/xtremepentest",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 18972,
+            "friends_count": 188,
+            "listed_count": 215,
+            "created_at": "Tue Jul 06 20:21:55 +0000 2021",
+            "favourites_count": 5404,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 4130,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1495374168497528839/WriT_ow8_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1495374168497528839/WriT_ow8_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1412506741317701636/1645359969",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none",
+            "withheld_in_countries": []
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 1,
+        "favorite_count": 25,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Sat May 28 14:33:48 +0000 2022",
+        "id": 1530557958077173763,
+        "id_str": "1530557958077173763",
+        "text": "/𝗹𝗶𝗯 – 𝗦𝗵𝗮𝗿𝗲𝗱 𝗹𝗶𝗯𝗿𝗮𝗿𝗶𝗲𝘀\n\nThe kernel modules and shared library files required by the system's boot operation can be… https://t.co/4d78aTSbP0",
+        "truncated": true,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/4d78aTSbP0",
+                    "expanded_url": "https://twitter.com/i/web/status/1530557958077173763",
+                    "display_url": "twitter.com/i/web/status/1…",
+                    "indices": [
+                        117,
+                        140
+                    ]
+                }
+            ]
+        },
+        "metadata": {
+            "iso_language_code": "en",
+            "result_type": "recent"
+        },
+        "source": "<a href=\"https://typeshare.co\" rel=\"nofollow\">Typeshare.co</a>",
+        "in_reply_to_status_id": 1530557957376712708,
+        "in_reply_to_status_id_str": "1530557957376712708",
+        "in_reply_to_user_id": 1412506741317701636,
+        "in_reply_to_user_id_str": "1412506741317701636",
+        "in_reply_to_screen_name": "xtremepentest",
+        "user": {
+            "id": 1412506741317701636,
+            "id_str": "1412506741317701636",
+            "name": "Traw",
+            "screen_name": "xtremepentest",
+            "location": "BSc Network Engineering ",
+            "description": "Helping people master Linux🐧 & transit  from We₿ 2 to We₿ 3 Security.\n\n Daily tweets on Linux🐧, Security🐱‍💻 and Networking🌐.",
+            "url": "https://t.co/RF6rJBjBzl",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/RF6rJBjBzl",
+                            "expanded_url": "http://bio.link/xtremepentest",
+                            "display_url": "bio.link/xtremepentest",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 18972,
+            "friends_count": 188,
+            "listed_count": 215,
+            "created_at": "Tue Jul 06 20:21:55 +0000 2021",
+            "favourites_count": 5404,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 4130,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1495374168497528839/WriT_ow8_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1495374168497528839/WriT_ow8_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1412506741317701636/1645359969",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none",
+            "withheld_in_countries": []
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 1,
+        "favorite_count": 30,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Sat May 28 14:33:48 +0000 2022",
+        "id": 1530557957376712708,
+        "id_str": "1530557957376712708",
+        "text": "Assume you have two users on your Linux system, Jerry and Jimmy. They'll have their own home directories at /home/j… https://t.co/nTS2G4iqvZ",
+        "truncated": true,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/nTS2G4iqvZ",
+                    "expanded_url": "https://twitter.com/i/web/status/1530557957376712708",
+                    "display_url": "twitter.com/i/web/status/1…",
+                    "indices": [
+                        117,
+                        140
+                    ]
+                }
+            ]
+        },
+        "metadata": {
+            "iso_language_code": "en",
+            "result_type": "recent"
+        },
+        "source": "<a href=\"https://typeshare.co\" rel=\"nofollow\">Typeshare.co</a>",
+        "in_reply_to_status_id": 1530557956084965384,
+        "in_reply_to_status_id_str": "1530557956084965384",
+        "in_reply_to_user_id": 1412506741317701636,
+        "in_reply_to_user_id_str": "1412506741317701636",
+        "in_reply_to_screen_name": "xtremepentest",
+        "user": {
+            "id": 1412506741317701636,
+            "id_str": "1412506741317701636",
+            "name": "Traw",
+            "screen_name": "xtremepentest",
+            "location": "BSc Network Engineering ",
+            "description": "Helping people master Linux🐧 & transit  from We₿ 2 to We₿ 3 Security.\n\n Daily tweets on Linux🐧, Security🐱‍💻 and Networking🌐.",
+            "url": "https://t.co/RF6rJBjBzl",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/RF6rJBjBzl",
+                            "expanded_url": "http://bio.link/xtremepentest",
+                            "display_url": "bio.link/xtremepentest",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 18972,
+            "friends_count": 188,
+            "listed_count": 215,
+            "created_at": "Tue Jul 06 20:21:55 +0000 2021",
+            "favourites_count": 5404,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 4130,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1495374168497528839/WriT_ow8_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1495374168497528839/WriT_ow8_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1412506741317701636/1645359969",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none",
+            "withheld_in_countries": []
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 1,
+        "favorite_count": 22,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Sat May 28 14:33:47 +0000 2022",
+        "id": 1530557956084965384,
+        "id_str": "1530557956084965384",
+        "text": "These are typically 'hidden,' and in order to see them, you must enable the appropriate option in your file manager… https://t.co/VWaYPsWdqe",
+        "truncated": true,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/VWaYPsWdqe",
+                    "expanded_url": "https://twitter.com/i/web/status/1530557956084965384",
+                    "display_url": "twitter.com/i/web/status/1…",
+                    "indices": [
+                        117,
+                        140
+                    ]
+                }
+            ]
+        },
+        "metadata": {
+            "iso_language_code": "en",
+            "result_type": "recent"
+        },
+        "source": "<a href=\"https://typeshare.co\" rel=\"nofollow\">Typeshare.co</a>",
+        "in_reply_to_status_id": 1530557955376037888,
+        "in_reply_to_status_id_str": "1530557955376037888",
+        "in_reply_to_user_id": 1412506741317701636,
+        "in_reply_to_user_id_str": "1412506741317701636",
+        "in_reply_to_screen_name": "xtremepentest",
+        "user": {
+            "id": 1412506741317701636,
+            "id_str": "1412506741317701636",
+            "name": "Traw",
+            "screen_name": "xtremepentest",
+            "location": "BSc Network Engineering ",
+            "description": "Helping people master Linux🐧 & transit  from We₿ 2 to We₿ 3 Security.\n\n Daily tweets on Linux🐧, Security🐱‍💻 and Networking🌐.",
+            "url": "https://t.co/RF6rJBjBzl",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/RF6rJBjBzl",
+                            "expanded_url": "http://bio.link/xtremepentest",
+                            "display_url": "bio.link/xtremepentest",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 18972,
+            "friends_count": 188,
+            "listed_count": 215,
+            "created_at": "Tue Jul 06 20:21:55 +0000 2021",
+            "favourites_count": 5404,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 4130,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1495374168497528839/WriT_ow8_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1495374168497528839/WriT_ow8_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1412506741317701636/1645359969",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none",
+            "withheld_in_countries": []
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 1,
+        "favorite_count": 20,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Sat May 28 14:33:47 +0000 2022",
+        "id": 1530557955376037888,
+        "id_str": "1530557955376037888",
+        "text": "In Linux, the HOME directory also contains your personal configuration files, also known as dot files (a dot preced… https://t.co/3ki2aIv6x8",
+        "truncated": true,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/3ki2aIv6x8",
+                    "expanded_url": "https://twitter.com/i/web/status/1530557955376037888",
+                    "display_url": "twitter.com/i/web/status/1…",
+                    "indices": [
+                        117,
+                        140
+                    ]
+                }
+            ]
+        },
+        "metadata": {
+            "iso_language_code": "en",
+            "result_type": "recent"
+        },
+        "source": "<a href=\"https://typeshare.co\" rel=\"nofollow\">Typeshare.co</a>",
+        "in_reply_to_status_id": 1530557954398756874,
+        "in_reply_to_status_id_str": "1530557954398756874",
+        "in_reply_to_user_id": 1412506741317701636,
+        "in_reply_to_user_id_str": "1412506741317701636",
+        "in_reply_to_screen_name": "xtremepentest",
+        "user": {
+            "id": 1412506741317701636,
+            "id_str": "1412506741317701636",
+            "name": "Traw",
+            "screen_name": "xtremepentest",
+            "location": "BSc Network Engineering ",
+            "description": "Helping people master Linux🐧 & transit  from We₿ 2 to We₿ 3 Security.\n\n Daily tweets on Linux🐧, Security🐱‍💻 and Networking🌐.",
+            "url": "https://t.co/RF6rJBjBzl",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/RF6rJBjBzl",
+                            "expanded_url": "http://bio.link/xtremepentest",
+                            "display_url": "bio.link/xtremepentest",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 18972,
+            "friends_count": 188,
+            "listed_count": 215,
+            "created_at": "Tue Jul 06 20:21:55 +0000 2021",
+            "favourites_count": 5404,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 4130,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1495374168497528839/WriT_ow8_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1495374168497528839/WriT_ow8_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1412506741317701636/1645359969",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none",
+            "withheld_in_countries": []
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 2,
+        "favorite_count": 23,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Sat May 28 14:33:47 +0000 2022",
+        "id": 1530557954398756874,
+        "id_str": "1530557954398756874",
+        "text": "/𝗵𝗼𝗺𝗲 – 𝗨𝘀𝗲𝗿 𝗽𝗲𝗿𝘀𝗼𝗻𝗮𝗹 𝗱𝗮𝘁𝗮\n\nIn Linux, each user is assigned a directory that only they and the system administrator… https://t.co/g4npIfdvk2",
+        "truncated": true,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/g4npIfdvk2",
+                    "expanded_url": "https://twitter.com/i/web/status/1530557954398756874",
+                    "display_url": "twitter.com/i/web/status/1…",
+                    "indices": [
+                        117,
+                        140
+                    ]
+                }
+            ]
+        },
+        "metadata": {
+            "iso_language_code": "en",
+            "result_type": "recent"
+        },
+        "source": "<a href=\"https://typeshare.co\" rel=\"nofollow\">Typeshare.co</a>",
+        "in_reply_to_status_id": 1530557953664745473,
+        "in_reply_to_status_id_str": "1530557953664745473",
+        "in_reply_to_user_id": 1412506741317701636,
+        "in_reply_to_user_id_str": "1412506741317701636",
+        "in_reply_to_screen_name": "xtremepentest",
+        "user": {
+            "id": 1412506741317701636,
+            "id_str": "1412506741317701636",
+            "name": "Traw",
+            "screen_name": "xtremepentest",
+            "location": "BSc Network Engineering ",
+            "description": "Helping people master Linux🐧 & transit  from We₿ 2 to We₿ 3 Security.\n\n Daily tweets on Linux🐧, Security🐱‍💻 and Networking🌐.",
+            "url": "https://t.co/RF6rJBjBzl",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/RF6rJBjBzl",
+                            "expanded_url": "http://bio.link/xtremepentest",
+                            "display_url": "bio.link/xtremepentest",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 18972,
+            "friends_count": 188,
+            "listed_count": 215,
+            "created_at": "Tue Jul 06 20:21:55 +0000 2021",
+            "favourites_count": 5404,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 4130,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1495374168497528839/WriT_ow8_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1495374168497528839/WriT_ow8_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1412506741317701636/1645359969",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none",
+            "withheld_in_countries": []
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 1,
+        "favorite_count": 28,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Sat May 28 14:33:47 +0000 2022",
+        "id": 1530557953664745473,
+        "id_str": "1530557953664745473",
+        "text": "/𝗲𝘁𝗰 – 𝗖𝗼𝗻𝗳𝗶𝗴𝘂𝗿𝗮𝘁𝗶𝗼𝗻 𝗳𝗶𝗹𝗲𝘀\n\nThe /etc directory houses the system's core configuration files, which are primarily us… https://t.co/eaOBpvWZkT",
+        "truncated": true,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/eaOBpvWZkT",
+                    "expanded_url": "https://twitter.com/i/web/status/1530557953664745473",
+                    "display_url": "twitter.com/i/web/status/1…",
+                    "indices": [
+                        117,
+                        140
+                    ]
+                }
+            ]
+        },
+        "metadata": {
+            "iso_language_code": "en",
+            "result_type": "recent"
+        },
+        "source": "<a href=\"https://typeshare.co\" rel=\"nofollow\">Typeshare.co</a>",
+        "in_reply_to_status_id": 1530557952880418820,
+        "in_reply_to_status_id_str": "1530557952880418820",
+        "in_reply_to_user_id": 1412506741317701636,
+        "in_reply_to_user_id_str": "1412506741317701636",
+        "in_reply_to_screen_name": "xtremepentest",
+        "user": {
+            "id": 1412506741317701636,
+            "id_str": "1412506741317701636",
+            "name": "Traw",
+            "screen_name": "xtremepentest",
+            "location": "BSc Network Engineering ",
+            "description": "Helping people master Linux🐧 & transit  from We₿ 2 to We₿ 3 Security.\n\n Daily tweets on Linux🐧, Security🐱‍💻 and Networking🌐.",
+            "url": "https://t.co/RF6rJBjBzl",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/RF6rJBjBzl",
+                            "expanded_url": "http://bio.link/xtremepentest",
+                            "display_url": "bio.link/xtremepentest",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 18972,
+            "friends_count": 188,
+            "listed_count": 215,
+            "created_at": "Tue Jul 06 20:21:55 +0000 2021",
+            "favourites_count": 5404,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 4130,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1495374168497528839/WriT_ow8_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1495374168497528839/WriT_ow8_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1412506741317701636/1645359969",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none",
+            "withheld_in_countries": []
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 26,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Sat May 28 14:33:47 +0000 2022",
+        "id": 1530557952880418820,
+        "id_str": "1530557952880418820",
+        "text": "/𝗱𝗲𝘃 - 𝗗𝗲𝘃𝗶𝗰𝗲 𝗳𝗶𝗹𝗲𝘀\n\nThis is where all your devices live.  You'll find your hardware, such as your keyboard, mouse,… https://t.co/GqMA1mxIRv",
+        "truncated": true,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/GqMA1mxIRv",
+                    "expanded_url": "https://twitter.com/i/web/status/1530557952880418820",
+                    "display_url": "twitter.com/i/web/status/1…",
+                    "indices": [
+                        117,
+                        140
+                    ]
+                }
+            ]
+        },
+        "metadata": {
+            "iso_language_code": "en",
+            "result_type": "recent"
+        },
+        "source": "<a href=\"https://typeshare.co\" rel=\"nofollow\">Typeshare.co</a>",
+        "in_reply_to_status_id": 1530557952062631936,
+        "in_reply_to_status_id_str": "1530557952062631936",
+        "in_reply_to_user_id": 1412506741317701636,
+        "in_reply_to_user_id_str": "1412506741317701636",
+        "in_reply_to_screen_name": "xtremepentest",
+        "user": {
+            "id": 1412506741317701636,
+            "id_str": "1412506741317701636",
+            "name": "Traw",
+            "screen_name": "xtremepentest",
+            "location": "BSc Network Engineering ",
+            "description": "Helping people master Linux🐧 & transit  from We₿ 2 to We₿ 3 Security.\n\n Daily tweets on Linux🐧, Security🐱‍💻 and Networking🌐.",
+            "url": "https://t.co/RF6rJBjBzl",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/RF6rJBjBzl",
+                            "expanded_url": "http://bio.link/xtremepentest",
+                            "display_url": "bio.link/xtremepentest",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 18972,
+            "friends_count": 188,
+            "listed_count": 215,
+            "created_at": "Tue Jul 06 20:21:55 +0000 2021",
+            "favourites_count": 5404,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 4130,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1495374168497528839/WriT_ow8_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1495374168497528839/WriT_ow8_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1412506741317701636/1645359969",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none",
+            "withheld_in_countries": []
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 32,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Sat May 28 14:33:46 +0000 2022",
+        "id": 1530557952062631936,
+        "id_str": "1530557952062631936",
+        "text": "/𝗯𝗼𝗼𝘁 - 𝗕𝗼𝗼𝘁 𝗳𝗶𝗹𝗲𝘀\n\nThis is an important folder in Linux because it contains all of the files required by the OS to… https://t.co/73qL5w9e5N",
+        "truncated": true,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/73qL5w9e5N",
+                    "expanded_url": "https://twitter.com/i/web/status/1530557952062631936",
+                    "display_url": "twitter.com/i/web/status/1…",
+                    "indices": [
+                        117,
+                        140
+                    ]
+                }
+            ]
+        },
+        "metadata": {
+            "iso_language_code": "en",
+            "result_type": "recent"
+        },
+        "source": "<a href=\"https://typeshare.co\" rel=\"nofollow\">Typeshare.co</a>",
+        "in_reply_to_status_id": 1530557951294971904,
+        "in_reply_to_status_id_str": "1530557951294971904",
+        "in_reply_to_user_id": 1412506741317701636,
+        "in_reply_to_user_id_str": "1412506741317701636",
+        "in_reply_to_screen_name": "xtremepentest",
+        "user": {
+            "id": 1412506741317701636,
+            "id_str": "1412506741317701636",
+            "name": "Traw",
+            "screen_name": "xtremepentest",
+            "location": "BSc Network Engineering ",
+            "description": "Helping people master Linux🐧 & transit  from We₿ 2 to We₿ 3 Security.\n\n Daily tweets on Linux🐧, Security🐱‍💻 and Networking🌐.",
+            "url": "https://t.co/RF6rJBjBzl",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/RF6rJBjBzl",
+                            "expanded_url": "http://bio.link/xtremepentest",
+                            "display_url": "bio.link/xtremepentest",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 18972,
+            "friends_count": 188,
+            "listed_count": 215,
+            "created_at": "Tue Jul 06 20:21:55 +0000 2021",
+            "favourites_count": 5404,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 4130,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1495374168497528839/WriT_ow8_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1495374168497528839/WriT_ow8_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1412506741317701636/1645359969",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none",
+            "withheld_in_countries": []
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 27,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Sat May 28 14:33:46 +0000 2022",
+        "id": 1530557951294971904,
+        "id_str": "1530557951294971904",
+        "text": "/𝗯𝗶𝗻 - 𝗕𝗶𝗻𝗮𝗿𝗶𝗲𝘀\n\nThe '/bin' directory contains the majority, if not all, of the machine's programs or applications,… https://t.co/dRuTJe4NCb",
+        "truncated": true,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/dRuTJe4NCb",
+                    "expanded_url": "https://twitter.com/i/web/status/1530557951294971904",
+                    "display_url": "twitter.com/i/web/status/1…",
+                    "indices": [
+                        117,
+                        140
+                    ]
+                }
+            ]
+        },
+        "metadata": {
+            "iso_language_code": "en",
+            "result_type": "recent"
+        },
+        "source": "<a href=\"https://typeshare.co\" rel=\"nofollow\">Typeshare.co</a>",
+        "in_reply_to_status_id": 1530557950565175297,
+        "in_reply_to_status_id_str": "1530557950565175297",
+        "in_reply_to_user_id": 1412506741317701636,
+        "in_reply_to_user_id_str": "1412506741317701636",
+        "in_reply_to_screen_name": "xtremepentest",
+        "user": {
+            "id": 1412506741317701636,
+            "id_str": "1412506741317701636",
+            "name": "Traw",
+            "screen_name": "xtremepentest",
+            "location": "BSc Network Engineering ",
+            "description": "Helping people master Linux🐧 & transit  from We₿ 2 to We₿ 3 Security.\n\n Daily tweets on Linux🐧, Security🐱‍💻 and Networking🌐.",
+            "url": "https://t.co/RF6rJBjBzl",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/RF6rJBjBzl",
+                            "expanded_url": "http://bio.link/xtremepentest",
+                            "display_url": "bio.link/xtremepentest",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 18972,
+            "friends_count": 188,
+            "listed_count": 215,
+            "created_at": "Tue Jul 06 20:21:55 +0000 2021",
+            "favourites_count": 5404,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 4130,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1495374168497528839/WriT_ow8_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1495374168497528839/WriT_ow8_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1412506741317701636/1645359969",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none",
+            "withheld_in_countries": []
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 31,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Sat May 28 14:33:46 +0000 2022",
+        "id": 1530557950565175297,
+        "id_str": "1530557950565175297",
+        "text": "With rm -rf /, you are simply instructing your system to delete the contents of the root directory forcefully and r… https://t.co/nY5hbKvEVB",
+        "truncated": true,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/nY5hbKvEVB",
+                    "expanded_url": "https://twitter.com/i/web/status/1530557950565175297",
+                    "display_url": "twitter.com/i/web/status/1…",
+                    "indices": [
+                        117,
+                        140
+                    ]
+                }
+            ]
+        },
+        "metadata": {
+            "iso_language_code": "en",
+            "result_type": "recent"
+        },
+        "source": "<a href=\"https://typeshare.co\" rel=\"nofollow\">Typeshare.co</a>",
+        "in_reply_to_status_id": 1530557949881552896,
+        "in_reply_to_status_id_str": "1530557949881552896",
+        "in_reply_to_user_id": 1412506741317701636,
+        "in_reply_to_user_id_str": "1412506741317701636",
+        "in_reply_to_screen_name": "xtremepentest",
+        "user": {
+            "id": 1412506741317701636,
+            "id_str": "1412506741317701636",
+            "name": "Traw",
+            "screen_name": "xtremepentest",
+            "location": "BSc Network Engineering ",
+            "description": "Helping people master Linux🐧 & transit  from We₿ 2 to We₿ 3 Security.\n\n Daily tweets on Linux🐧, Security🐱‍💻 and Networking🌐.",
+            "url": "https://t.co/RF6rJBjBzl",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/RF6rJBjBzl",
+                            "expanded_url": "http://bio.link/xtremepentest",
+                            "display_url": "bio.link/xtremepentest",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 18972,
+            "friends_count": 188,
+            "listed_count": 215,
+            "created_at": "Tue Jul 06 20:21:55 +0000 2021",
+            "favourites_count": 5404,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 4130,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1495374168497528839/WriT_ow8_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1495374168497528839/WriT_ow8_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1412506741317701636/1645359969",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none",
+            "withheld_in_countries": []
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 1,
+        "favorite_count": 37,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Sat May 28 14:33:46 +0000 2022",
+        "id": 1530557949881552896,
+        "id_str": "1530557949881552896",
+        "text": "You may have come across some internet jokes that mention \"rm -rf /.\" In Linux, the rm command is used to delete files and directories.",
+        "truncated": false,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": []
+        },
+        "metadata": {
+            "iso_language_code": "en",
+            "result_type": "recent"
+        },
+        "source": "<a href=\"https://typeshare.co\" rel=\"nofollow\">Typeshare.co</a>",
+        "in_reply_to_status_id": 1530557949055213568,
+        "in_reply_to_status_id_str": "1530557949055213568",
+        "in_reply_to_user_id": 1412506741317701636,
+        "in_reply_to_user_id_str": "1412506741317701636",
+        "in_reply_to_screen_name": "xtremepentest",
+        "user": {
+            "id": 1412506741317701636,
+            "id_str": "1412506741317701636",
+            "name": "Traw",
+            "screen_name": "xtremepentest",
+            "location": "BSc Network Engineering ",
+            "description": "Helping people master Linux🐧 & transit  from We₿ 2 to We₿ 3 Security.\n\n Daily tweets on Linux🐧, Security🐱‍💻 and Networking🌐.",
+            "url": "https://t.co/RF6rJBjBzl",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/RF6rJBjBzl",
+                            "expanded_url": "http://bio.link/xtremepentest",
+                            "display_url": "bio.link/xtremepentest",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 18972,
+            "friends_count": 188,
+            "listed_count": 215,
+            "created_at": "Tue Jul 06 20:21:55 +0000 2021",
+            "favourites_count": 5404,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 4130,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1495374168497528839/WriT_ow8_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1495374168497528839/WriT_ow8_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1412506741317701636/1645359969",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none",
+            "withheld_in_countries": []
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 38,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Sat May 28 14:33:46 +0000 2022",
+        "id": 1530557949055213568,
+        "id_str": "1530557949055213568",
+        "text": "/- 𝗧𝗵𝗲 𝗿𝗼𝗼𝘁 𝗱𝗶𝗿𝗲𝗰𝘁𝗼𝗿𝘆\n\nThe top of the directory structure is the root directory, which is represented by a forward… https://t.co/iplyPuSeBN",
+        "truncated": true,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/iplyPuSeBN",
+                    "expanded_url": "https://twitter.com/i/web/status/1530557949055213568",
+                    "display_url": "twitter.com/i/web/status/1…",
+                    "indices": [
+                        116,
+                        139
+                    ]
+                }
+            ]
+        },
+        "metadata": {
+            "iso_language_code": "en",
+            "result_type": "recent"
+        },
+        "source": "<a href=\"https://typeshare.co\" rel=\"nofollow\">Typeshare.co</a>",
+        "in_reply_to_status_id": 1530557946844917760,
+        "in_reply_to_status_id_str": "1530557946844917760",
+        "in_reply_to_user_id": 1412506741317701636,
+        "in_reply_to_user_id_str": "1412506741317701636",
+        "in_reply_to_screen_name": "xtremepentest",
+        "user": {
+            "id": 1412506741317701636,
+            "id_str": "1412506741317701636",
+            "name": "Traw",
+            "screen_name": "xtremepentest",
+            "location": "BSc Network Engineering ",
+            "description": "Helping people master Linux🐧 & transit  from We₿ 2 to We₿ 3 Security.\n\n Daily tweets on Linux🐧, Security🐱‍💻 and Networking🌐.",
+            "url": "https://t.co/RF6rJBjBzl",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/RF6rJBjBzl",
+                            "expanded_url": "http://bio.link/xtremepentest",
+                            "display_url": "bio.link/xtremepentest",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 18972,
+            "friends_count": 188,
+            "listed_count": 215,
+            "created_at": "Tue Jul 06 20:21:55 +0000 2021",
+            "favourites_count": 5404,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 4130,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1495374168497528839/WriT_ow8_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1495374168497528839/WriT_ow8_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1412506741317701636/1645359969",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none",
+            "withheld_in_countries": []
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 41,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Sat May 28 14:33:45 +0000 2022",
+        "id": 1530557946844917760,
+        "id_str": "1530557946844917760",
+        "text": "To help you remember the file system structure, I have made this inphographic, feel free to download and save this… https://t.co/QC8ccJKI8x",
+        "truncated": true,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/QC8ccJKI8x",
+                    "expanded_url": "https://twitter.com/i/web/status/1530557946844917760",
+                    "display_url": "twitter.com/i/web/status/1…",
+                    "indices": [
+                        116,
+                        139
+                    ]
+                }
+            ]
+        },
+        "metadata": {
+            "iso_language_code": "en",
+            "result_type": "recent"
+        },
+        "source": "<a href=\"https://typeshare.co\" rel=\"nofollow\">Typeshare.co</a>",
+        "in_reply_to_status_id": 1530557930042531840,
+        "in_reply_to_status_id_str": "1530557930042531840",
+        "in_reply_to_user_id": 1412506741317701636,
+        "in_reply_to_user_id_str": "1412506741317701636",
+        "in_reply_to_screen_name": "xtremepentest",
+        "user": {
+            "id": 1412506741317701636,
+            "id_str": "1412506741317701636",
+            "name": "Traw",
+            "screen_name": "xtremepentest",
+            "location": "BSc Network Engineering ",
+            "description": "Helping people master Linux🐧 & transit  from We₿ 2 to We₿ 3 Security.\n\n Daily tweets on Linux🐧, Security🐱‍💻 and Networking🌐.",
+            "url": "https://t.co/RF6rJBjBzl",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/RF6rJBjBzl",
+                            "expanded_url": "http://bio.link/xtremepentest",
+                            "display_url": "bio.link/xtremepentest",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 18972,
+            "friends_count": 188,
+            "listed_count": 215,
+            "created_at": "Tue Jul 06 20:21:55 +0000 2021",
+            "favourites_count": 5404,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 4130,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1495374168497528839/WriT_ow8_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1495374168497528839/WriT_ow8_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1412506741317701636/1645359969",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none",
+            "withheld_in_countries": []
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 43,
+        "favorite_count": 249,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Sat May 28 14:33:41 +0000 2022",
+        "id": 1530557930042531840,
+        "id_str": "1530557930042531840",
+        "text": "If you're new to Linux or switching from Windows, the Linux file system structure may appear strange and cryptic. C… https://t.co/W28V9uWrtU",
+        "truncated": true,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/W28V9uWrtU",
+                    "expanded_url": "https://twitter.com/i/web/status/1530557930042531840",
+                    "display_url": "twitter.com/i/web/status/1…",
+                    "indices": [
+                        117,
+                        140
+                    ]
+                }
+            ]
+        },
+        "metadata": {
+            "iso_language_code": "en",
+            "result_type": "recent"
+        },
+        "source": "<a href=\"https://typeshare.co\" rel=\"nofollow\">Typeshare.co</a>",
+        "in_reply_to_status_id": 1530557929262354434,
+        "in_reply_to_status_id_str": "1530557929262354434",
+        "in_reply_to_user_id": 1412506741317701636,
+        "in_reply_to_user_id_str": "1412506741317701636",
+        "in_reply_to_screen_name": "xtremepentest",
+        "user": {
+            "id": 1412506741317701636,
+            "id_str": "1412506741317701636",
+            "name": "Traw",
+            "screen_name": "xtremepentest",
+            "location": "BSc Network Engineering ",
+            "description": "Helping people master Linux🐧 & transit  from We₿ 2 to We₿ 3 Security.\n\n Daily tweets on Linux🐧, Security🐱‍💻 and Networking🌐.",
+            "url": "https://t.co/RF6rJBjBzl",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/RF6rJBjBzl",
+                            "expanded_url": "http://bio.link/xtremepentest",
+                            "display_url": "bio.link/xtremepentest",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 18972,
+            "friends_count": 188,
+            "listed_count": 215,
+            "created_at": "Tue Jul 06 20:21:55 +0000 2021",
+            "favourites_count": 5404,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 4130,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1495374168497528839/WriT_ow8_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1495374168497528839/WriT_ow8_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1412506741317701636/1645359969",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none",
+            "withheld_in_countries": []
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 1,
+        "favorite_count": 39,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Sat May 28 14:33:41 +0000 2022",
+        "id": 1530557929262354434,
+        "id_str": "1530557929262354434",
+        "text": "The Linux Directory Structure is a hierarchical system for organizing Linux directories and files. The Filesystem H… https://t.co/buTbnKQqc3",
+        "truncated": true,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/buTbnKQqc3",
+                    "expanded_url": "https://twitter.com/i/web/status/1530557929262354434",
+                    "display_url": "twitter.com/i/web/status/1…",
+                    "indices": [
+                        117,
+                        140
+                    ]
+                }
+            ]
+        },
+        "metadata": {
+            "iso_language_code": "en",
+            "result_type": "recent"
+        },
+        "source": "<a href=\"https://typeshare.co\" rel=\"nofollow\">Typeshare.co</a>",
+        "in_reply_to_status_id": 1530557928381489153,
+        "in_reply_to_status_id_str": "1530557928381489153",
+        "in_reply_to_user_id": 1412506741317701636,
+        "in_reply_to_user_id_str": "1412506741317701636",
+        "in_reply_to_screen_name": "xtremepentest",
+        "user": {
+            "id": 1412506741317701636,
+            "id_str": "1412506741317701636",
+            "name": "Traw",
+            "screen_name": "xtremepentest",
+            "location": "BSc Network Engineering ",
+            "description": "Helping people master Linux🐧 & transit  from We₿ 2 to We₿ 3 Security.\n\n Daily tweets on Linux🐧, Security🐱‍💻 and Networking🌐.",
+            "url": "https://t.co/RF6rJBjBzl",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/RF6rJBjBzl",
+                            "expanded_url": "http://bio.link/xtremepentest",
+                            "display_url": "bio.link/xtremepentest",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 18972,
+            "friends_count": 188,
+            "listed_count": 215,
+            "created_at": "Tue Jul 06 20:21:55 +0000 2021",
+            "favourites_count": 5404,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 4130,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1495374168497528839/WriT_ow8_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1495374168497528839/WriT_ow8_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1412506741317701636/1645359969",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none",
+            "withheld_in_countries": []
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 2,
+        "favorite_count": 53,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "en"
+    }
+]

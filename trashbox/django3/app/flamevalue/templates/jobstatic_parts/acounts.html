@@ -1,0 +1,42 @@
+<div class="x_panel">
+    <div class="x_title">
+        <h2>Qiitaトップランカー</h2>
+        <ul class="nav navbar-right panel_toolbox">
+            <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i
+                        class="fa fa-wrench"></i></a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Settings 1</a>
+                    <a class="dropdown-item" href="#">Settings 2</a>
+                </div>
+            </li>
+            <li><a class="close-link"><i class="fa fa-close"></i></a>
+            </li>
+        </ul>
+        <div class="clearfix"></div>
+    </div>
+    <div class="x_content" style="overflow-x: hidden;">
+        {% for row in qiita_acounts %}
+        <article class="media event">
+            <div class="row">
+                <div class="col-md-1 col-sm-1  profile_details">
+                    <a class="pull-left" style="padding-right: 10px;" href="https://qiita.com/{{ row.id }}">
+                        <img src="{{ row.profile_image_url }}" width="42px" style="border-radius: 50%;">
+                    </a>
+                </div>
+                <div class="col-md-10 col-sm-10  profile_details">
+                    <div class="media-body">
+                        <a class="title" href="https://qiita.com/{{ row.id }}">{{ row.id }} - {{ row.name }}</a>
+                        <a class="title" href="https://qiita.com/{{ row.id }}">{{ row.stars }} {{ row.total_score }}</a>
+                        <p>記事投稿数 {{ row.items_count }}件 / 総求人数{{ row.basic.count }}件 </p>
+                        <p>{{row.description}}</p>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <hr>
+        {% endfor %}
+    </div>
+</div>

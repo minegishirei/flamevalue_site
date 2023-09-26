@@ -1,0 +1,4 @@
+INFO  2021-11-03 22:36:55,470 AbstractBat(31) FileParseBat is start.
+INFO  2021-11-03 22:36:55,957 DBConnenctionLogic(45) Custom connection setting is exists.
+INFO  2021-11-03 22:36:56,800 FileParseBat(186) file target count: 0
+INFO  2021-11-03 22:36:56,859 AbstractBat(43) Finished

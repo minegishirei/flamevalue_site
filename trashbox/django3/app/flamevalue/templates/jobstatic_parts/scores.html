@@ -1,0 +1,136 @@
+    <div class="dashboard_graph">
+
+        <div class="row x_title">
+            <div class="col-md-6">
+                <h3>求人スコア 
+                </h3>
+            </div>
+            <div class="col-md-6">
+                <div id="reportrange" class="pull-right"
+                    style="background: #fff; cursor: pointer; padding: 5px 10px; border: 1px solid #ccc">
+                    <i class="glyphicon glyphicon-calendar fa fa-calendar"></i>
+                    <span style="color: #73879C;">更新日 {{ date }}</span> <b class="caret"></b>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-sm-6 " style="height: 360px;">
+            <script type="text/javascript"
+                src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.5.1/chart.js"></script>
+                <div class="x_content">
+                    <h4>フレームワークスコア {{ stars }}</h4>
+                    <div class="scores_size_controller">
+                        <canvas id="myRadarChart" width="40" height="40"></canvas>
+                    </div>
+                </div>
+            <style>
+                .scores_size_controller {
+                    max-width: 300px;
+                }
+            </style>
+
+            <script>
+                var ctx = document.getElementById("myRadarChart");
+                var myRadarChart = new Chart(ctx, {
+                    //グラフの種類
+                    type: 'radar',
+                    //データの設定
+                    data: {
+                        labels: ['最小年収', '最大年収', '求人数', 'Qiita','リモート率'],
+                        datasets: [{
+                            label: '{{ name }}',
+                            //グラフのデータ
+                            data: [
+                                "{{ score.money }}", 
+                                "{{ score.overtime }}", 
+                                "{{ score.count }}",
+                                "{{ score.qiita_score }}",
+                                "{{ score.remote }}"
+                            ],
+                            // データライン
+                            borderColor: '#1ABB9C',
+                        }],
+                    },
+                    //オプションの設定
+                    options: {
+                        scales: {
+                            r: {
+                                //グラフの最小値・最大値
+                                min: 0,
+                                max: 5,
+                                //背景色
+                                backgroundColor: 'snow',
+                                //グリッドライン
+                                grid: {
+                                    color: '#1ABB9C',
+                                },
+                                //アングルライン
+                                angleLines: {
+                                    color: '#1ABB9C',
+                                },
+                                //各項目のラベル
+                                pointLabels: {
+                                    color: '#1ABB9C',
+                                },
+                            },
+                        },
+                    },
+                });
+            </script>
+
+        </div>
+        <div class="col-md-6 col-sm-6  bg-white">
+            <div class="x_title">
+                <h2>Flamework 実績</h2>
+                <div class="clearfix"></div>
+            </div>
+
+            <div class="col-md-12 col-sm-12 ">
+                <div>
+                    <p>平均下限年収 : {{ basic.money }}万円</p>
+                    <div class="">
+                        <div class="progress progress_sm" style="width: 76%;">
+                            <div class="progress-bar bg-green" role="progressbar" data-transitiongoal="{{ score_100.money }}"></div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <p>平均上限年収 : {{ basic.overtime }}万円</p>
+                    <div class="">
+                        <div class="progress progress_sm" style="width: 76%;">
+                            <div class="progress-bar bg-green" role="progressbar" data-transitiongoal="{{ score_100.overtime }}"></div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <p>総求人数 : {{ basic.count }}件</p>
+                    <div class="">
+                        <div class="progress progress_sm" style="width: 76%;">
+                            <div class="progress-bar bg-green" role="progressbar" data-transitiongoal="{{ score_100.count }}"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 col-sm-12 ">
+                <div>
+                    <p>リモート率 : {{ basic.remote }}%</p>
+                    <div class="">
+                        <div class="progress progress_sm" style="width: 76%;">
+                            <div class="progress-bar bg-green" role="progressbar" data-transitiongoal="{{ score_100.remote }}"></div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <p>フォロワー数(Qiita) : {{ basic.qiita_score }}</p>
+                    <div class="">
+                        <div class="progress progress_sm" style="width: 76%;">
+                            <div class="progress-bar bg-green" role="progressbar" data-transitiongoal="{{ score_100.size }}"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="clearfix"></div>
+    </div>

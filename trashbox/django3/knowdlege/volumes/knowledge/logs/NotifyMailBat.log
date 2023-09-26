@@ -1,0 +1,14 @@
+INFO  2021-11-03 22:33:25,112 AbstractBat(31) NotifyMailBat is start.
+INFO  2021-11-03 22:33:25,426 DBConnenctionLogic(45) Custom connection setting is exists.
+INFO  2021-11-03 22:33:25,477 NotifyMailBat(52) Notify process started.
+INFO  2021-11-03 22:33:26,121 NotifyMailBat(70) Notify process finished. count: 0
+INFO  2021-11-03 22:33:26,124 NotifyMailBat(72) Notify event started.
+INFO  2021-11-03 22:33:26,382 NotifyMailBat(74) Notify event finished.
+INFO  2021-11-03 22:33:26,384 AbstractBat(43) Finished
+INFO  2021-11-03 22:36:25,215 AbstractBat(31) NotifyMailBat is start.
+INFO  2021-11-03 22:36:25,535 DBConnenctionLogic(45) Custom connection setting is exists.
+INFO  2021-11-03 22:36:25,589 NotifyMailBat(52) Notify process started.
+INFO  2021-11-03 22:36:26,210 NotifyMailBat(70) Notify process finished. count: 0
+INFO  2021-11-03 22:36:26,213 NotifyMailBat(72) Notify event started.
+INFO  2021-11-03 22:36:26,475 NotifyMailBat(74) Notify event finished.
+INFO  2021-11-03 22:36:26,477 AbstractBat(43) Finished

@@ -1,0 +1,29 @@
+<header role="banner">
+
+
+    <nav role="navigation">
+        <p class="logo"><a href="https://webslides.tv/" title="WebSlides">WebSlides</a></p>
+        <ul>
+
+            {% for litag in lilist %}
+            <li class="github">
+                <a rel="external" href="./{{ litag.href }}" title="Github">
+                    {{litag.title}}
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+    </nav>
+
+</header>
+
+<style>
+    header[role='banner'] {
+        background-color: rgba(0, 0, 0, 0);
+        opacity: 0;
+    }
+    header[role='banner']:hover {
+        opacity: 1;
+        background: rgba(70, 69, 69, 0);
+    }
+</style>

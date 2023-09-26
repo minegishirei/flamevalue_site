@@ -1,0 +1,7 @@
+key.json
+github.key
+googleApi.key
+db
+db/mysql-data/*
+db/mysql-init/*
+volumes/django_volumes/*

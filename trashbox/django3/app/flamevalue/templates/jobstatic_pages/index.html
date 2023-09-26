@@ -1,0 +1,165 @@
+{% extends "jobstatic_template/template.html" %}
+
+
+{% block content %}
+<!-- page content -->
+<div role="main" class="main_contents">
+  <!-- top tiles -->
+
+  <div class="">
+    <div class="x_panel" style="padding-left: 0px; padding-right: 0px; overflow-x: hidden">
+
+      <div class="row" style="display: inline-block;">
+        <div class="tile_count">
+          <div class="col-md-8">
+            <h1>FlameValue</h1>
+            <p>
+              {{ description }}
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+
+        <div class="tile_count">
+          <div class="col-md-12">
+            <h3>
+              フレームワーク/プログラミング言語スコア Top6
+            </h3>
+            <div class="col-md-8">
+              <p>
+                現在利用されているフレームワーク/プログラミング言語のTop6を掲載しました。
+                あくまでも一時的なものであるため、転職や技術選定の際の一つの指標にしてください。
+              </p>
+            </div>
+          </div>
+
+
+          {% for row in FLAMEWORKDICT|slice:":6" %}
+          <div class="col-md-4 col-sm-12 ">
+            <a href="./{{row.name}}">
+              <div class="dashboard_graph">
+
+                <div class="row x_title">
+                  <div class="col-md-12">
+                    <h3>{{ row.name }}
+                      <!--
+                              <small>  ー {{ name }}</small>
+                          -->
+                    </h3>
+                  </div>
+                </div>
+
+                <div class="col-md-12 col-sm-12 ">
+                  <script type="text/javascript"
+                    src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.5.1/chart.js"></script>
+
+                  <div class="x_content">
+                    <h4>スコア {{ row.stars }} {{ row.total_score }}</h4>
+                    <div class="scores_size_controller">
+                      <canvas id="myRadarChart{{ row.name }}"></canvas>
+                    </div>
+                  </div>
+
+                  <style>
+                    .scores_size_controller {
+                      max-width: 300px;
+                    }
+                  </style>
+
+                  <script>
+                    var ctx = document.getElementById("myRadarChart{{ row.name }}");
+                    var myRadarChart = new Chart(ctx, {
+                      //グラフの種類
+                      type: 'radar',
+                      //データの設定
+                      data: {
+                        labels: ['最小年収', '最大年収', '求人数', 'Qiita', 'リモート率'],
+                        datasets: [{
+                          label: '{{ row.name }}',
+                          //グラフのデータ
+                          data: [
+                            "{{ row.score.money }}",
+                            "{{ row.score.overtime }}",
+                            "{{ row.score.count }}",
+                            "{{ row.score.qiita_score }}",
+                            "{{ row.score.remote }}"
+                          ],
+                          // データライン
+                          borderColor: '#1ABB9C',
+                        }],
+                      },
+                      //オプションの設定
+                      options: {
+                        scales: {
+                          r: {
+                            //グラフの最小値・最大値
+                            min: 0,
+                            max: 5,
+                            //背景色
+                            backgroundColor: 'snow',
+                            //グリッドライン
+                            grid: {
+                              color: '#1ABB9C',
+                            },
+                            //アングルライン
+                            angleLines: {
+                              color: '#1ABB9C',
+                            },
+                            //各項目のラベル
+                            pointLabels: {
+                              color: '#1ABB9C',
+                            },
+                          },
+                        },
+                      },
+                    });
+                  </script>
+
+                </div>
+                <div class="clearfix"></div>
+              </div>
+            </a>
+          </div>
+          {% endfor %}
+        </div>
+
+
+      </div>
+      <div class="row">
+        <div class="tile_count">
+          <div class="col-md-12">
+            <h3>
+              フレームワーク徹底比較!
+            </h3>
+            <div class="col-md-8">
+              <p>
+                現在利用されているフレームワーク/プログラミング言語を同列に比較しました。<br>
+                IT業界で使用されている技術の流行り廃りを押さえておきましょう。
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+          {% include "jobstatic_parts/compare_ables.html" %}
+        </div>
+        <div class="col-md-6">
+          {% include "jobstatic_parts/compare_candidates.html" %}
+        </div>
+      </div>
+    </div>
+    <br>
+
+
+  </div>
+</div>
+
+</div>
+<!-- /page content -->
+
+
+{% endblock %}

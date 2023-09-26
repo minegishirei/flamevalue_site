@@ -1,0 +1,262 @@
+[
+    {
+        "basic": {
+            "money": 407,
+            "overtime": 526,
+            "age": 30,
+            "size": 526,
+            "remote": 39,
+            "count": 108643,
+            "qiita_score": 83657
+        },
+        "score": {
+            "money": 2.907142857142857,
+            "overtime": 2.63,
+            "age": 2.5,
+            "size": 2.63,
+            "remote": 2.7857142857142856,
+            "count": 5,
+            "qiita_score": 5
+        },
+        "name": "Java",
+        "stars": "★★★☆☆",
+        "total_score": 3.35,
+        "image": "https://s3-ap-northeast-1.amazonaws.com/qiita-tag-image/6072fa4965bc9540233fc4179fdfef2cd1ea1964/medium.jpg?1650353809",
+        "explain": "Java（ジャバ、ジャヴァ）は、汎用プログラミング言語とソフトウェアプラットフォームの双方を指している総称ブランドである。オラクルおよびその関連会社の登録商標である。1996年にサン・マイクロシステムズによって市場リリースされ、2010年に同社がオラクルに吸収合併された事によりJavaの版権もそちらに移行した。\nプログラミング言語Javaは、C++に類似の構文、クラスベースのオブジェクト指向、マルチスレッド、ガベージコレクション、コンポーネントベース、分散コンピューティングといった特徴を持ち、平易性重視のプログラム書式による堅牢性と、仮想マシン上での実行によるセキュリティ性およびプラットフォーム非依存性が理念とされている",
+        "admin_comment": null
+    },
+    {
+        "basic": {
+            "money": 476,
+            "overtime": 613,
+            "age": 30,
+            "size": 613,
+            "remote": 51,
+            "count": 17996,
+            "qiita_score": 10697
+        },
+        "score": {
+            "money": 3.4000000000000004,
+            "overtime": 3.065,
+            "age": 2.5,
+            "size": 3.065,
+            "remote": 3.642857142857143,
+            "count": 5,
+            "qiita_score": 2.6742500000000002
+        },
+        "name": "Swift",
+        "stars": "★★★☆☆",
+        "total_score": 3.34,
+        "image": "https://s3-ap-northeast-1.amazonaws.com/qiita-tag-image/8924010780db484a83145542a3e49c6c2084ecb7/medium.jpg?1401738498",
+        "explain": "Swift（スウィフト）は、AppleのiOSおよびmacOS、Linux、Windowsで利用出来るプログラミング言語である。Worldwide Developers Conference (WWDC) 2014で発表された。Apple製OS上で動作するアプリケーションの開発に従来から用いられていたObjective-CやObjective-C++、C言語と共存できるように、共通のObjective-Cランタイムライブラリが使用されている。\nSwiftは、動的ディスパッチや動的バインディング等のObjective-Cの特長を受け継いでいる一方で、Objective-Cより「安全」にバグを捕捉できることも意図している",
+        "admin_comment": null
+    },
+    {
+        "basic": {
+            "money": 462,
+            "overtime": 683,
+            "age": 30,
+            "size": 683,
+            "remote": 40,
+            "count": 61944,
+            "qiita_score": 64906
+        },
+        "score": {
+            "money": 3.3000000000000003,
+            "overtime": 3.415,
+            "age": 2.5,
+            "size": 3.415,
+            "remote": 2.8571428571428568,
+            "count": 5,
+            "qiita_score": 5
+        },
+        "name": "Ruby",
+        "stars": "★★★★☆",
+        "total_score": 3.64,
+        "image": "https://s3-ap-northeast-1.amazonaws.com/qiita-tag-image/04ddc69fa03cd83041203ac067139d349ae8dee9/medium.jpg?1650353332",
+        "explain": "Ruby（ルビー）は、まつもとゆきひろ（通称: Matz）により開発されたオブジェクト指向スクリプト言語（スクリプト言語とはプログラミング言語の一分類）。\n日本で開発されたプログラミング言語としては初めて国際電気標準会議（IEC）で国際規格に認証された事例となった。\n\n",
+        "admin_comment": null
+    },
+    {
+        "basic": {
+            "money": 368,
+            "overtime": 580,
+            "age": 30,
+            "size": 580,
+            "remote": 50,
+            "count": 90206,
+            "qiita_score": 78703
+        },
+        "score": {
+            "money": 2.6285714285714286,
+            "overtime": 2.9,
+            "age": 2.5,
+            "size": 2.9,
+            "remote": 3.5714285714285716,
+            "count": 5,
+            "qiita_score": 5
+        },
+        "name": "PHP",
+        "stars": "★★★★☆",
+        "total_score": 3.5,
+        "image": "https://s3-ap-northeast-1.amazonaws.com/qiita-tag-image/7c64a9d81f287a4efc8559db7474202acc76cadc/medium.jpg?1650353379",
+        "explain": "株式会社PHP研究所（ピーエイチピーけんきゅうしょ、英語: PHP Institute, Inc.）は、日本の出版社。\n1946年創業で、松下幸之助が創設した企業の1つ。当初は株式会社PHP総合研究所という名称でトータルシンクタンクを標榜していたが、2010年10月1日に子会社で出版社であった株式会社PHP研究所を吸収合併し、現在の名称に改名した。",
+        "admin_comment": null
+    },
+    {
+        "basic": {
+            "money": 517,
+            "overtime": 818,
+            "age": 30,
+            "size": 818,
+            "remote": 58,
+            "count": 2480,
+            "qiita_score": 15673
+        },
+        "score": {
+            "money": 3.6928571428571426,
+            "overtime": 4.09,
+            "age": 2.5,
+            "size": 4.09,
+            "remote": 4.142857142857143,
+            "count": 1.24,
+            "qiita_score": 3.9182499999999996
+        },
+        "name": "Scala",
+        "stars": "★★★☆☆",
+        "total_score": 3.38,
+        "image": "https://s3-ap-northeast-1.amazonaws.com/qiita-tag-image/dc88b232098c780491d677e4a208fb4a657470af/medium.jpg?1568269339",
+        "explain": "Scala（スカラ、SKAH-lah）はオブジェクト指向言語と関数型言語の特徴を統合したマルチパラダイムのプログラミング言語である。名前の「Scala」は英語の「scalable language」に由来するものである。",
+        "admin_comment": null
+    },
+    {
+        "basic": {
+            "money": 709,
+            "overtime": 859,
+            "age": 30,
+            "size": 859,
+            "remote": 30,
+            "count": 1382,
+            "qiita_score": 3492
+        },
+        "score": {
+            "money": 5,
+            "overtime": 4.295,
+            "age": 2.5,
+            "size": 4.295,
+            "remote": 2.142857142857143,
+            "count": 0.691,
+            "qiita_score": 0.873
+        },
+        "name": "Rust",
+        "stars": "★★★☆☆",
+        "total_score": 2.83,
+        "image": "https://s3-ap-northeast-1.amazonaws.com/qiita-tag-image/a28c9ce47ee8c1427846c66cc34b48e44f087c5a/medium.jpg?1514023966",
+        "explain": "Rust（ラスト）は、性能、メモリ安全性、安全な並行性を目指して設計されたマルチパラダイムのプログラミング言語である。C言語、C++に代わるシステムプログラミング言語を目指しており、構文的にはC++に似ているが、「ボローチェッカー」(borrow checker) で参照の有効性を検証することによってメモリ安全性を保証できる。Rustはガベージコレクションなしでのメモリ安全性を達成しており、必要な場面で参照カウントを使うこともできる\n。\nRustプロジェクトはオープンソースのコミュニティベース開発で進行しており、言語仕様（検討段階含む）、ソースコード、ドキュメントはオープンソースライセンスで公開されている",
+        "admin_comment": null
+    },
+    {
+        "basic": {
+            "money": 390,
+            "overtime": 542,
+            "age": 30,
+            "size": 542,
+            "remote": 46,
+            "count": 84004,
+            "qiita_score": 138085
+        },
+        "score": {
+            "money": 2.7857142857142856,
+            "overtime": 2.71,
+            "age": 2.5,
+            "size": 2.71,
+            "remote": 3.2857142857142856,
+            "count": 5,
+            "qiita_score": 5
+        },
+        "name": "Javascript",
+        "stars": "★★★☆☆",
+        "total_score": 3.43,
+        "image": "https://s3-ap-northeast-1.amazonaws.com/qiita-tag-image/12ab79a9d2e703932a2c08dc6a4bcc9fb544f5c3/medium.jpg?1650353657",
+        "explain": "JavaScript（ジャバスクリプト）は、プログラミング言語であり、HyperText Markup Language（HTML）やCascading Style Sheets（CSS）と並ぶ　World Wide Web（WWW）の中核技術の一つである。\nプロトタイプベースのオブジェクト指向スクリプト言語であるが、クラスなどのクラスベースに見られる機能も取り込んでいる。\n利用される場面はウェブサイト、ウェブアプリケーション、バックエンド、デスクトップアプリケーション、モバイルアプリケーションなど、ウェブブラウザからサーバ、デスクトップからスマートフォンまで多岐にわたっている。\nJavaと似た名称を持つが、異なるプログラミング言語である（#歴史を参照）",
+        "admin_comment": null
+    },
+    {
+        "basic": {
+            "money": 521,
+            "overtime": 771,
+            "age": 30,
+            "size": 771,
+            "remote": 72,
+            "count": 17582,
+            "qiita_score": 22877
+        },
+        "score": {
+            "money": 3.7214285714285715,
+            "overtime": 3.855,
+            "age": 2.5,
+            "size": 3.855,
+            "remote": 5,
+            "count": 5,
+            "qiita_score": 5
+        },
+        "name": "Typescript",
+        "stars": "★★★★☆",
+        "total_score": 4.13,
+        "image": "https://s3-ap-northeast-1.amazonaws.com/qiita-tag-image/5dd0a3684d0ad54cef6b7cd6c52918be777435a3/medium.jpg?1513494620",
+        "explain": "TypeScript はマイクロソフトによって開発され、メンテナンスされているフリーでオープンソースのプログラミング言語である。TypeScriptはJavaScriptに対して、省略も可能な静的型付けとクラスベースオブジェクト指向を加えた厳密なスーパーセット（既存のものを全て含んだ上でより機能が拡張されている上位互換となるモノ）となっている。C#のリードアーキテクトであり、DelphiとTurbo Pascalの開発者でもあるアンダース・ヘルスバーグがTypeScriptの開発に関わっている。TypeScriptはクライアントサイド、あるいはサーバサイド (Node.js) で実行されるJavaScriptアプリケーションの開発に利用できる",
+        "admin_comment": null
+    },
+    {
+        "basic": {
+            "money": 457,
+            "overtime": 665,
+            "age": 30,
+            "size": 665,
+            "remote": 69,
+            "count": 17560,
+            "qiita_score": 3275
+        },
+        "score": {
+            "money": 3.2642857142857142,
+            "overtime": 3.325,
+            "age": 2.5,
+            "size": 3.325,
+            "remote": 4.928571428571429,
+            "count": 5,
+            "qiita_score": 0.8187500000000001
+        },
+        "name": "Kotlin",
+        "stars": "★★★☆☆",
+        "total_score": 3.31,
+        "image": "https://s3-ap-northeast-1.amazonaws.com/qiita-tag-image/adfd3568a429637ca558c7943fec8c96f9394294/medium.jpg?1457084234",
+        "explain": "Kotlin（コトリン）は、ジェットブレインズのアンドリー・ブレスラフ、ドミトリー・ジェメロフが開発した、静的型付けのオブジェクト指向プログラミング言語である。\n\n",
+        "admin_comment": null
+    },
+    {
+        "basic": {
+            "money": 383,
+            "overtime": 539,
+            "age": 30,
+            "size": 539,
+            "remote": 44,
+            "count": 92744,
+            "qiita_score": 155192
+        },
+        "score": {
+            "money": 2.7357142857142858,
+            "overtime": 2.6950000000000003,
+            "age": 2.5,
+            "size": 2.6950000000000003,
+            "remote": 3.142857142857143,
+            "count": 5,
+            "qiita_score": 5
+        },
+        "name": "Python",
+        "stars": "★★★☆☆",
+        "total_score": 3.4,
+        "image": "https://s3-ap-northeast-1.amazonaws.com/qiita-tag-image/0ee2c162b0573701a6baf468f4d30549f8d03e9b/medium.jpg?1660803670",
+        "explain": "Python（パイソン）はインタープリタ型の高水準汎用プログラミング言語である。",
+        "admin_comment": null
+    }
+]

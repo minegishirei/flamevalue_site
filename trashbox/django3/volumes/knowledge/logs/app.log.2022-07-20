@@ -1,0 +1,16 @@
+INFO  2022-07-20 23:22:48,982 GlobalInitializationListener(36) [APP LOG] /root/.knowledge/logs/app.log
+INFO  2022-07-20 23:22:49,610 H2DBServerLogic(51) H2 Database server started.
+INFO  2022-07-20 23:22:50,956 InitDB(129) The database of this service is arleady inited. database version is 1.13.0.
+INFO  2022-07-20 23:22:50,966 InitializationListener(61) Knowledge start
+INFO  2022-07-20 23:22:50,968 InitializationListener(62) knowledge install path: '/usr/local/tomcat/webapps/ROOT/'
+INFO  2022-07-20 23:22:50,970 InitializationListener(63) knowledge home path: '/root/.knowledge'
+INFO  2022-07-20 23:22:51,152 SystemConfig(134) Load custom top page infomation. language: en
+INFO  2022-07-20 23:22:51,156 SystemConfig(134) Load custom top page infomation. language: ja
+INFO  2022-07-20 23:22:51,769 InvokeSearch(166) same target duplicate add. [open.api/knowledges]
+INFO  2022-07-20 23:22:51,778 InvokeSearch(166) same target duplicate add. [open.api/users]
+INFO  2022-07-20 23:23:15,489 LoggingFilter(101) GET	http://knowledgeproject/	302	172.18.0.6	49[ms]
+INFO  2022-07-20 23:23:25,862 LoggingFilter(101) GET	http://knowledgeproject/open.knowledge/list	200	172.18.0.6	10288[ms]
+INFO  2022-07-20 23:23:26,140 LoggingFilter(101) GET	http://knowledgeproject/open.account/icon/	200	172.18.0.6	43[ms]
+INFO  2022-07-20 23:23:26,476 LoggingFilter(101) GET	http://knowledgeproject/favicon.ico	200	172.18.0.6	3[ms]
+INFO  2022-07-20 23:23:26,718 LoggingFilter(101) GET	http://knowledgeproject/open.event/list?timezone=Asia%2FTokyo&date=202207	200	172.18.0.6	362[ms]
+INFO  2022-07-20 23:23:26,719 LoggingFilter(101) GET	http://knowledgeproject/open.api/mynotices	200	172.18.0.6	366[ms]

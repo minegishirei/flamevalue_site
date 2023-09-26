@@ -1,0 +1,98 @@
+{% extends "fanstatic/dashboard/base/base.html" %}
+
+
+{% block mainblock %}
+
+<!-- Content Wrapper -->
+<div id="content-wrapper" class="d-flex flex-column">
+
+
+    <!-- Main Content -->
+    <div id="content">
+
+        {% include 'fanstatic/dashboard/base/topbar.html' %}
+        <!-- Begin Page Content -->
+        <div class="container-fluid">
+
+            <!-- Page Heading -->
+            <h1 class="h3 mb-2 text-gray-800">母集団</h1>
+            <p class="mb-4">本データの母集団となるツイート集です。</p>
+
+            <!-- DataTales Example -->
+            <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                    <h6 class="m-0 font-weight-bold text-primary">母集団</h6>
+                </div>
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                            <thead>
+                                <tr>
+                                    <th>tweet</th>
+                                </tr>
+                            </thead>
+                            <tfoot>
+                                <tr>
+                                    <th>tweet</th>
+                                </tr>
+                            </tfoot>
+
+                            <tbody id="motherdata">
+                            </tbody>
+
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- /.container-fluid -->
+
+
+{% endblock %}
+
+{% block scriptblock %}
+
+
+
+<script>
+    url = "https://raw.githubusercontent.com/kawadasatoshi/{{ repo }}/main/{{ htmlname }}"
+
+    htmlname = "{{ htmlname }}"
+    console.log("here")
+    var jsonDate = []
+    $.getJSON(url, (data) => {
+        jsonDate = data.tweet_list
+        userData = []
+        retweetData = []
+        console.log("here2")
+        name_list = []
+        friends_count_list = new Array();
+        followers_count_list = new Array();
+        damy_list = []
+
+        create_year_list = []
+
+        mother_num = 0
+        interest_fun_num = 0
+
+        motherdataElement = document.getElementById("motherdata")
+        for (var row in jsonDate) {
+            row = jsonDate[row]
+            mother_num++;
+            trElement = document.createElement("tr")
+            tdElement = document.createElement("td")
+            tdElement.innerHTML = row["text"]
+            trElement.appendChild(tdElement)
+
+            motherdataElement.appendChild(trElement)
+        }
+
+
+    })
+
+</script>
+
+{% endblock %}

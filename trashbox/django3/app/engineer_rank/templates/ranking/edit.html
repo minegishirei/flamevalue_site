@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>{{ title }}</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="{{description}}" name="description">
+
+    <!-- Favicons -->
+    <link href="img/favicon.png" rel="icon">
+    <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700" rel="stylesheet">
+
+    <!-- Bootstrap CSS File -->
+    <link href="/static/ranking/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    {% include "parts/seo.html" %}
+    {% include "parts/favicon.html" %}
+    {% include "parts/analytics.html" %}
+    {% include "parts/twitter_card.html" %}
+    <!-- Main Stylesheet File -->
+    <link href="/static/ranking/css/style.css" rel="stylesheet">
+    <!-- =======================================================
+    Template Name: Stanley
+    Template URL: https://templatemag.com/stanley-bootstrap-freelancer-template/
+    Author: TemplateMag.com
+    License: https://templatemag.com/license/
+  ======================================================= -->
+</head>
+
+<body>
+
+
+    {% include "ranking/parts/link.html" %}
+
+    <!-- +++++ Welcome Section +++++ -->
+    <div id="white">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 centered">
+                    <h2>リツイートランキング</h2>
+                    <h3>{{ htmlname }}部門</h3>
+                    <img class="logo" src="{{ img }}" width="100px" height="100px">
+                    <br>
+                </div>
+                <!-- /col-lg-8 -->
+            </div>
+            <!-- /row -->
+        </div>
+        <!-- /container -->
+    </div>
+    <!-- /ww -->
+
+    {% for tweet in tweet_list %}
+    <div id="`+ " gray" + `">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="centorblock">
+                        <blockquote class="twitter-tweet">
+                            <a href="https://twitter.com/{{ tweet.user.screen_name }}/status/{{ tweet.id_str }}"></a>
+                        </blockquote>
+                    </div>
+                    <div class="padding20">
+                        <form method="POST" action=".">
+                            {% csrf_token %}
+                            <input name="{{ tweet.id }}+text" type="text" value="{{ tweet.text }}">
+                            </input>
+                        </form>
+
+                        <h2>
+                            <form method="POST" action=".">
+                                {% csrf_token %}
+                                <input name="{{ tweet.id }}+title" type="text" value="{{ tweet.title }}">
+                                </input>
+                            </form>
+                        </h2>
+
+                        <h2>
+                            <form method="POST" action=".">
+                                {% csrf_token %}
+                                <input name="{{ tweet.id }}+comment" type="text" value="{{ tweet.comment }}">
+                                </input>
+                            </form>
+                        </h2>
+                    </div>
+                </div>
+                <!-- /row -->
+            </div>
+            <!-- /container -->
+        </div>
+
+
+        <section>
+            <div class="wrap">
+                <div class="content-center">
+                    <h3>
+                        Q{{ item.process }}<small>/3</small>
+                    </h3>
+                    <p>{{ item.title }}</p>
+                    <small>{{ item.supp }}</small>
+                    <pre>{{ item.preface }}<form method="POST" action="{{ item.next }}">{% csrf_token %}<input name="{{ item.name }}-u" type="text" placeholder="{{ item.example }}" value="{{ item.value }}" ></input></form>{{ item.afterword }}</pre>
+                    <br>
+                    <!--
+              <form method="POST" action="{{ item.next }}">
+                  {% csrf_token %}
+                  <input type="submit" name="{{ item.name }}-d" value="clear">
+              </form>
+          -->
+                </div>
+                <!-- end .content-left -->
+            </div>
+            <!-- .end .wrap -->
+        </section>
+        {% endfor %}
+
+
+
+        <div id="ranking_list">
+
+        </div>
+
+
+
+
+
+        <div id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <h4>My Bunker</h4>
+                        <p>
+                            Some Address 987,<br /> +34 9054 5455, <br /> Madrid, Spain.
+                        </p>
+                    </div>
+                    <!-- /col-lg-4 -->
+
+                    <div class="col-lg-4">
+                        <h4>My Links</h4>
+                        <p>
+                            <a href="#">Dribbble</a><br />
+                            <a href="#">Twitter</a><br />
+                            <a href="#">Facebook</a>
+                        </p>
+                    </div>
+                    <!-- /col-lg-4 -->
+
+                    <div class="col-lg-4">
+                        <h4>About Stanley</h4>
+                        <p>This cute theme was created to showcase your work in a simple way. Use it wisely.</p>
+                    </div>
+                    <!-- /col-lg-4 -->
+                </div>
+            </div>
+        </div>
+
+        <div id="copyrights">
+            <div class="container">
+                <p>
+                    &copy; Copyrights <strong>Stanley</strong>. All Rights Reserved
+                </p>
+                <div class="credits">
+                    <!--
+          You are NOT allowed to delete the credit link to TemplateMag with free version.
+          You can delete the credit link only if you bought the pro version.
+          Buy the pro version with working PHP/AJAX contact form: https://templatemag.com/stanley-bootstrap-freelancer-template/
+          Licensing information: https://templatemag.com/license/
+        -->
+                    Created with Stanley template by <a href="https://templatemag.com/">TemplateMag</a>
+                </div>
+            </div>
+        </div>
+        <!-- / copyrights -->
+
+        <!-- JavaScript Libraries -->
+        <script src="/static/ranking/lib/jquery/jquery.min.js"></script>
+        <script src="/static/ranking/lib/bootstrap/js/bootstrap.min.js"></script>
+        <script src="/static/ranking/lib/php-mail-form/validate.js"></script>
+        <script src="/static/ranking/lib/easing/easing.min.js"></script>
+
+        <!-- Template Main Javascript File -->
+        <script src="/static/ranking/js/main.js"></script>
+
+
+        <script>
+            // setIntervalを使う方法
+            function sleep(waitSec, callbackFunc) {
+
+                // 経過時間（秒）
+                var spanedSec = 0;
+
+                // 1秒間隔で無名関数を実行
+                var id = setInterval(function () {
+
+                    spanedSec++;
+
+                    // 経過時間 >= 待機時間の場合、待機終了。
+                    if (spanedSec >= waitSec) {
+
+                        // タイマー停止
+                        clearInterval(id);
+
+                        // 完了時、コールバック関数を実行
+                        if (callbackFunc) callbackFunc();
+                    }
+                }, 1000);
+
+            }
+
+            function doesInclude(text, tag_list) {
+                match_tag_list = []
+                for (var i in tag_list) {
+                    tag = tag_list[i]
+                    if (text.match(tag)) {
+                        match_tag_list.push(tag)
+                    }
+                }
+                return match_tag_list
+            }
+        </script>
+
+        <script>
+            var tag_list = [
+                {% for tag in tag_list %}
+            "{{ tag }}",
+                {% endfor %}
+        ]
+
+            url = "https://raw.githubusercontent.com/kawadasatoshi/{{ repo }}/main/{{ htmlname }}"
+
+            htmlname = "{{ htmlname }}"
+            console.log("here")
+            var jsonDate = []
+
+            var nico_word_cloud = []
+            $.getJSON(url, (data) => {
+                jsonDate = data.tweet_list
+
+                // ソートの優先するキーと順序のリスト
+                // age, name, idの順にソート
+                const order = [
+                    { key: "retweet_count", reverse: true }
+                ];
+
+
+                // ソート関数（デフォルトで昇順）
+                function sort_by(list) {
+                    return (a, b) => {
+                        for (let i = 0; i < list.length; i++) {
+                            const order_by = list[i].reverse ? 1 : -1;
+                            if (a[list[i].key] < b[list[i].key]) return order_by;
+                            if (a[list[i].key] > b[list[i].key]) return order_by * -1;
+                        }
+                        return 0;
+                    };
+                }
+
+                jsonDate.sort(sort_by(order))
+
+                /* imp
+                */
+                ordercount = 0
+                for (var count in jsonDate) {
+                    ordercount++;
+                    tweet = jsonDate[count]
+                    console.log(tweet)
+
+                    tagHtml = ""
+                    try {
+                        match_tag_list = doesInclude(tweet.text, tag_list)
+                        for (i in match_tag_list) {
+                            tag = match_tag_list[i]
+                            tagHtml += `<a href="/{{ content_type }}/` + tag + `/ranking.html" class="tag">` + tag + "</a><br>"
+                        }
+                    } catch (error) {
+                    }
+
+                    console.log(tweet.user.screen_name)
+                    innnerRealTweet = `
+          <blockquote class="twitter-tweet">
+            <a href="https://twitter.com/`+ tweet.user.screen_name + `/status/` + tweet.id_str + `"></a>
+          </blockquote>`
+                    background_color = ["gray", "white"][ordercount % 2 - 1]
+
+                    if (ordercount == 1) {
+                        rank = `<t style="color:gold;">` + ordercount + `位</t>`
+                    } else if (ordercount == 2) {
+                        rank = `<t style="color:silver;">` + ordercount + `位</t>`
+                    } else if (ordercount == 3) {
+                        rank = `<t style="color:brown;">` + ordercount + `位</t>`
+                    } else {
+                        rank = `<t>` + ordercount + `位</t>`
+                    }
+
+                    outerBase = `
+  <div id="`+ "gray" + `">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="padding20">
+            <div class="box">
+              <h2>`+ rank + `</h2>
+              <strong>`+ tweet.retweet_count + `</strong>リツイート
+            </div>
+            <div class="box">`
+                        + "<h3>" + tweet.user.name + "</h3>"
+                        + tagHtml +
+                        `</div>
+            </div>`
+                        + `<pre>
+               <div class="tweet_context">`
+                        + tweet.text
+                        + `</div>
+            </pre>`
+                        + `<div class="centorblock">`
+                        + innnerRealTweet
+                        + "</div>"
+                        + `</div>
+      <!-- /row -->
+    </div>
+    <!-- /container -->
+  </div>
+  `
+
+
+                    ranking_list_tag = document.getElementById("ranking_list")
+                    ranking_list_tag.innerHTML += outerBase
+
+                    sleep(1000, function () {
+                        console.log("tich")
+                    })
+
+                    console.log("test")
+
+                }
+
+                // SCRIPTタグの生成
+                var el = document.createElement("script");
+
+                // SCRIPTタグのSRC属性に読み込みたいファイルを指定
+                el.src = "https://platform.twitter.com/widgets.js";
+                el.charset = "utf-8"
+
+                // BODY要素の最後に追加
+                document.body.appendChild(el);
+            })
+
+        </script>
+
+
+        <style>
+            #gray {
+                padding-bottom: 0;
+            }
+
+            #white {
+                padding-bottom: 0;
+            }
+
+            .tag {
+                color: #ec929e;
+                margin: 10px;
+            }
+
+            pre {
+                border: none;
+                white-space: pre-wrap;
+            }
+
+            .profile_img {
+                border-radius: 50%;
+            }
+
+            .box {
+                display: inline-block;
+                font-size: 16px;
+            }
+
+
+            .boxContainer {
+                font-size: 0;
+            }
+
+            .padding20 {
+                padding: 10px;
+            }
+
+            .container {
+                padding-bottom: 10px;
+            }
+
+            .centorblock {
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .tweet_context {
+                font-size: medium;
+            }
+        </style>
+
+</body>
+
+</html>

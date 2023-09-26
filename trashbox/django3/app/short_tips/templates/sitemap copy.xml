@@ -1,0 +1,12 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!--  created with Free Online Sitemap Generator www.xml-sitemaps.com  -->
+
+{% for page in pop_page_list %}
+<url>
+<loc>https://{{ host_name }}.short-tips.info/{{ page.category }}/{{ page.htmlname }}</loc>
+<lastmod>{{ page.lastmod }}</lastmod>
+<priority>0.95</priority>
+</url>
+{% endfor %}
+
+</urlset>

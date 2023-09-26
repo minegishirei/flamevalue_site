@@ -1,0 +1,67 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://unpkg.com/mermaid/dist/mermaid.min.css">
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+
+</head>
+<body>
+<div class="mermaid">
+</div>
+
+</body>
+</html>
+
+
+<pre>
+  {{ umlcode }}
+</pre>
+
+
+
+<script>mermaid.initialize({startOnLoad:true});</script>
+<script>
+  var mermaidAPI = mermaid.mermaidAPI;
+
+mermaidAPI.initialize({
+  startOnLoad:false
+});
+
+var element = document.getElementsByClassName("mermaid")[0];
+var insertSvg = function(svgCode, bindFunctions) {
+  element.innerHTML = svgCode;
+};
+var graphDefinition = `{{ umlcode }}
+
+そういえばOOの件はどうなりましたか -- 言えないこと以外のことを教えておくれよ
+
+
+そういえばOOの件はどうなりましたか -->どうせやるなら楽しい方がよくないですか:信頼の回復
+
+どうせやるなら楽しい方がよくないですか -- 今しかできないですよ:黄金の組み合わせ
+今しかできないですよ --> あら
+どうせやるなら楽しい方がよくないですか --> あら
+
+相変わらずー -->OOくん
+OOくん --> 退屈そのもの
+`;
+
+var graph = mermaidAPI.render("mermaid", graphDefinition, insertSvg);
+
+
+{% for li in lilist %}
+      target = document.querySelector("[id^=classid-{{li.title}}]")
+      target2 = target.getElementsByClassName("classText")[0]
+      /*
+            target.innerHTML = (target.innerHTML + `
+      <image y="22" x="2" xlink:href='1{{li.img}}' height="150px" width="150px">
+      `);
+      */
+      {% endfor %}
+</script>
+
+
+{% for li in lilist %}
+ {{li.img}}
+{% endfor %}
+
+

@@ -1,0 +1,127 @@
+
+
+
+
+<div class="container">
+    <h2>Chart.js — Bar Chart Demo</h2>
+    <div>
+    </div>
+</div>
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<style>
+    .container {
+        width: 80%;
+        margin: 15px auto;
+    }
+
+    #caption {
+        margin-left: 25px;
+    }
+</style>
+<script>
+    url = "https://raw.githubusercontent.com/kawadasatoshi/{{ repo }}/main/{{ htmlname }}"
+
+    var jsonDate = []
+    $.getJSON(url, (data) => {
+        jsonDate = data
+        userData = []
+        retweetData = []
+
+        for (var row in jsonDate) {
+            userData.push(jsonDate[row].user)
+            console.log(jsonDate[row].user.friends_count)
+        }
+        console.log(userData)
+
+        console.log("end")
+
+
+
+        var dataset = userData;
+
+        var width = 800; // グラフの幅
+        var height = 600; // グラフの高さ
+        var padding = 30; // スケール表示用マージン
+
+        // 2. SVG領域の設定
+        var svg = d3.select("body").append("svg").attr("width", width).attr("height", height);
+
+        // 3. 軸スケールの設定
+        var xScale = d3.scaleBand()
+            .rangeRound([padding, width - padding])
+            .padding(0.1)
+            .domain(dataset.map(function (d) { return "."; }));
+
+        var yScale = d3.scaleLinear()
+            .domain([0, d3.max(dataset, function (d) { return d.friends_count; })])
+            .range([height - padding, padding]);
+
+        // 4. 軸の表示
+        svg.append("g")
+            .attr("transform", "translate(" + 0 + "," + (height - padding) + ")")
+            .call(d3.axisBottom(xScale));
+
+        svg.append("g")
+            .attr("transform", "translate(" + padding + "," + 0 + ")")
+            .call(d3.axisLeft(yScale));
+
+        // 5. バーの表示
+        svg.append("g")
+            .selectAll("rect")
+            .data(dataset)
+            .enter()
+            .append("rect")
+            .attr("x", function (d) { return xScale(d.name); })
+            .attr("y", function (d) { return yScale(d.friends_count); })
+            .attr("width", xScale.bandwidth())
+            .attr("height", function (d) { return height - padding - yScale(d.friends_count); })
+            .attr("fill", "steelblue");
+        console.log("end")
+
+
+        /*
+        var original = Chart.defaults.global.legend.onClick;
+        Chart.defaults.global.legend.onClick = function (e, legendItem) {
+            update_caption(legendItem);
+            original.call(this, e, legendItem);
+        };
+    
+        var myChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ["M", "T", "W", "T", "F", "S", "S"],
+                datasets: [{
+                    label: 'apples',
+                    backgroundColor: "rgba(153,255,51,1)",
+                    data: [12, 19, 3, 17, 28, 24, 7],
+                }, {
+                    label: 'oranges',
+                    backgroundColor: "rgba(255,153,0,1)",
+                    data: [30, 29, 5, 5, 20, 3, 10],
+                }]
+            }
+        });
+    
+        var labels = {
+            "apples": true,
+            "oranges": true
+        };
+    
+        var caption = document.getElementById("caption");
+    
+        var update_caption = function (legend) {
+            labels[legend.text] = legend.hidden;
+    
+            var selected = Object.keys(labels).filter(function (key) {
+                return labels[key];
+            });
+    
+            var text = selected.length ? selected.join(" & ") : "nothing";
+    
+            caption.innerHTML = "The chart is displaying " + text;
+        };
+        */
+    });
+</script>
+

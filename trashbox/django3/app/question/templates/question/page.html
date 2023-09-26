@@ -1,0 +1,53 @@
+{% extends "question/base.html" %}
+
+{% block mainblock %}
+<p>
+    こんな質問があったらしい
+</p>
+<br>
+<a href="{{ page_dict.content.url }}">
+    元ネタ
+</a>
+<pre>
+{{ page_dict.content.title }}
+</pre>
+
+<!--
+{% if page_dict.content.answer_list %}
+<p>
+    それに対する答えは
+</p>
+<pre>
+{% for answer in page_dict.content.answer_list %}
+{{ answer }}<br>
+{% endfor %}
+</pre>
+というものであった。
+{% else %}
+<p>
+    それに対する答えは未だ存在していない。
+</p>
+{% endif %}
+-->
+
+<br><br><br>
+<hr>
+
+<div>
+    <h2>
+        キーポイント
+    </h2>
+    <p>
+        ここで大事なのは以下の三つのキーワードである。
+    </p>
+    {% for row in api_responce %}
+    <h4>・{{ row }}</h4>
+    {% endfor %}
+    <p>
+    これらのキーワードをもとにさらにさらに深掘りする。
+    </p>
+</div>
+{% endblock %}
+
+
+

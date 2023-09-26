@@ -1,0 +1,43 @@
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+<div class="col-md-12">
+    <div class="x_panel">
+        <div class="x_content" >
+            <div class="row">
+                <div class="col-md-12 col-lg-12 col-sm-7">
+                        <h1>{{ name }}</h1>
+                </div>
+                <div class="col-md-8 col-lg-8 col-sm-7">
+                    <!-- blockquote -->
+                    <blockquote>
+                        <h2> {{ stars }} {{ total_score }}</h2>
+                        {% if admin_comment %}
+                        <p id="admin_comment">{{ admin_comment | safe }}</p>
+                        <script>
+                            document.getElementById('admin_comment').innerHTML = marked.parse(document.getElementById('admin_comment').innerHTML);
+                        </script>
+                        {% endif %}
+                        <p>
+                            {{ explain }}
+                        </p>
+                    </blockquote>
+                </div>
+                <div class="col-md-2 col-lg-2 col-sm-7">
+                    <!---
+                    <img class="thumnail" src="{{ image }}">
+                    <style>
+                        .thumnail {
+                            height: 100px;
+                            width: 100px;
+                            max-height: 150px;
+                            max-width: 200px;
+                            margin-left: 30%;
+                            margin-right: 30%;
+                        }
+                    </style>
+                    -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

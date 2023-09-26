@@ -1,0 +1,65 @@
+{% extends "oversea_it/base/parts/base.html" %}
+
+{% block mainblock %}
+
+<!--▼ヘッダー下-->
+<div id="head_under" class="gridContainer clearfix">
+
+    <!--▼メインセクション-->
+    <div class="main_section">
+        <!--▽リード-->
+        <div class="read_L">
+            <div class="read_TXT">2015.6.10</div>
+        </div>
+        <!--△リード-->
+
+        <div id="page_cont" style=" margin-top:3%">
+
+            <!--タイトル ▶-->
+            <div class="single-page_title">
+                <h1>
+                    {{ title }}
+                </h1>
+            </div>
+            <!--◀ タイトル-->
+
+
+            <div class="page_comment">
+                <!--▼コンテンツ-->
+
+                {% include 'oversea_it/base/json_select.html' %}
+                
+                <h2>関連記事</h2>
+                <!--▽テーブル-->
+                <table summary="会社案内表">
+                    {% for page in pop_page_list %}
+                    <tr>
+                        <td>
+                            <a href="/{{ page.category }}/{{ page.htmlname }}">
+                                {{ page.title }}
+                            </a>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </table>
+
+                <br><br>
+                <br>
+            </div>
+
+
+            <!--▲コンテンツ-->
+        </div>
+
+    </div>
+
+<!--▲メインセクション-->
+{% include "oversea_it/base/parts/side_menue.html" %}
+
+<div class="clear" style="height:50px;"></div>
+</div>
+
+<!--▲ヘッダー下-->
+
+
+{% endblock %}

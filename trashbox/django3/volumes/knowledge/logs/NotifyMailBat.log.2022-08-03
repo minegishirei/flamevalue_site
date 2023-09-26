@@ -1,0 +1,176 @@
+INFO  2022-08-03 10:25:44,747 AbstractBat(31) NotifyMailBat is start.
+INFO  2022-08-03 10:25:44,870 NotifyMailBat(52) Notify process started.
+INFO  2022-08-03 10:25:45,620 NotifyMailBat(70) Notify process finished. count: 0
+INFO  2022-08-03 10:25:45,623 NotifyMailBat(72) Notify event started.
+INFO  2022-08-03 10:25:45,954 NotifyMailBat(74) Notify event finished.
+INFO  2022-08-03 10:25:45,956 AbstractBat(43) Finished
+INFO  2022-08-03 11:17:24,737 AbstractBat(31) NotifyMailBat is start.
+INFO  2022-08-03 11:17:24,860 NotifyMailBat(52) Notify process started.
+INFO  2022-08-03 11:17:25,633 NotifyMailBat(70) Notify process finished. count: 0
+INFO  2022-08-03 11:17:25,636 NotifyMailBat(72) Notify event started.
+INFO  2022-08-03 11:17:25,951 NotifyMailBat(74) Notify event finished.
+INFO  2022-08-03 11:17:25,953 AbstractBat(43) Finished
+INFO  2022-08-03 11:17:41,972 AbstractBat(31) NotifyMailBat is start.
+INFO  2022-08-03 11:17:42,097 NotifyMailBat(52) Notify process started.
+INFO  2022-08-03 11:17:42,900 NotifyMailBat(70) Notify process finished. count: 0
+INFO  2022-08-03 11:17:42,903 NotifyMailBat(72) Notify event started.
+INFO  2022-08-03 11:17:43,199 NotifyMailBat(74) Notify event finished.
+INFO  2022-08-03 11:17:43,203 AbstractBat(43) Finished
+INFO  2022-08-03 11:17:55,499 AbstractBat(31) NotifyMailBat is start.
+INFO  2022-08-03 11:17:55,630 NotifyMailBat(52) Notify process started.
+INFO  2022-08-03 11:17:56,559 NotifyMailBat(70) Notify process finished. count: 0
+INFO  2022-08-03 11:17:56,562 NotifyMailBat(72) Notify event started.
+INFO  2022-08-03 11:17:56,902 NotifyMailBat(74) Notify event finished.
+INFO  2022-08-03 11:17:56,905 AbstractBat(43) Finished
+INFO  2022-08-03 11:18:12,912 AbstractBat(31) NotifyMailBat is start.
+INFO  2022-08-03 11:18:13,035 NotifyMailBat(52) Notify process started.
+INFO  2022-08-03 11:18:13,868 NotifyMailBat(70) Notify process finished. count: 0
+INFO  2022-08-03 11:18:13,871 NotifyMailBat(72) Notify event started.
+INFO  2022-08-03 11:18:14,158 NotifyMailBat(74) Notify event finished.
+INFO  2022-08-03 11:18:14,161 AbstractBat(43) Finished
+INFO  2022-08-03 12:19:00,584 AbstractBat(31) NotifyMailBat is start.
+INFO  2022-08-03 12:19:00,702 NotifyMailBat(52) Notify process started.
+INFO  2022-08-03 12:19:01,493 NotifyMailBat(70) Notify process finished. count: 0
+INFO  2022-08-03 12:19:01,495 NotifyMailBat(72) Notify event started.
+INFO  2022-08-03 12:19:01,781 NotifyMailBat(74) Notify event finished.
+INFO  2022-08-03 12:19:01,783 AbstractBat(43) Finished
+INFO  2022-08-03 13:53:54,467 AbstractBat(31) NotifyMailBat is start.
+INFO  2022-08-03 13:53:54,585 NotifyMailBat(52) Notify process started.
+INFO  2022-08-03 13:53:55,326 NotifyMailBat(70) Notify process finished. count: 0
+INFO  2022-08-03 13:53:55,329 NotifyMailBat(72) Notify event started.
+INFO  2022-08-03 13:53:55,602 NotifyMailBat(74) Notify event finished.
+INFO  2022-08-03 13:53:55,605 AbstractBat(43) Finished
+INFO  2022-08-03 13:54:10,634 AbstractBat(31) NotifyMailBat is start.
+INFO  2022-08-03 13:54:10,748 NotifyMailBat(52) Notify process started.
+INFO  2022-08-03 13:54:11,478 NotifyMailBat(70) Notify process finished. count: 0
+INFO  2022-08-03 13:54:11,480 NotifyMailBat(72) Notify event started.
+INFO  2022-08-03 13:54:11,747 NotifyMailBat(74) Notify event finished.
+INFO  2022-08-03 13:54:11,750 AbstractBat(43) Finished
+INFO  2022-08-03 14:54:38,417 AbstractBat(31) NotifyMailBat is start.
+INFO  2022-08-03 14:54:38,552 NotifyMailBat(52) Notify process started.
+INFO  2022-08-03 14:54:39,409 NotifyMailBat(70) Notify process finished. count: 0
+INFO  2022-08-03 14:54:39,413 NotifyMailBat(72) Notify event started.
+INFO  2022-08-03 14:54:39,746 NotifyMailBat(74) Notify event finished.
+INFO  2022-08-03 14:54:39,748 AbstractBat(43) Finished
+INFO  2022-08-03 14:54:59,693 AbstractBat(31) NotifyMailBat is start.
+INFO  2022-08-03 14:54:59,834 NotifyMailBat(52) Notify process started.
+INFO  2022-08-03 14:55:00,726 NotifyMailBat(70) Notify process finished. count: 0
+INFO  2022-08-03 14:55:00,729 NotifyMailBat(72) Notify event started.
+INFO  2022-08-03 14:55:01,071 NotifyMailBat(74) Notify event finished.
+INFO  2022-08-03 14:55:01,074 AbstractBat(43) Finished
+INFO  2022-08-03 14:55:15,168 AbstractBat(31) NotifyMailBat is start.
+INFO  2022-08-03 14:55:15,307 NotifyMailBat(52) Notify process started.
+INFO  2022-08-03 18:22:58,940 AbstractBat(31) NotifyMailBat is start.
+INFO  2022-08-03 18:22:59,079 NotifyMailBat(52) Notify process started.
+INFO  2022-08-03 18:22:59,951 NotifyMailBat(70) Notify process finished. count: 0
+INFO  2022-08-03 18:22:59,954 NotifyMailBat(72) Notify event started.
+INFO  2022-08-03 18:23:00,310 NotifyMailBat(74) Notify event finished.
+INFO  2022-08-03 18:23:00,313 AbstractBat(43) Finished
+INFO  2022-08-03 18:23:18,581 AbstractBat(31) NotifyMailBat is start.
+INFO  2022-08-03 18:23:18,719 NotifyMailBat(52) Notify process started.
+INFO  2022-08-03 18:23:19,567 NotifyMailBat(70) Notify process finished. count: 0
+INFO  2022-08-03 18:23:19,570 NotifyMailBat(72) Notify event started.
+INFO  2022-08-03 18:23:19,928 NotifyMailBat(74) Notify event finished.
+INFO  2022-08-03 18:23:19,931 AbstractBat(43) Finished
+INFO  2022-08-03 18:23:34,161 AbstractBat(31) NotifyMailBat is start.
+INFO  2022-08-03 18:23:34,300 NotifyMailBat(52) Notify process started.
+INFO  2022-08-03 18:23:35,173 NotifyMailBat(70) Notify process finished. count: 0
+INFO  2022-08-03 18:23:35,177 NotifyMailBat(72) Notify event started.
+INFO  2022-08-03 18:23:35,514 NotifyMailBat(74) Notify event finished.
+INFO  2022-08-03 18:23:35,516 AbstractBat(43) Finished
+INFO  2022-08-03 18:23:53,933 AbstractBat(31) NotifyMailBat is start.
+INFO  2022-08-03 18:23:54,069 NotifyMailBat(52) Notify process started.
+INFO  2022-08-03 18:23:54,950 NotifyMailBat(70) Notify process finished. count: 0
+INFO  2022-08-03 18:23:54,953 NotifyMailBat(72) Notify event started.
+INFO  2022-08-03 18:23:55,315 NotifyMailBat(74) Notify event finished.
+INFO  2022-08-03 18:23:55,318 AbstractBat(43) Finished
+INFO  2022-08-03 18:24:09,777 AbstractBat(31) NotifyMailBat is start.
+INFO  2022-08-03 18:24:09,922 NotifyMailBat(52) Notify process started.
+INFO  2022-08-03 18:24:10,819 NotifyMailBat(70) Notify process finished. count: 0
+INFO  2022-08-03 18:24:10,823 NotifyMailBat(72) Notify event started.
+INFO  2022-08-03 18:24:11,177 NotifyMailBat(74) Notify event finished.
+INFO  2022-08-03 18:24:11,180 AbstractBat(43) Finished
+INFO  2022-08-03 20:04:00,798 AbstractBat(31) NotifyMailBat is start.
+INFO  2022-08-03 20:04:00,934 NotifyMailBat(52) Notify process started.
+INFO  2022-08-03 20:04:01,820 NotifyMailBat(70) Notify process finished. count: 0
+INFO  2022-08-03 20:04:01,824 NotifyMailBat(72) Notify event started.
+INFO  2022-08-03 20:04:02,180 NotifyMailBat(74) Notify event finished.
+INFO  2022-08-03 20:04:02,183 AbstractBat(43) Finished
+INFO  2022-08-03 20:04:20,724 AbstractBat(31) NotifyMailBat is start.
+INFO  2022-08-03 20:04:20,868 NotifyMailBat(52) Notify process started.
+INFO  2022-08-03 20:04:21,753 NotifyMailBat(70) Notify process finished. count: 0
+INFO  2022-08-03 20:04:21,756 NotifyMailBat(72) Notify event started.
+INFO  2022-08-03 20:04:22,109 NotifyMailBat(74) Notify event finished.
+INFO  2022-08-03 20:04:22,113 AbstractBat(43) Finished
+INFO  2022-08-03 20:56:41,461 AbstractBat(31) NotifyMailBat is start.
+INFO  2022-08-03 20:56:41,610 NotifyMailBat(52) Notify process started.
+INFO  2022-08-03 20:56:42,545 NotifyMailBat(70) Notify process finished. count: 0
+INFO  2022-08-03 20:56:42,548 NotifyMailBat(72) Notify event started.
+INFO  2022-08-03 20:56:42,909 NotifyMailBat(74) Notify event finished.
+INFO  2022-08-03 20:56:42,912 AbstractBat(43) Finished
+INFO  2022-08-03 20:57:08,685 AbstractBat(31) NotifyMailBat is start.
+INFO  2022-08-03 20:57:08,833 NotifyMailBat(52) Notify process started.
+INFO  2022-08-03 20:57:09,784 NotifyMailBat(70) Notify process finished. count: 0
+INFO  2022-08-03 20:57:09,788 NotifyMailBat(72) Notify event started.
+INFO  2022-08-03 20:57:10,237 NotifyMailBat(74) Notify event finished.
+INFO  2022-08-03 20:57:10,240 AbstractBat(43) Finished
+INFO  2022-08-03 20:57:26,014 AbstractBat(31) NotifyMailBat is start.
+INFO  2022-08-03 20:57:26,171 NotifyMailBat(52) Notify process started.
+INFO  2022-08-03 20:57:27,116 NotifyMailBat(70) Notify process finished. count: 0
+INFO  2022-08-03 20:57:27,120 NotifyMailBat(72) Notify event started.
+INFO  2022-08-03 20:57:27,495 NotifyMailBat(74) Notify event finished.
+INFO  2022-08-03 20:57:27,498 AbstractBat(43) Finished
+INFO  2022-08-03 20:57:47,622 AbstractBat(31) NotifyMailBat is start.
+INFO  2022-08-03 20:57:47,773 NotifyMailBat(52) Notify process started.
+INFO  2022-08-03 20:57:48,725 NotifyMailBat(70) Notify process finished. count: 0
+INFO  2022-08-03 20:57:48,729 NotifyMailBat(72) Notify event started.
+INFO  2022-08-03 20:57:49,102 NotifyMailBat(74) Notify event finished.
+INFO  2022-08-03 20:57:49,106 AbstractBat(43) Finished
+INFO  2022-08-03 20:58:09,323 AbstractBat(31) NotifyMailBat is start.
+INFO  2022-08-03 20:58:09,473 NotifyMailBat(52) Notify process started.
+INFO  2022-08-03 20:58:10,453 NotifyMailBat(70) Notify process finished. count: 0
+INFO  2022-08-03 20:58:10,457 NotifyMailBat(72) Notify event started.
+INFO  2022-08-03 20:58:10,861 NotifyMailBat(74) Notify event finished.
+INFO  2022-08-03 20:58:10,864 AbstractBat(43) Finished
+INFO  2022-08-03 20:58:26,865 AbstractBat(31) NotifyMailBat is start.
+INFO  2022-08-03 20:58:27,025 NotifyMailBat(52) Notify process started.
+INFO  2022-08-03 20:58:27,977 NotifyMailBat(70) Notify process finished. count: 0
+INFO  2022-08-03 20:58:27,980 NotifyMailBat(72) Notify event started.
+INFO  2022-08-03 20:58:28,428 NotifyMailBat(74) Notify event finished.
+INFO  2022-08-03 20:58:28,432 AbstractBat(43) Finished
+INFO  2022-08-03 22:00:17,791 AbstractBat(31) NotifyMailBat is start.
+INFO  2022-08-03 22:00:17,927 NotifyMailBat(52) Notify process started.
+INFO  2022-08-03 22:00:18,768 NotifyMailBat(70) Notify process finished. count: 0
+INFO  2022-08-03 22:00:18,773 NotifyMailBat(72) Notify event started.
+INFO  2022-08-03 22:00:19,086 NotifyMailBat(74) Notify event finished.
+INFO  2022-08-03 22:00:19,089 AbstractBat(43) Finished
+INFO  2022-08-03 22:00:31,169 AbstractBat(31) NotifyMailBat is start.
+INFO  2022-08-03 22:00:31,288 NotifyMailBat(52) Notify process started.
+INFO  2022-08-03 22:00:32,036 NotifyMailBat(70) Notify process finished. count: 0
+INFO  2022-08-03 22:00:32,039 NotifyMailBat(72) Notify event started.
+INFO  2022-08-03 22:00:32,319 NotifyMailBat(74) Notify event finished.
+INFO  2022-08-03 22:00:32,322 AbstractBat(43) Finished
+INFO  2022-08-03 22:00:47,798 AbstractBat(31) NotifyMailBat is start.
+INFO  2022-08-03 22:00:47,914 NotifyMailBat(52) Notify process started.
+INFO  2022-08-03 22:00:48,668 NotifyMailBat(70) Notify process finished. count: 0
+INFO  2022-08-03 22:00:48,671 NotifyMailBat(72) Notify event started.
+INFO  2022-08-03 22:00:48,938 NotifyMailBat(74) Notify event finished.
+INFO  2022-08-03 22:00:48,940 AbstractBat(43) Finished
+INFO  2022-08-03 22:01:04,722 AbstractBat(31) NotifyMailBat is start.
+INFO  2022-08-03 22:01:04,838 NotifyMailBat(52) Notify process started.
+INFO  2022-08-03 22:01:05,577 NotifyMailBat(70) Notify process finished. count: 0
+INFO  2022-08-03 22:01:05,579 NotifyMailBat(72) Notify event started.
+INFO  2022-08-03 22:01:05,868 NotifyMailBat(74) Notify event finished.
+INFO  2022-08-03 22:01:05,871 AbstractBat(43) Finished
+INFO  2022-08-03 22:01:18,241 AbstractBat(31) NotifyMailBat is start.
+INFO  2022-08-03 22:01:18,358 NotifyMailBat(52) Notify process started.
+INFO  2022-08-03 22:01:19,145 NotifyMailBat(70) Notify process finished. count: 0
+INFO  2022-08-03 22:01:19,148 NotifyMailBat(72) Notify event started.
+INFO  2022-08-03 22:01:19,455 NotifyMailBat(74) Notify event finished.
+INFO  2022-08-03 22:01:19,457 AbstractBat(43) Finished
+INFO  2022-08-03 22:01:35,426 AbstractBat(31) NotifyMailBat is start.
+INFO  2022-08-03 22:01:35,549 NotifyMailBat(52) Notify process started.
+INFO  2022-08-03 22:01:36,371 NotifyMailBat(70) Notify process finished. count: 0
+INFO  2022-08-03 22:01:36,375 NotifyMailBat(72) Notify event started.
+INFO  2022-08-03 22:01:36,700 NotifyMailBat(74) Notify event finished.
+INFO  2022-08-03 22:01:36,703 AbstractBat(43) Finished

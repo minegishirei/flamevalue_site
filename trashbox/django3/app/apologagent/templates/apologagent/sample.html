@@ -1,0 +1,68 @@
+{% extends 'parts/normalflame.html' %}
+
+{% block bodyblock %}
+{% include 'apologagent/header.html' %}
+<section>
+    <div class="wrap">
+        <h3>謝罪文サンプル</h3>
+        <ul class="flexblock steps">
+            <!-- li>a? Add blink = <ul class="flexblock steps blink">-->
+            <li>
+                <a href="./sample.html">
+                    <div class="process step-4"></div>
+                    <span>
+                        <svg class="fa-cog">
+                            <use xlink:href="#fa-cog"></use>
+                        </svg>
+                    </span>
+                    <h2>04. サンプル集</h2>
+                    <ul>
+                        <li>ノーマル</li>
+                        <li>インフェルノォォオゥ</li>
+                        <li>ファイナリアリティ<br>ぷんぷんドリーム</li>
+                    </ul>
+                </a>
+            </li>
+            <li>
+                <a href="./sample.html">
+                    <div class="process step-4"></div>
+                    <span>
+                        <svg class="fa-cog">
+                            <use xlink:href="#fa-cog"></use>
+                        </svg>
+                    </span>
+                    <h2>04. サンプル集</h2>
+                    <ul>
+                        <li>ノーマル</li>
+                        <li>インフェルノォォオゥ</li>
+                        <li>ファイナリアリティ<br>ぷんぷんドリーム</li>
+                    </ul>
+                </a>
+            </li>
+        </ul>
+
+        <ul class="flexblock steps">
+
+            {% for key, groupname in page_dict.items %}
+                {% for key, value in groupname.items %}
+                <li>
+                    <a href="./page/oko.html">
+                        <span>
+                            <svg class="fa-heartbeat">
+                                <use xlink:href="#fa-heartbeat"></use>
+                            </svg>
+                        </span>
+                        <h2>{{ value.title }}</h2>
+                        <p>
+                            {{ value.sentense }}
+                        </p>
+                    </a>
+                </li>
+                {% endfor %}
+            {% endfor %}
+        </ul>
+    </div>
+    <!-- .end .wrap -->
+</section>
+
+{% endblock %}

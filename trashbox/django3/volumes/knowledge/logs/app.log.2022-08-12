@@ -1,0 +1,10 @@
+INFO  2022-08-12 10:37:53,942 GlobalInitializationListener(36) [APP LOG] /root/.knowledge/logs/app.log
+INFO  2022-08-12 10:37:55,224 H2DBServerLogic(51) H2 Database server started.
+INFO  2022-08-12 10:37:56,824 InitDB(129) The database of this service is arleady inited. database version is 1.13.0.
+INFO  2022-08-12 10:37:56,835 InitializationListener(61) Knowledge start
+INFO  2022-08-12 10:37:56,837 InitializationListener(62) knowledge install path: '/usr/local/tomcat/webapps/ROOT/'
+INFO  2022-08-12 10:37:56,839 InitializationListener(63) knowledge home path: '/root/.knowledge'
+INFO  2022-08-12 10:37:57,009 SystemConfig(134) Load custom top page infomation. language: en
+INFO  2022-08-12 10:37:57,013 SystemConfig(134) Load custom top page infomation. language: ja
+INFO  2022-08-12 10:37:57,720 InvokeSearch(166) same target duplicate add. [open.api/knowledges]
+INFO  2022-08-12 10:37:57,745 InvokeSearch(166) same target duplicate add. [open.api/users]

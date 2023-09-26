@@ -1,0 +1,24 @@
+<!-- End Post -->
+<div class="col-md-2 col-xs-12 max_width">
+	<div class="share" style="text-align: left;">
+		<div height="">
+
+		</div>
+		<h4>
+			Index
+		</h4>
+		<hr>
+		
+			{% for tweet in tweet_list %}
+
+				{% if tweet.title %}
+				<p>
+					<a href="#{{ tweet.title }}" style="color: #00ab6b;">
+						{{ tweet.title }}
+					</a>
+				</p>
+				{% endif %}
+			{% endfor %}
+
+	</div>
+</div>

@@ -1,0 +1,172 @@
+{% extends 'parts/base.html' %}
+
+{% block headblock %}
+<title>
+    {{ title }}
+</title>
+{% endblock %}
+
+
+{% block headerblock %}
+{% include "parts/header/header.html" %}
+{% endblock %}
+
+
+
+{% block mainblock %}
+<div class="column">
+    <form method="post" id="form5">{% csrf_token %}
+        <textarea type="text" name="sql" id="search">{{ sql }}</textarea>
+        <input type="submit" value="Q" id="button">
+    </form>
+
+    <style>
+        #form5 {
+            position: relative;
+            margin: 30px;
+        }
+
+        #search {
+            outline: 0;
+            height: 300px;
+            padding: 0 10px;
+            left: 0;
+            top: 0;
+            max-width: 1500px;
+            border-radius: 2px;
+            background: #eee;
+        }
+
+        #button {
+            width: 70px;
+            height: 50px;
+            left: 280px;
+            top: 0;
+            border-radius: 2px;
+            background: #7fbfff;
+            color: #fff;
+            font-weight: bold;
+            font-size: 16px;
+            border: none;
+        }
+
+        #button:hover {
+            background: #eee;
+            color: #77b2ec;
+        }
+    </style>
+
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.1/js/jquery.tablesorter.min.js"></script>
+
+
+
+    <table class="tablesorter" id="myTable">
+        <thead>
+            <!---
+            <tr>
+                <th>Title</th>
+                <th>Better</th>
+                <th>Awesome</th>
+            </tr>
+        -->
+        </thead>
+        <tbody>
+            {% for row in all_relation %}
+            <tr>
+                {% for value in row.items %}
+                <td>
+                    {{ value }}
+                </td>
+                {% endfor %}
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+
+<style>
+    #myTable .tablesorter-header {
+        cursor: pointer;
+        outline: none;
+    }
+
+    #myTable .tablesorter-header-inner::after {
+        content: '▼';
+        font-size: 12px;
+        margin-left: 5px;
+    }
+</style>
+
+
+<style>
+    .row2 {
+        height: 2em;
+    }
+
+    .footnav {
+        padding-top: 20px;
+        opacity: 0;
+    }
+
+
+    .footnav {
+        display: flex;
+        background-color: rgba(0, 0, 0, 0);
+        opacity: 1;
+    }
+
+    .footnav:hover {
+        z-index: 5;
+        -webkit-transition: 0.5s ease-in-out;
+        -moz-transition: 0.5s ease-in-out;
+        -o-transition: 0.5s ease-in-out;
+        transition: 0.5s ease-in-out;
+        opacity: 1;
+        background: rgba(70, 69, 69, 0);
+    }
+
+    .horizontal-list {
+        overflow-x: auto;
+        white-space: nowrap;
+        display: inline-block;
+    }
+
+    .item {
+        vertical-align: top;
+        /* 横スクロール用 */
+        display: inline-block;
+        width: 200px;
+        height: 200px;
+    }
+
+    img.thumbnail {
+        padding-left: 3px;
+        padding-right: 3px;
+        width: 200px;
+        height: 130px;
+        object-fit: cover;
+        /* この一行を追加するだけ！ */
+    }
+
+
+    .down_shadow {
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(128, 128, 128, 0.1);
+        /*アニメーションの設定*/
+        opacity: 0.8;
+        transition: all .3s;
+    }
+
+    /*hoverをしたらボックスの影が拡がり色が濃くなる*/
+    .down_shadow:hover {
+        box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5), 0 0 50px rgba(128, 128, 128, 0.1);
+        opacity: 0.8;
+        border-color: transparent;
+    }
+</style>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+{% endblock %}
+

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<knowledgesEntity>
+   <knowledgeId>1</knowledgeId>
+   <title>テスト投稿</title>
+   <content>this is a test 投稿
+
+
+![image-20211103223854855.png](/open.file/download?fileNo=1)
+
+
+![image-20211103223921235.png](/open.file/download?fileNo=2)</content>
+   <publicFlag>0</publicFlag>
+   <tagIds>1</tagIds>
+   <tagNames>エンジニア</tagNames>
+   <likeCount>0</likeCount>
+   <commentCount>1</commentCount>
+   <viewCount>3</viewCount>
+   <typeId>-100</typeId>
+   <notifyStatus>0</notifyStatus>
+   <point>30</point>
+   <anonymous>0</anonymous>
+   <insertUser>1</insertUser>
+   <insertDatetime>2021-11-03 22:39:29.970 GMT</insertDatetime>
+   <updateUser>1</updateUser>
+   <updateDatetime>2021-11-03 22:39:29.970 GMT</updateDatetime>
+   <deleteFlag>0</deleteFlag>
+   <insertUserName>Administrator</insertUserName>
+   <updateUserName>Administrator</updateUserName>
+   <score>NaN</score>
+   <pin>false</pin>
+   <groupName></groupName>
+</knowledgesEntity>

@@ -1,0 +1,42 @@
+INFO  2022-11-03 00:29:24,732 AbstractBat(31) MailSendBat is start.
+INFO  2022-11-03 00:29:25,893 MailSendBat(59) delete old mails. [count]0
+INFO  2022-11-03 00:29:25,897 AbstractBat(43) Finished
+INFO  2022-11-03 02:02:00,661 AbstractBat(31) MailSendBat is start.
+INFO  2022-11-03 02:02:01,668 MailSendBat(59) delete old mails. [count]0
+INFO  2022-11-03 02:02:01,671 AbstractBat(43) Finished
+INFO  2022-11-03 04:13:55,216 AbstractBat(31) MailSendBat is start.
+INFO  2022-11-03 04:13:56,163 MailSendBat(59) delete old mails. [count]0
+INFO  2022-11-03 04:13:56,166 AbstractBat(43) Finished
+INFO  2022-11-03 04:14:08,207 AbstractBat(31) MailSendBat is start.
+INFO  2022-11-03 04:14:09,158 MailSendBat(59) delete old mails. [count]0
+INFO  2022-11-03 04:14:09,161 AbstractBat(43) Finished
+INFO  2022-11-03 04:16:39,971 AbstractBat(31) MailSendBat is start.
+INFO  2022-11-03 04:16:40,925 MailSendBat(59) delete old mails. [count]0
+INFO  2022-11-03 04:16:40,928 AbstractBat(43) Finished
+INFO  2022-11-03 04:16:52,849 AbstractBat(31) MailSendBat is start.
+INFO  2022-11-03 04:16:53,791 MailSendBat(59) delete old mails. [count]0
+INFO  2022-11-03 04:16:53,795 AbstractBat(43) Finished
+INFO  2022-11-03 07:36:43,889 AbstractBat(31) MailSendBat is start.
+INFO  2022-11-03 07:36:44,860 MailSendBat(59) delete old mails. [count]0
+INFO  2022-11-03 07:36:44,863 AbstractBat(43) Finished
+INFO  2022-11-03 08:27:50,000 AbstractBat(31) MailSendBat is start.
+INFO  2022-11-03 08:27:51,031 MailSendBat(59) delete old mails. [count]0
+INFO  2022-11-03 08:27:51,035 AbstractBat(43) Finished
+INFO  2022-11-03 08:28:03,513 AbstractBat(31) MailSendBat is start.
+INFO  2022-11-03 08:28:04,494 MailSendBat(59) delete old mails. [count]0
+INFO  2022-11-03 08:28:04,498 AbstractBat(43) Finished
+INFO  2022-11-03 10:45:58,352 AbstractBat(31) MailSendBat is start.
+INFO  2022-11-03 10:45:59,385 MailSendBat(59) delete old mails. [count]0
+INFO  2022-11-03 10:45:59,388 AbstractBat(43) Finished
+INFO  2022-11-03 10:46:12,146 AbstractBat(31) MailSendBat is start.
+INFO  2022-11-03 10:46:13,124 MailSendBat(59) delete old mails. [count]0
+INFO  2022-11-03 10:46:13,128 AbstractBat(43) Finished
+INFO  2022-11-03 10:46:29,815 AbstractBat(31) MailSendBat is start.
+INFO  2022-11-03 10:46:30,800 MailSendBat(59) delete old mails. [count]0
+INFO  2022-11-03 10:46:30,803 AbstractBat(43) Finished
+INFO  2022-11-03 12:59:17,485 AbstractBat(31) MailSendBat is start.
+INFO  2022-11-03 12:59:18,481 MailSendBat(59) delete old mails. [count]0
+INFO  2022-11-03 12:59:18,485 AbstractBat(43) Finished
+INFO  2022-11-03 12:59:30,566 AbstractBat(31) MailSendBat is start.
+INFO  2022-11-03 12:59:31,521 MailSendBat(59) delete old mails. [count]0
+INFO  2022-11-03 12:59:31,524 AbstractBat(43) Finished

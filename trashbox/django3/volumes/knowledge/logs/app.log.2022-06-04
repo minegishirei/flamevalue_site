@@ -1,0 +1,28 @@
+INFO  2022-06-04 05:32:35,232 GlobalInitializationListener(36) [APP LOG] /root/.knowledge/logs/app.log
+INFO  2022-06-04 05:32:36,591 H2DBServerLogic(51) H2 Database server started.
+INFO  2022-06-04 05:32:38,304 InitDB(129) The database of this service is arleady inited. database version is 1.13.0.
+INFO  2022-06-04 05:32:38,327 InitializationListener(61) Knowledge start
+INFO  2022-06-04 05:32:38,329 InitializationListener(62) knowledge install path: '/usr/local/tomcat/webapps/ROOT/'
+INFO  2022-06-04 05:32:38,331 InitializationListener(63) knowledge home path: '/root/.knowledge'
+INFO  2022-06-04 05:32:38,641 SystemConfig(134) Load custom top page infomation. language: en
+INFO  2022-06-04 05:32:38,644 SystemConfig(134) Load custom top page infomation. language: ja
+INFO  2022-06-04 06:17:23,421 GlobalInitializationListener(36) [APP LOG] /root/.knowledge/logs/app.log
+INFO  2022-06-04 06:17:24,133 H2DBServerLogic(51) H2 Database server started.
+INFO  2022-06-04 06:17:25,405 InitDB(129) The database of this service is arleady inited. database version is 1.13.0.
+INFO  2022-06-04 06:17:25,418 InitializationListener(61) Knowledge start
+INFO  2022-06-04 06:17:25,420 InitializationListener(62) knowledge install path: '/usr/local/tomcat/webapps/ROOT/'
+INFO  2022-06-04 06:17:25,422 InitializationListener(63) knowledge home path: '/root/.knowledge'
+INFO  2022-06-04 06:17:25,589 SystemConfig(134) Load custom top page infomation. language: en
+INFO  2022-06-04 06:17:25,592 SystemConfig(134) Load custom top page infomation. language: ja
+INFO  2022-06-04 06:17:26,281 InvokeSearch(166) same target duplicate add. [open.api/knowledges]
+INFO  2022-06-04 06:17:26,290 InvokeSearch(166) same target duplicate add. [open.api/users]
+INFO  2022-06-04 16:04:48,857 GlobalInitializationListener(36) [APP LOG] /root/.knowledge/logs/app.log
+INFO  2022-06-04 16:04:49,899 H2DBServerLogic(51) H2 Database server started.
+INFO  2022-06-04 16:04:51,244 InitDB(129) The database of this service is arleady inited. database version is 1.13.0.
+INFO  2022-06-04 16:04:51,256 InitializationListener(61) Knowledge start
+INFO  2022-06-04 16:04:51,257 InitializationListener(62) knowledge install path: '/usr/local/tomcat/webapps/ROOT/'
+INFO  2022-06-04 16:04:51,259 InitializationListener(63) knowledge home path: '/root/.knowledge'
+INFO  2022-06-04 16:04:51,530 SystemConfig(134) Load custom top page infomation. language: en
+INFO  2022-06-04 16:04:51,543 SystemConfig(134) Load custom top page infomation. language: ja
+INFO  2022-06-04 16:04:52,101 InvokeSearch(166) same target duplicate add. [open.api/knowledges]
+INFO  2022-06-04 16:04:52,108 InvokeSearch(166) same target duplicate add. [open.api/users]

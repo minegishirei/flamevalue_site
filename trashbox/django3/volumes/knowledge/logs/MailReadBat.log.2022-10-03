@@ -1,0 +1,30 @@
+INFO  2022-10-03 02:17:39,418 AbstractBat(31) MailReadBat is start.
+INFO  2022-10-03 02:17:40,305 MailhookLogic(168) Mail hook config is undefined.
+INFO  2022-10-03 02:17:40,309 AbstractBat(43) Finished
+INFO  2022-10-03 02:17:55,453 AbstractBat(31) MailReadBat is start.
+INFO  2022-10-03 02:17:56,327 MailhookLogic(168) Mail hook config is undefined.
+INFO  2022-10-03 02:17:56,332 AbstractBat(43) Finished
+INFO  2022-10-03 05:06:11,878 AbstractBat(31) MailReadBat is start.
+INFO  2022-10-03 05:06:12,747 MailhookLogic(168) Mail hook config is undefined.
+INFO  2022-10-03 05:06:12,751 AbstractBat(43) Finished
+INFO  2022-10-03 05:06:28,181 AbstractBat(31) MailReadBat is start.
+INFO  2022-10-03 05:06:29,054 MailhookLogic(168) Mail hook config is undefined.
+INFO  2022-10-03 05:06:29,059 AbstractBat(43) Finished
+INFO  2022-10-03 05:06:40,959 AbstractBat(31) MailReadBat is start.
+INFO  2022-10-03 05:06:41,834 MailhookLogic(168) Mail hook config is undefined.
+INFO  2022-10-03 05:06:41,839 AbstractBat(43) Finished
+INFO  2022-10-03 07:54:38,296 AbstractBat(31) MailReadBat is start.
+INFO  2022-10-03 07:54:39,169 MailhookLogic(168) Mail hook config is undefined.
+INFO  2022-10-03 07:54:39,173 AbstractBat(43) Finished
+INFO  2022-10-03 07:54:54,326 AbstractBat(31) MailReadBat is start.
+INFO  2022-10-03 07:54:55,360 MailhookLogic(168) Mail hook config is undefined.
+INFO  2022-10-03 07:54:55,365 AbstractBat(43) Finished
+INFO  2022-10-03 10:30:57,423 AbstractBat(31) MailReadBat is start.
+INFO  2022-10-03 10:30:58,410 MailhookLogic(168) Mail hook config is undefined.
+INFO  2022-10-03 10:30:58,419 AbstractBat(43) Finished
+INFO  2022-10-03 22:19:17,242 AbstractBat(31) MailReadBat is start.
+INFO  2022-10-03 22:19:18,184 MailhookLogic(168) Mail hook config is undefined.
+INFO  2022-10-03 22:19:18,189 AbstractBat(43) Finished
+INFO  2022-10-03 23:26:52,260 AbstractBat(31) MailReadBat is start.
+INFO  2022-10-03 23:26:53,182 MailhookLogic(168) Mail hook config is undefined.
+INFO  2022-10-03 23:26:53,187 AbstractBat(43) Finished

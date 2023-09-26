@@ -1,0 +1,4 @@
+INFO  2021-11-03 22:34:25,112 AbstractBat(31) MailSendBat is start.
+INFO  2021-11-03 22:34:25,428 DBConnenctionLogic(45) Custom connection setting is exists.
+INFO  2021-11-03 22:34:26,302 MailSendBat(59) delete old mails. [count]0
+INFO  2021-11-03 22:34:26,306 AbstractBat(43) Finished

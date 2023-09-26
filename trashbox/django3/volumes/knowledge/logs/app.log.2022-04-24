@@ -1,0 +1,38 @@
+INFO  2022-04-24 22:11:44,067 GlobalInitializationListener(36) [APP LOG] /root/.knowledge/logs/app.log
+INFO  2022-04-24 22:11:44,749 H2DBServerLogic(51) H2 Database server started.
+INFO  2022-04-24 22:11:45,879 Intercepter(213) error. [object]class org.support.project.web.dao.SystemsDao_$$_jvst1b2_0[proceed]_d17executeQuerySingle[param0]SELECT * FROM SYSTEMS WHERE SYSTEM_NAME = ?  AND DELETE_FLAG = 0[param1]class org.support.project.web.entity.SystemsEntity[param2][Ljava.lang.Object;@7be74e61
+[throwable.getMessage()] Table "SYSTEMS" not found; SQL statement:
+SELECT * FROM SYSTEMS WHERE SYSTEM_NAME = ?  AND DELETE_FLAG = 0 [42102-196] [cause] Table "SYSTEMS" not found; SQL statement:
+SELECT * FROM SYSTEMS WHERE SYSTEM_NAME = ?  AND DELETE_FLAG = 0 [42102-196]
+----- SQL Infomation -----
+[sql]SELECT * FROM SYSTEMS WHERE SYSTEM_NAME = ?  AND DELETE_FLAG = 0
+[params]
+	[params][0]knowledge
+[execute]SELECT * FROM SYSTEMS WHERE SYSTEM_NAME = knowledge  AND DELETE_FLAG = 0
+
+ERROR 2022-04-24 22:11:45,885 Transaction(58) Error(Rollback) : org.support.project.web.dao.SystemsDao_$$_jvst1b2_0#_d50selectOnKey
+INFO  2022-04-24 22:11:45,896 Intercepter(213) error. [object]class org.support.project.web.dao.SystemsDao_$$_jvst1b2_0[proceed]_d50selectOnKey[param0]knowledge
+[throwable.getMessage()] Table "SYSTEMS" not found; SQL statement:
+SELECT * FROM SYSTEMS WHERE SYSTEM_NAME = ?  AND DELETE_FLAG = 0 [42102-196] [cause] Table "SYSTEMS" not found; SQL statement:
+SELECT * FROM SYSTEMS WHERE SYSTEM_NAME = ?  AND DELETE_FLAG = 0 [42102-196]
+----- SQL Infomation -----
+[sql]SELECT * FROM SYSTEMS WHERE SYSTEM_NAME = ?  AND DELETE_FLAG = 0
+[params]
+	[params][0]knowledge
+[execute]SELECT * FROM SYSTEMS WHERE SYSTEM_NAME = knowledge  AND DELETE_FLAG = 0
+
+INFO  2022-04-24 22:11:46,005 InitializeDao(43) Database initialize start.
+INFO  2022-04-24 22:11:46,690 InitializeDao(49) /org/support/project/web/database/ddl.sql is loaded.
+INFO  2022-04-24 22:11:47,329 InitializeDao(49) /org/support/project/knowledge/database/ddl.sql is loaded.
+INFO  2022-04-24 22:11:47,371 InitializeDao(49) /org/support/project/knowledge/database/init_datas.sql is loaded.
+INFO  2022-04-24 22:11:47,374 InitializeDao(51) Database initialize finish.
+INFO  2022-04-24 22:11:49,191 InitDB(203) Migrate to 1.13.0
+INFO  2022-04-24 22:11:49,229 InitializationListener(52) tmp directory created./root/.knowledge/tmp/
+INFO  2022-04-24 22:11:49,236 InitializationListener(58) idx directory created./root/.knowledge/index/
+INFO  2022-04-24 22:11:49,245 InitializationListener(61) Knowledge start
+INFO  2022-04-24 22:11:49,247 InitializationListener(62) knowledge install path: '/usr/local/tomcat/webapps/ROOT/'
+INFO  2022-04-24 22:11:49,248 InitializationListener(63) knowledge home path: '/root/.knowledge'
+INFO  2022-04-24 22:11:49,383 SystemConfig(134) Load custom top page infomation. language: en
+INFO  2022-04-24 22:11:49,386 SystemConfig(134) Load custom top page infomation. language: ja
+INFO  2022-04-24 22:11:49,865 InvokeSearch(166) same target duplicate add. [open.api/knowledges]
+INFO  2022-04-24 22:11:49,875 InvokeSearch(166) same target duplicate add. [open.api/users]

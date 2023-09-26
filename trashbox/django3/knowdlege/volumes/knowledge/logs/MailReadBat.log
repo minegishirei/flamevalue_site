@@ -1,0 +1,8 @@
+INFO  2021-11-03 22:33:45,103 AbstractBat(31) MailReadBat is start.
+INFO  2021-11-03 22:33:45,412 DBConnenctionLogic(45) Custom connection setting is exists.
+INFO  2021-11-03 22:33:46,125 MailhookLogic(168) Mail hook config is undefined.
+INFO  2021-11-03 22:33:46,134 AbstractBat(43) Finished
+INFO  2021-11-03 22:36:45,141 AbstractBat(31) MailReadBat is start.
+INFO  2021-11-03 22:36:45,462 DBConnenctionLogic(45) Custom connection setting is exists.
+INFO  2021-11-03 22:36:46,167 MailhookLogic(168) Mail hook config is undefined.
+INFO  2021-11-03 22:36:46,175 AbstractBat(43) Finished

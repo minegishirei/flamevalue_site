@@ -1,0 +1,62 @@
+{% extends "blog/techblog/parts/base.html" %}
+
+
+{% block headerblock %}
+<h1>
+  {{ title }}
+</h1>
+
+<keywords>
+  {{ keyword }}
+</keywords>
+{% endblock %}
+
+
+
+
+
+
+{% block mainblock %}
+
+<div class="row">
+  <div class="col-lg-8 col-lg-offset-2">
+    <h3>
+      <a href="/inhouse_se/">
+        社内SE
+      </a>
+    </h3>
+    <h3>
+      <a href="/python/">
+        python
+      </a>
+    </h3>
+    <h3>
+
+      <a href="/powershell/">
+        powershell
+      </a>
+    </h3>
+
+    </ul>
+  </div>
+  <!-- /col-lg-8 -->
+</div>
+<!-- /row -->
+
+
+
+<div class="row">
+  <div class="col-lg-8 col-lg-offset-2 centered">
+    <h1>このサイトについて</h1>
+    <p>
+      本サイト「社内SE雑記ブログ」はエンジニアのために必要な技術と知識を備えるためのサイトです。
+      プログラミング,エンジニア,仕事としての立ち回りなど、これまでの実体験をもとに記事を作成してます。</p>
+
+  </div>
+  <!-- /col-lg-8 -->
+</div>
+<!-- /row -->
+
+
+
+{% endblock %}

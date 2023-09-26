@@ -1,0 +1,223 @@
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="{{ description }}">
+  <meta name="author" content="">
+
+  <title>{{ title }}</title>
+
+  <!-- Custom fonts for this template-->
+  <link href="/static/dashboard/css/all.min.css" rel="stylesheet" type="text/css">
+  <link
+    href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+    rel="stylesheet">
+
+  <!-- Custom styles for this template-->
+  <link href="/static/dashboard/css/sb-admin-2.min.css" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="96x96" href="{{ favicon }}">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B6Y7NSQNF5"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-B6Y7NSQNF5');
+  </script>
+  <!-- TWITTER -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@se_maintain">
+  <meta name="twitter:creator" content="@se_maintain">
+  <meta name="twitter:title" content="{{ title }}">
+  <meta name="twitter:description" content="{{ description }}">
+  <meta name="twitter:image" content="{{ img }}">
+
+</head>
+
+
+
+<div class="main_block">
+  <h1>{{ title }}</h1>
+
+  <form>
+    <input type="text" id="new_acount_name_id" placeholder="@acount_name">
+    <input type="submit" onclick="new_page()" value="send">
+  </form>
+  <div class="links">
+    {% for page in page_list %}
+    <p>
+    <a class="page" href="./{{ page }}">
+      {{ page }}
+    </a>
+  </p>
+    {% endfor %}
+  </div>
+
+</div>
+
+<div class="right_down_buttons">
+  <a href="{{ information_page_link }}">
+    <img width="75px" src="/static/fanstatic/question.png">
+  </a>
+</div>
+
+<style>
+  .right_down_buttons {
+    z-index: 555;
+    position: absolute;
+    bottom: 2%;
+    right: 2%;
+  }
+
+  body {
+    background-color: #001c33;
+  }
+</style>
+<canvas></canvas>
+
+
+<script>
+  function new_page() {
+    acount_name_element = document.getElementById("new_acount_name_id")
+    new_acount = acount_name_element.value
+    console.log(new_acount)
+    if (new_acount.length < 1) {
+      return
+    } else {
+      window.open(new_acount); // 新しいタブを開き、ページを表示
+    }
+  }
+</script>
+
+
+<script>
+  var canvas = document.querySelector("canvas");
+  canvas.width = window.innerWidth;
+  canvas.height = window.innerHeight*3;
+  var ctx = canvas.getContext("2d");
+
+  var TAU = 2 * Math.PI;
+
+  times = [];
+  function loop() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    update();
+    draw();
+    requestAnimationFrame(loop);
+  }
+
+  function Ball(startX, startY, startVelX, startVelY) {
+    this.x = startX || Math.random() * canvas.width;
+    this.y = startY || Math.random() * canvas.height;
+    this.vel = {
+      x: startVelX || Math.random() * 2 - 1,
+      y: startVelY || Math.random() * 2 - 1
+    };
+    this.update = function (canvas) {
+      if (this.x > canvas.width + 50 || this.x < -50) {
+        this.vel.x = -this.vel.x;
+      }
+      if (this.y > canvas.height + 50 || this.y < -50) {
+        this.vel.y = -this.vel.y;
+      }
+      this.x += this.vel.x;
+      this.y += this.vel.y;
+    };
+    this.draw = function (ctx, can) {
+      ctx.beginPath();
+      ctx.globalAlpha = .4;
+      ctx.fillStyle = '#448fda';
+      ctx.arc((0.5 + this.x) | 0, (0.5 + this.y) | 0, 3, 0, TAU, false);
+      ctx.fill();
+    }
+  }
+
+  var balls = [];
+  for (var i = 0; i < canvas.width * canvas.height / (65 * 65); i++) {
+    balls.push(new Ball(Math.random() * canvas.width, Math.random() * canvas.height));
+  }
+
+  var lastTime = Date.now();
+  function update() {
+    var diff = Date.now() - lastTime;
+    for (var frame = 0; frame * 16.6667 < diff; frame++) {
+      for (var index = 0; index < balls.length; index++) {
+        balls[index].update(canvas);
+      }
+    }
+    lastTime = Date.now();
+  }
+  var mouseX = -1e9, mouseY = -1e9;
+  document.addEventListener('mousemove', function (event) {
+    mouseX = event.clientX;
+    mouseY = event.clientY;
+  });
+
+  function distMouse(ball) {
+    return Math.hypot(ball.x - mouseX, ball.y - mouseY);
+  }
+
+  function draw() {
+    ctx.globalAlpha = 1;
+    ctx.fillStyle = '#001c33';
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+    for (var index = 0; index < balls.length; index++) {
+      var ball = balls[index];
+      ball.draw(ctx, canvas);
+      ctx.beginPath();
+      for (var index2 = balls.length - 1; index2 > index; index2 += -1) {
+        var ball2 = balls[index2];
+        var dist = Math.hypot(ball.x - ball2.x, ball.y - ball2.y);
+        if (dist < 100) {
+          ctx.strokeStyle = "#448fda";
+          ctx.globalAlpha = 1 - (dist > 100 ? .8 : dist / 150);
+          ctx.lineWidth = "2px";
+          ctx.moveTo((0.5 + ball.x) | 0, (0.5 + ball.y) | 0);
+          ctx.lineTo((0.5 + ball2.x) | 0, (0.5 + ball2.y) | 0);
+        }
+      }
+      ctx.stroke();
+    }
+  }
+  // Start
+  loop();
+
+
+</script>
+
+<style>
+  @import url(https://fonts.googleapis.com/css?family=Merriweather:700);
+
+  body,
+  html {
+    padding: 0;
+    margin: 0;
+  }
+
+  h1 {
+    color: white;
+    font-family: 'Merriweather', serif;
+    letter-spacing: 2px;
+    pointer-events: none;
+
+  }
+
+
+  .main_block {
+    font: optional;
+    color: white;
+    font-family: 'Merriweather', serif;
+    position: absolute;
+    top: 20%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 555;
+  }
+
+  .page {
+    color: white;
+  }
+</style>

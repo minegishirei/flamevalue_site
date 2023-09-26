@@ -1,0 +1,104 @@
+<div id="board">
+
+</div>
+
+<div id="test">
+
+</div>
+
+<script>
+    //asset
+    function debug(log) {
+        test_element = document.getElementById("test")
+        test_element.innerHTML = test_element.innerHTML + log + "<br>"
+    }
+</script>
+
+
+
+
+
+<script>
+    class SocketClient {
+
+    }
+</script>
+
+
+<script>
+    function kifustr_to_list(kifustr) {
+        board = new Array()
+        kifustr.split("\n").forEach(function name(rowstr) {
+            row = new Array()
+            rowstr.split(" ").forEach(function name(cellstr) {
+                if (cellstr == "") {
+
+                } else {
+                    row.push( "　" +cellstr)
+                }
+            })
+            board.push(row)
+        })
+        return board
+    }
+
+    function list_to_kifustr(params) {
+
+    }
+</script>
+
+
+<script>
+    //boad_listをもとにtableを作成する。
+
+    class DOM {
+        constructor(board_list) {
+            this.board_list = board_list
+        }
+
+        build_table_element() {
+            let table_element = document.createElement("table")
+            this.board_list.forEach(function (row) {
+                let tr_element = document.createElement("tr")
+                row.forEach(function (cell) {
+                    let td_element = document.createElement("td")
+                    td_element.innerHTML = cell
+                    tr_element.appendChild(td_element)
+                })
+                table_element.appendChild(tr_element)
+            })
+            return table_element
+        }
+    }
+
+</script>
+
+
+<script>
+    //盤面
+    class Board {
+        constructor(kifu) {
+            this.kifu = kifu
+            this.board_list = kifustr_to_list(this.kifu)
+        }
+
+        show() {
+            //debug(this.kifu)
+        }
+
+
+    }
+</script>
+
+
+<script>
+
+    board = new Board(`{{ kifu }}`)
+    board.show()
+    console.log(board.board_list)
+
+    dom = new DOM(board.board_list)
+    board_element = document.getElementById("board")
+    board_table_element = dom.build_table_element()
+    board_element.appendChild(board_table_element)
+</script>

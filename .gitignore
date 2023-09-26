@@ -1,0 +1,6 @@
+# bin フォルダは要らない
+stock/
+stock2/
+
+
+node_modules

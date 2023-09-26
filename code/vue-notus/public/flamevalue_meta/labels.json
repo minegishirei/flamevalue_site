@@ -1,0 +1,7 @@
+{
+    "money" :"下限年収",
+    "overtime" : "上限年収",
+    "qiita_score" : "フォロワー数(Qiita)",
+    "remote" : "リモート率",
+    "count" : "求人件数"
+}

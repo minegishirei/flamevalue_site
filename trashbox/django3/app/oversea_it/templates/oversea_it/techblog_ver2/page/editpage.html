@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="ja">
+{% include 'oversea_it/techblog_ver2/parts/head.html' %}
+
+<body>
+
+	<!-- Begin Nav
+================================================== -->
+	<nav class="navbar navbar-toggleable-md navbar-light bg-white fixed-top mediumnavigation">
+		<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+			data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false"
+			aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		{% include 'oversea_it/techblog_ver2/parts/header.html' %}
+	</nav>
+	<!-- End Nav
+================================================== -->
+
+	<!-- Begin Article
+================================================== -->
+	<div class="container">
+		<div class="row">
+
+			<!-- Begin Fixed Left Share -->
+			{% include 'oversea_it/techblog_ver2/parts/sns.html' %}
+			<!-- End Fixed Left Share -->
+
+			<!-- Begin Post -->
+			<div class="col-md-8 col-md-offset-2 col-xs-12">
+				<div class="mainheading">
+
+					<!-- Begin Top Meta -->
+					<div class="row post-top-meta">
+
+						<div class="col-md-2">
+							<a href="/{{ category }}"><img class="author-thumb"
+									src="https://techblog.short-tips.info/static/techblog_ver2/category_img/{{ category }}.png"
+									alt="Sal"></a>
+						</div>
+
+						<div class="col-md-10">
+							<a class="link-dark" href="/{{ category }}">{{ category }}</a>
+							<span class="author-description">
+								{{ description }}
+							</span>
+							<span class="post-date"></span>
+						</div>
+					</div>
+					<!-- End Top Menta -->
+					<h1 class="posttitle">
+						{{ title }}
+					</h1>
+
+				</div>
+
+				<ol>
+					{% for tweet in tweet_list %}
+
+					{% if tweet.title %}
+					<li>
+						<a href="#{{ tweet.title }}">
+							{{ tweet.title }}
+						</a>
+					</li>
+					{% endif %}
+					{% endfor %}
+				</ol>
+
+
+				<!-- Begin Post Content -->
+				<div class="article-post">
+					<div class="main_contents" style="max-width: 550px;">
+						<br>
+
+						{% for tweet in tweet_list %}
+
+						<div id="{{ tweet.title }}">
+
+							{% if tweet.title %}
+							<form action="" method="POST">{% csrf_token %}
+								<input type="hidden" id="edit_submit" name="edit_submit" value="edit_submit">
+								<input type="hidden" id="id" name="id" value="{{ tweet.id }}">
+								<br>
+								<br>
+								<br>
+								<h2>
+									<input type="text" size="30" id="title" name="title" value="{{ tweet.title }}">
+								</h2>
+								<hr>
+
+								<div class="">
+									<div class="">
+										<blockquote class="twitter-tweet" width="100%">
+											<a href="https://twitter.com/WealthNation__/status/{{ tweet.id }}/"></a>
+										</blockquote>
+									</div>
+								</div>
+
+								<textarea rows="5" cols="50" name="ja_text" id="ja_text">{{ tweet.ja_text }}</textarea>
+								<p>
+									<textarea rows="5" cols="50" name="supplement" id="supplement">{{ tweet.supplement }}</textarea>
+								</p>
+								<input type="submit" value="submit">
+							</form>
+							<form action="" method="POST">{% csrf_token %}
+								<input type="hidden" id="save_edit" name="save_edit" value="save_edit">
+								<input type="submit" value="save">
+							</form>
+							{% endif %}
+
+						</div>
+						{% endfor %}
+					</div>
+					<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+				</div>
+
+				<style>
+					.article-post>h2 {
+						margin-top: 150px;
+					}
+
+					img {
+						max-width: 100%;
+					}
+				</style>
+				<!-- End Post Content -->
+
+				<!-- Begin Tags -->
+				<div class="after-post-tags">
+					<ul class="tags">
+						<li><a href="#">Design</a></li>
+						<li><a href="#">Growth Mindset</a></li>
+						<li><a href="#">Productivity</a></li>
+						<li><a href="#">Personal Growth</a></li>
+					</ul>
+				</div>
+				<!-- End Tags -->
+
+			</div>
+
+
+			<!-- Begin Fixed Left Share -->
+			{% include 'oversea_it/techblog_ver2/parts/right_sidebar.html' %}
+			<!-- End Fixed Left Share -->
+
+
+		</div>
+	</div>
+	<!-- End Article
+================================================== -->
+
+	<div class="hideshare"></div>
+
+	<!-- Begin Related
+================================================== -->
+	<div class="graybg">
+		<div class="container">
+			<div class="row listrecent listrelated">
+
+
+				{% for page_dict in relation_list %}
+				<!-- begin post -->
+				<div class="col-md-4">
+					<div class="card">
+						<a href="/{{ page_dict.category }}/{{ page_dict.htmlname }}">
+							<img class="img-fluid img-thumb" src="{{ page_dict.img }}" alt="">
+						</a>
+						<div class="card-block">
+							<h2 class="card-title"><a href="/{{ page_dict.category }}/{{ page_dict.htmlname }}">
+									{{ page_dict.title }}</a></h2>
+							<div class="metafooter">
+								<div class="wrapfooter">
+									<span class="meta-footer-thumb">
+										<a href="/{{ page_dict.category }}/">
+											<img class="author-thumb"
+												src="/static/techblog_ver2/category_img/{{ page_dict.category }}.png"
+												alt="Sal">
+										</a>
+									</span>
+									<span class="author-meta">
+										<span class="post-name"><a href="/{{ page_dict.category }}/">{{
+												page_dict.category }}</a></span>
+									</span>
+									<span class="post-read-more"><a href="/{{ page_dict.category }}/"
+											title="Read Story">
+											<svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25">
+												<path
+													d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z"
+													fill-rule="evenodd"></path>
+											</svg></a></span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- end post -->
+				{% endfor %}
+
+			</div>
+		</div>
+	</div>
+	<!-- End Related Posts
+================================================== -->
+
+
+	<!-- Begin AlertBar
+================================================== 
+<div class="alertbar">
+	<div class="container text-center">
+		<img src="assets/img/logo.png" alt=""> &nbsp; Never miss a <b>story</b> from us, get weekly updates in your inbox. <a href="#" class="btn subscribe">Get Updates</a>
+	</div>
+</div>
+End AlertBar
+================================================== -->
+
+	<!-- Begin Footer
+================================================== -->
+	{% include 'oversea_it/techblog_ver2/parts/footer.html' %}
+	<!-- End Footer
+================================================== -->
+
+	<!-- Bootstrap core JavaScript
+================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="/static/techblog_ver2/assets/js/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+		integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+		crossorigin="anonymous"></script>
+	<script src="/static/techblog_ver2/assets/js/bootstrap.min.js"></script>
+	<script src="/static/techblog_ver2/assets/js/ie10-viewport-bug-workaround.js"></script>
+	<script src="/static/techblog_ver2/assets/js/mediumish.js"></script>
+
+
+	<style>
+		code {
+			color: white;
+			white-space: pre-wrap;
+			max-width: 100%;
+		}
+	</style>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/dracula.min.css">
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
+	<script>
+		// ハイライトを実行
+		hljs.initHighlightingOnLoad();
+	</script>
+
+</body>
+
+</html>

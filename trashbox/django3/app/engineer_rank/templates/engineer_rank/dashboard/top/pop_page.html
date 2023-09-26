@@ -1,0 +1,163 @@
+{% extends "fanstatic/dashboard/top/base/base.html" %}
+
+
+{% block mainblock %}
+
+
+
+<!-- Main Content -->
+<div id="content">
+
+    {% include 'fanstatic/dashboard/base/topbar.html' %}
+
+    <!-- Begin Page Content -->
+    <div class="container-fluid">
+
+        <!-- Page Heading -->
+        <h1 class="h3 mb-2 text-gray-800">人気コンテンツランキング</h1>
+        <p class="mb-4">
+            ニコニコ大百科時点のアクセスランキングを元に作成。
+        </p>
+        <!-- DataTales Example -->
+        <div class="card shadow mb-4">
+            <div class="card-header py-3">
+                <h6 class="m-0 font-weight-bold text-primary">アクセスランキング</h6>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                            </tr>
+                        </thead>
+                        <tfoot>
+                            <tr>
+                                <th>Name</th>
+                            </tr>
+                        </tfoot>
+                        <tbody>
+                                {% for page_name in ranking_list %}
+                                <tr>
+                                    <td>
+                                    <a href="/page/{{ page_name.name }}/dashboard.html">
+                                        {{ page_name.name }}
+                                    </a>
+                                    <br>
+                                    <small>
+                                        {{ page_name.description }}
+                                    </small>
+                                    </td>
+                                </tr>
+                                {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- /.container-fluid -->
+
+
+{% endblock %}
+
+{% block scriptblock %}
+
+
+
+<script>
+    url = "https://raw.githubusercontent.com/kawadasatoshi/{{ repo }}/main/{{ htmlname }}"
+
+    htmlname = "{{ htmlname }}"
+    console.log("here")
+    var jsonDate = []
+    $.getJSON(url, (data) => {
+        jsonDate = data
+        userData = []
+        retweetData = []
+        console.log("here2")
+        name_list = []
+        friends_count_list = new Array();
+        followers_count_list = new Array();
+        damy_list = []
+
+        create_year_list = []
+
+        mother_num = 0
+        interest_fun_num = 0
+        for (var row in jsonDate) {
+            mother_num++;
+            damy_list.push(".")
+            userData.push(jsonDate[row].user)
+            user = jsonDate[row].user
+            console.log(user)
+            name_list.push(user.name)
+            friends_count_list.push(user.friends_count)
+            followers_count_list.push(user.followers_count)
+
+            if (user.description.match(htmlname)) {
+                interest_fun_num++;
+            }
+            create_year_list.push(user.created_at.substring(25, 30))
+        }
+        console.log(name_list)
+        friends_count_list.sort(function (first, second) {
+            if (first > second) {
+                return 1;
+            } else if (first < second) {
+                return -1;
+            } else {
+                return 0;
+            }
+        });
+
+        followers_count_list.sort(function (first, second) {
+            if (first > second) {
+                return 1;
+            } else if (first < second) {
+                return -1;
+            } else {
+                return 0;
+            }
+        });
+
+        create_year_list.sort(function (first, second) {
+            if (first > second) {
+                return 1;
+            } else if (first < second) {
+                return -1;
+            } else {
+                return 0;
+            }
+        });
+
+        non_dub_year_list = Array.from(new Set(create_year_list))
+        year_count_list = []
+        for (var i in non_dub_year_list) {
+            year1 = non_dub_year_list[i]
+            count = 0
+            for (var j in create_year_list) {
+                year2 = create_year_list[j]
+                if (year1 == year2) {
+                    count++;
+                }
+            }
+            year_count_list.push(count);
+        }
+
+        //friends_count_list = friends_count_list.reverse();
+        console.log("frends_count_list", friends_count_list)
+
+        applyPieChart("myInterestPieChart", ["熱狂的", "普通"], [interest_fun_num, mother_num - interest_fun_num], ['#4e73df', '#1cc88a'], ['#2e59d9', '#17a673'])
+        //applyBarChart("myFollowerBarChart", damy_list, followers_count_list, "人", "フォロワー数")
+        //applyBarChart("myBarChart", damy_list, friends_count_list, "人", "フォロー数")
+
+        console.log("non_dub_year_list", non_dub_year_list)
+        console.log("year_count_list", year_count_list)
+        applyAreaChart("myAcountYearAreaChart", non_dub_year_list, year_count_list, "アカウント誕生年", "人")
+    })
+</script>
+
+{% endblock %}

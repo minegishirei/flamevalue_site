@@ -1,0 +1,36 @@
+
+
+{% extends "question/base.html" %}
+
+{% block mainblock %}
+
+{% for category in all_category %}
+
+    <h2>
+        <a href="/{{ category }}/">{{ category }}</a>
+    </h2>
+
+{% endfor %}
+
+<br>
+
+<br>
+<br>
+<p>
+このwebサイトはyahoo知恵袋サイトの質問の<br>
+1、収集(yahoo知恵袋の内容を集める)<br>
+2、評価(同じ質問の量をもとに、ページの存続を決める)<br>
+3、補完(評価が高いページに対しては、更なる補足情報を付け加える)<br>
+で成り立っています。
+</p>
+
+<br>
+<br>
+<p>
+また、筆者はエンジニアと言う職業柄
+<h3>取り上げる記事が情報系の知識に偏る場合が多々あります。</h3>
+ご了承ください。
+</p>
+
+{% endblock %}
+

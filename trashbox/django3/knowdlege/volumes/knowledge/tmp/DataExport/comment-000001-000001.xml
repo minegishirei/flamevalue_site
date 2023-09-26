@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<commentsEntity>
+   <commentNo>1</commentNo>
+   <knowledgeId>1</knowledgeId>
+   <comment>本当にこのコメントで良いのか..?</comment>
+   <commentStatus>0</commentStatus>
+   <anonymous>0</anonymous>
+   <insertUser>1</insertUser>
+   <insertDatetime>2021-11-03 22:41:11.423 GMT</insertDatetime>
+   <updateUser>1</updateUser>
+   <updateDatetime>2021-11-03 22:41:11.423 GMT</updateDatetime>
+   <deleteFlag>0</deleteFlag>
+   <insertUserName>Administrator</insertUserName>
+   <updateUserName>Administrator</updateUserName>
+   <likeCount>0</likeCount>
+</commentsEntity>

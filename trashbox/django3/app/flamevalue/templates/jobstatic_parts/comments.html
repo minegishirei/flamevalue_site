@@ -1,0 +1,47 @@
+<div class="col-md-4 col-sm-4 " style="height: 280px;">
+    <div class="x_panel">
+      <div class="x_title">
+        <h2>フレームワーク詳細 <small><a href=""></a></small></h2>
+        <ul class="nav navbar-right panel_toolbox">
+          <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i
+                class="fa fa-wrench"></i></a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Settings 1</a>
+              <a class="dropdown-item" href="#">Settings 2</a>
+            </div>
+          </li>
+          <li><a class="close-link"><i class="fa fa-close"></i></a>
+          </li>
+        </ul>
+        <div class="clearfix"></div>
+      </div>
+      <div class="x_content" style="height: 360px;">
+        <div class="dashboard-widget-content">
+  
+          <ul class="list-unstyled timeline widget" >
+            <li>
+              <div class="block">
+                <div class="block_content" >
+                  {% for comment in comments %}
+                  <h2 class="title">
+                    <a> <small>{{ comment }}</small></a>
+                  </h2>
+                  <br>
+                  {% endfor %}
+
+                  <div class="byline">
+                    <span>13 hours ago</span> by <a>Jane Smith</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  

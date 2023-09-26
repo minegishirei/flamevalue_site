@@ -1,0 +1,40 @@
+
+{% extends 'parts/base.html' %}
+
+{% block headblock %}
+<title>
+
+</title>
+{% endblock %}
+
+
+{% block headerblock %}
+{% include "parts/header/header.html" %}
+{% endblock %}
+
+
+{% block mainblock %}
+
+<!-- .end .column -->
+<div class="column">
+    <img src="{{ img }}">
+    <pre>{{ sidecolumn }}{{ xmp }}</pre>
+</div>
+
+<div class="column">
+    <h3>{{ ans }}</h3>
+    <p>
+        {{ description }}
+    </p>
+</div>
+
+{% endblock %}
+
+
+
+{% block downheaderblock %}
+{% include "parts/header/downheader2.html" %}
+{% endblock %}
+
+
+

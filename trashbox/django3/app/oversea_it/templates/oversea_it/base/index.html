@@ -1,0 +1,192 @@
+{% extends "oversea_it/base/parts/base.html" %}
+
+{% block mainblock %}
+
+<!--▼ヘッダーエリア-->
+<div class="header_area">
+  <div class="gridContainer clearfix">
+
+    <div class="header_top_TXT"><i class="fa fa-chevron-circle-right"></i>
+      <!--一行テキスト ▶-->{{ title }}
+      <!--◀ 一行テキスト-->
+    </div>
+
+    <!--▼ヘッダー画像（幅950px）-->
+    <div class="header_box">
+        <img src="/static/oversea_it/img/header.png" alt="" />
+    </div>
+    <!--▲ヘッダー画像（幅950px）-->
+
+  </div>
+</div>
+<!--▲ヘッダーエリア-->
+
+
+<!--▼ヘッダー下-->
+<div id="head_under" class="gridContainer clearfix">
+
+  <!--▼メインセクション-->
+  <div class="main_section">
+
+    <!--▽リード-->
+    <div class="read_L">
+      <div class="read_TXT">人気記事</div>
+    </div>
+    <!--△リード-->
+
+
+    <!--▼動画リスト-->
+    <div class="contents_sec_1 cont_sections">
+
+
+      {% for page in pop_page_list %}
+
+      <!--▼動画一覧BOX----------------------------->
+      <div class="MOV_thumb_box">
+        <div class="mov_thumb MOV_BOX_res">
+          <a width="100%" href="/{{ page.category }}/{{ page.htmlname }}">
+            <img src="{{ page.img }}">
+          </a>
+          <!--△動画コード-->
+        </div>
+        <div class="mov_title"><a href="/{{ page.category }}/{{ page.htmlname }}">{{ page.title }}</a></div>
+        <!--◀ タイトル&リンク-->
+        <br>
+      </div>
+
+      {% endfor %}
+
+
+
+
+
+
+      <div class="clear"></div>
+    </div>
+    <!--▲動画リスト-->
+
+
+    <!--▽リード-->
+    <div class="read_L">
+      <div class="read_TXT">新着コラム</div>
+    </div>
+    <!--△リード-->
+
+    <!--▼新着記事リスト-->
+    <div class="contents_sec_2 cont_sections">
+
+      
+      {% for page in pop_page_list %}
+      <!--▼記事リスト----------------------------->
+      <div class="blog_list">
+        <!--サムネイル ▶-->
+        <div class="blog_list_thum"><img src="{{ page.img }}" alt="" /></div>
+        <!--◀ サムネイル-->
+        <div class="blog_list_TXTarea">
+          <!--タイトル ▶-->
+          <div class="blog_title title_link"><i class="fa fa-play-circle fontico_color"></i> <a
+              href="/{{ page.category }}/{{ page.htmlname }}">{{ page.title }}</a></div>
+          <!--◀ タイトル-->
+          <!--日付 ▶-->
+          <div class="blog_date">{{ page.date }}</div>
+          <!--◀ 日付-->
+          <!--▽テキスト（このテキストはスマホでの閲覧時は表示されません-->
+          <div class="blog_cont_TXT">
+            </div>
+          <!--△テキスト-->
+        </div>
+
+        <div class="clear"></div>
+        <hr>
+      </div>
+      {% endfor %}
+
+    </div>
+    <!--▲新着記事リスト-->
+
+
+    <!--▽リード
+    <div class="read_L">
+      <div class="read_TXT">Pick up動画</div>
+    </div>
+    <!--△リード-->
+
+    <!-- DUBUG-
+
+    <div class="contents_sec_3 cont_sections">
+      <div class="pickup_MOV MOV_BOX_res">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/1gFdQM_Hpos" frameborder="0"
+          allowfullscreen></iframe>
+      </div>
+      <!--タイトル ▶
+      <div class="pickup_mov_title title_link"><i class="fa fa-play-circle fontico_color"></i> <a
+          href="#">ピックアップ動画タイトル（Pick up Title）【↑youtube公式チャンネルより】</a></div>
+      <!--◀ タイトル
+      <div class="pickup_mov_cont">
+        <!--▽テキスト
+        ここにピックアップ動画の紹介文や説明などを記述。上の「ピックアップ動画タイトル（Pick up
+        Title）」というタイトルは書き換えてください。タイトルにリンクを貼れるようになっていますが、他ページにリンクを貼りたくないときはリンクタグをはずしてください。
+        <br><br>
+
+        <!--△テキスト
+      </div>
+    </div>
+    <!--▲ピックアップ動画-->
+
+
+
+
+
+
+
+
+    <h2>関連記事</h2>
+    <!--▽テーブル-->
+    <table summary="会社案内表">
+      {% for page in pop_page_list %}
+      <tr>
+        <td>
+          <a href="/{{ page.category }}/{{ page.htmlname }}">
+            {{ page.title }}
+          </a>
+        </td>
+      </tr>
+      {% endfor %}
+    </table>
+    <!--△テーブル-->
+
+    <br>
+    <div>
+      <h2>人気記事一覧</h2>
+      <div class="grid">
+        {% for page in pop_page_list %}
+        <a href="/{{ page.category }}/{{ page.htmlname }}">
+          <img class="img_tag" src="{{ page.img }}">
+        </a>
+        {% endfor %}
+      </div>
+      <style>
+        .gird {
+          display: grid;
+          width: 100%;
+        }
+
+        .img_tag {
+          width: 48%;
+        }
+      </style>
+      <br><br>
+    </div>
+    <!--▲コンテンツ-->
+  </div>
+  <!--▲メインセクション-->
+
+
+  {% include "oversea_it/base/parts/side_menue.html" %}
+
+  <div class="clear" style="height:50px;"></div>
+</div>
+
+<!--▲ヘッダー下-->
+
+{% endblock %}

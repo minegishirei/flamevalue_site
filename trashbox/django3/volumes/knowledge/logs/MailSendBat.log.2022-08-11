@@ -1,0 +1,24 @@
+INFO  2022-08-11 10:45:24,577 AbstractBat(31) MailSendBat is start.
+INFO  2022-08-11 10:48:14,830 MailSendBat(59) delete old mails. [count]0
+INFO  2022-08-11 10:48:14,840 AbstractBat(43) Finished
+INFO  2022-08-11 11:51:50,545 AbstractBat(31) MailSendBat is start.
+INFO  2022-08-11 11:51:51,577 MailSendBat(59) delete old mails. [count]0
+INFO  2022-08-11 11:51:51,581 AbstractBat(43) Finished
+INFO  2022-08-11 11:52:04,511 AbstractBat(31) MailSendBat is start.
+INFO  2022-08-11 11:52:05,640 MailSendBat(59) delete old mails. [count]0
+INFO  2022-08-11 11:52:05,644 AbstractBat(43) Finished
+INFO  2022-08-11 11:52:23,018 AbstractBat(31) MailSendBat is start.
+INFO  2022-08-11 11:52:24,082 MailSendBat(59) delete old mails. [count]0
+INFO  2022-08-11 11:52:24,085 AbstractBat(43) Finished
+INFO  2022-08-11 11:52:37,289 AbstractBat(31) MailSendBat is start.
+INFO  2022-08-11 11:52:38,367 MailSendBat(59) delete old mails. [count]0
+INFO  2022-08-11 11:52:38,371 AbstractBat(43) Finished
+INFO  2022-08-11 21:35:08,802 AbstractBat(31) MailSendBat is start.
+INFO  2022-08-11 21:35:09,897 MailSendBat(59) delete old mails. [count]0
+INFO  2022-08-11 21:35:09,902 AbstractBat(43) Finished
+INFO  2022-08-11 22:51:02,673 AbstractBat(31) MailSendBat is start.
+INFO  2022-08-11 22:51:03,671 MailSendBat(59) delete old mails. [count]0
+INFO  2022-08-11 22:51:03,675 AbstractBat(43) Finished
+INFO  2022-08-11 22:51:15,981 AbstractBat(31) MailSendBat is start.
+INFO  2022-08-11 22:51:16,978 MailSendBat(59) delete old mails. [count]0
+INFO  2022-08-11 22:51:16,982 AbstractBat(43) Finished

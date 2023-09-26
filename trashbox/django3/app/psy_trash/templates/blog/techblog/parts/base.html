@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <title>{{ title }}</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="{{description}}" name="description">
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="/static/ranking/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    pre {
+      border: none;
+      background-color: #282a36;
+    }
+  </style>
+
+
+  {% include "parts/seo.html" %}
+  {% include "parts/favicon.html" %}
+  {% include "parts/analytics.html" %}
+<!-- TWITTER -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@se_maintain">
+<meta name="twitter:creator" content="@se_maintain">
+<meta name="twitter:title" content="{{ title }}">
+<meta name="twitter:description" content="{{ description }}">
+<meta name="twitter:image" content="{{ img }}">
+<!-- TWITTER -->
+  <!-- Main Stylesheet File -->
+  <link href="/static/ranking/css/style.css" rel="stylesheet">
+  <!-- =======================================================
+    Template Name: Stanley
+    Template URL: https://templatemag.com/stanley-bootstrap-freelancer-template/
+    Author: TemplateMag.com
+    License: https://templatemag.com/license/
+  ======================================================= -->
+</head>
+
+
+
+
+<body>
+
+
+  {% include "blog/techblog/parts/link.html" %}
+
+  <!-- +++++ Welcome Section +++++ -->
+  <div id="ww">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 centered">
+          <p>
+            カテゴリー：<a href="./">
+            {{ category}}
+            </a>
+          </p>
+            {% block headerblock %}
+            {% endblock %}
+            {% if "img" %}
+            <img width="70%" src="{{ img }}" alt="{{ title }}">
+          {% endif %}
+        </div>
+        <!-- /col-lg-8 -->
+      </div>
+      <!-- /row -->
+    </div>
+    <!-- /container -->
+  </div>
+  <!-- /ww -->
+
+    <!-- +++++ Welcome Section +++++ -->
+    <div id="white">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            
+              {% block mainblock %}
+              {% endblock %}
+
+             {% for page_dict in relation_list %}
+             <p>
+               <strong>
+                  <a href="./{{ page_dict.htmlname }}">
+                    {{ page_dict.title }}
+                  </a>
+                </strong>
+             </p>
+             {% endfor %}
+          </div>
+          <!-- /col-lg-8 -->
+        </div>
+        <!-- /row -->
+      </div>
+      <!-- /container -->
+    </div>
+    <!-- /ww -->
+  
+
+
+
+  <div id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <h4>My Bunker</h4>
+          <p>
+            Some Address 987,<br /> +34 9054 5455, <br /> Madrid, Spain.
+          </p>
+        </div>
+        <!-- /col-lg-4 -->
+
+        <div class="col-lg-4">
+          <h4>My Links</h4>
+          <p>
+            <a href="#">Dribbble</a><br />
+            <a href="#">Twitter</a><br />
+            <a href="#">Facebook</a>
+          </p>
+        </div>
+        <!-- /col-lg-4 -->
+
+        <div class="col-lg-4">
+          <h4>About Stanley</h4>
+          <p>This cute theme was created to showcase your work in a simple way. Use it wisely.</p>
+        </div>
+        <!-- /col-lg-4 -->
+      </div>
+    </div>
+  </div>
+
+
+  <div id="copyrights">
+    <div class="container">
+      <p>
+        &copy; Copyrights <strong>Stanley</strong>. All Rights Reserved
+      </p>
+      <div class="credits">
+        <!--
+          You are NOT allowed to delete the credit link to TemplateMag with free version.
+          You can delete the credit link only if you bought the pro version.
+          Buy the pro version with working PHP/AJAX contact form: https://templatemag.com/stanley-bootstrap-freelancer-template/
+          Licensing information: https://templatemag.com/license/
+        -->
+        Created with Stanley template by <a href="https://templatemag.com/">TemplateMag</a>
+      </div>
+    </div>
+  </div>
+  <!-- / copyrights -->
+
+  <!-- JavaScript Libraries -->
+  <script src="/static/ranking/lib/jquery/jquery.min.js"></script>
+  <script src="/static/ranking/lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="/static/ranking/lib/php-mail-form/validate.js"></script>
+  <script src="/static/ranking/lib/easing/easing.min.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="/static/ranking/js/main.js"></script>
+
+
+  <style>
+
+table {
+    white-space: nowrap;
+    border-collapse: collapse;
+    min-width: 640px;
+    border: 1px #666666 solid;
+}
+
+th {
+    background-color: #7B9DB3;
+    color:#FFFFFF;
+    font-weight: normal;
+  }
+  th, td {
+    border: 1px #666666 solid;
+    padding: 3px 8px;
+  }
+  .table-contents {
+    overflow-x: scroll;
+    width: 640px;
+  }
+
+
+    #gray {
+      padding-bottom: 0;
+    }
+
+    #white {
+      padding-bottom: 0;
+    }
+
+    .tag {
+      color: #ec929e;
+      margin: 10px;
+    }
+
+
+    .profile_img {
+      border-radius: 50%;
+    }
+
+    .box {
+      display: inline-block;
+      font-size: 16px;
+    }
+
+    
+
+    .boxContainer {
+      font-size: 0;
+    }
+
+    .padding20 {
+      padding: 10px;
+    }
+
+    .container {
+      padding-bottom: 10px;
+    }
+
+    .centorblock {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  </style>
+
+</body>
+
+</html>
+
+<style>
+  p{
+line-height : 200%;
+}
+
+body {
+  color: black;
+}
+
+h2 {
+  margin-top: 75px;
+}
+</style>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/dracula.min.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>

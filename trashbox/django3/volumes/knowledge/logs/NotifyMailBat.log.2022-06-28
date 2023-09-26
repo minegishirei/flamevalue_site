@@ -1,0 +1,6 @@
+INFO  2022-06-28 22:59:16,731 AbstractBat(31) NotifyMailBat is start.
+INFO  2022-06-28 22:59:16,859 NotifyMailBat(52) Notify process started.
+INFO  2022-06-28 22:59:17,711 NotifyMailBat(70) Notify process finished. count: 0
+INFO  2022-06-28 22:59:17,714 NotifyMailBat(72) Notify event started.
+INFO  2022-06-28 22:59:18,021 NotifyMailBat(74) Notify event finished.
+INFO  2022-06-28 22:59:18,024 AbstractBat(43) Finished

@@ -1,0 +1,193 @@
+<div class="dashboard_graph">
+    <div class="row x_title">
+        <div class="col-md-6">
+            <h3>求人スコア
+            </h3>
+        </div>
+        <div class="col-md-6">
+            <div id="reportrange" class="pull-right"
+                style="background: #fff; cursor: pointer; padding: 5px 10px; border: 1px solid #ccc">
+                <i class="glyphicon glyphicon-calendar fa fa-calendar"></i>
+                <span style="color: #73879C;">更新日 {{ date }}</span> <b class="caret"></b>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6 col-sm-12 ">
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.5.1/chart.js"></script>
+        <div class="x_content">
+            <h4>フレームワークスコア {{ stars }}</h4>
+            <div class="scores_size_controller">
+                <canvas id="myRadarChart" style="width: 100%;"></canvas>
+            </div>
+        </div>
+        <style>
+            .scores_size_controller {
+                max-width: 500px;
+            }
+        </style>
+
+        <script>
+
+            let compare_list = [
+                {% for row in compare_result %}
+            {
+                label: '{{ row.name }}',
+                    //グラフのデータ
+                    data: [
+                        "{{ row.param.score.money }}",
+                        "{{ row.param.score.overtime }}",
+                        "{{ row.param.score.count }}",
+                        "{{ row.param.score.qiita_score }}",
+                        "{{ row.param.score.remote }}"
+                    ],
+                        // データライン
+                        borderColor: '{{ row.color }}',
+                    },
+            {% endfor %}
+            ]
+
+            console.log(compare_list)
+
+
+            var ctx = document.getElementById("myRadarChart");
+            var myRadarChart = new Chart(ctx, {
+                //グラフの種類
+                type: 'radar',
+                //データの設定
+                data: {
+                    labels: ['最小年収', '最大年収', '求人数', 'Qiita', 'リモート率'],
+                    datasets: compare_list,
+                },
+                //オプションの設定
+                options: {
+                    scales: {
+                        r: {
+                            //グラフの最小値・最大値
+                            min: 0,
+                            max: 5,
+                            //背景色
+                            backgroundColor: 'snow',
+                            //グリッドライン
+                            grid: {
+                                color: '#1ABB9C',
+                            },
+                            //アングルライン
+                            angleLines: {
+                                color: '#1ABB9C',
+                            },
+                            //各項目のラベル
+                            pointLabels: {
+                                color: '#1ABB9C',
+                            },
+                        },
+                    },
+                },
+            });
+        </script>
+
+    </div>
+    <div class="col-md-6 col-sm-6  bg-white">
+        <div class="x_title">
+            <h2>Flamework 実績</h2>
+            <div class="clearfix"></div>
+        </div>
+
+        <div class="col-md-12 col-sm-12 ">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        {% for element in candidate_list %}
+                        <th>{{ element }}</th>
+                        {% endfor %}
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">下方年収</th>
+                        {% for element in compare_result %}
+                        <td>{{ element.param.basic.money }}万</td>
+                        {% endfor %}
+                    </tr>
+                    <tr>
+                        <th scope="row">上方年収</th>
+                        {% for element in compare_result %}
+                        <td>{{ element.param.basic.overtime }}万</td>
+                        {% endfor %}
+                    </tr>
+                    <tr>
+                        <th scope="row">求人件数</th>
+                        {% for element in compare_result %}
+                        <td>{{ element.param.basic.count }}件</td>
+                        {% endfor %}
+                    </tr>
+                    <tr>
+                        <th scope="row">Qiita</th>
+                        {% for element in compare_result %}
+                        <td>{{ element.param.basic.qiita_score }}人</td>
+                        {% endfor %}
+                    </tr>
+                    <tr>
+                        <th scope="row">リモート率</th>
+                        {% for element in compare_result %}
+                        <td>{{ element.param.basic.remote }}%</td>
+                        {% endfor %}
+                    </tr>
+                </tbody>
+            </table>
+
+            <!--
+
+            <div>
+                <p>平均下限年収 : {{ basic.money }}万円</p>
+                <div class="">
+                    <div class="progress progress_sm" style="width: 76%;">
+                        <div class="progress-bar bg-green" role="progressbar"
+                            data-transitiongoal="{{ score_100.money }}"></div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <p>平均上限年収 : {{ basic.overtime }}万円</p>
+                <div class="">
+                    <div class="progress progress_sm" style="width: 76%;">
+                        <div class="progress-bar bg-green" role="progressbar"
+                            data-transitiongoal="{{ score_100.overtime }}"></div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <p>総求人数 : {{ basic.count }}件</p>
+                <div class="">
+                    <div class="progress progress_sm" style="width: 76%;">
+                        <div class="progress-bar bg-green" role="progressbar"
+                            data-transitiongoal="{{ score_100.count }}"></div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <p>リモート率 : {{ basic.remote }}%</p>
+                <div class="">
+                    <div class="progress progress_sm" style="width: 76%;">
+                        <div class="progress-bar bg-green" role="progressbar"
+                            data-transitiongoal="{{ score_100.remote }}"></div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <p>フォロワー数(Qiita) : {{ basic.qiita_score }}</p>
+                <div class="">
+                    <div class="progress progress_sm" style="width: 76%;">
+                        <div class="progress-bar bg-green" role="progressbar"
+                            data-transitiongoal="{{ score_100.size }}"></div>
+                    </div>
+                </div>
+            </div>
+        -->
+
+        </div>
+
+    </div>
+
+    <div class="clearfix"></div>
+</div>

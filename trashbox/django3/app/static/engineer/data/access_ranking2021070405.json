@@ -1,0 +1,392 @@
+[
+    {
+        "created_at": "Mon Jun 28 09:56:29 +0000 2021",
+        "id": 1409450623158919169,
+        "id_str": "1409450623158919169",
+        "text": "72歳おばあちゃんです。\nプログラミング学習と動画編集を始めました。\n今はJavaScriptを勉強中です！ゆくゆくはゲームを作って販売したい。\nYoutubeで成果を動画にしたいと思ってます。\n#駆け出しエンジニアと繋がりたい\n#プログラミング初心者",
+        "truncated": false,
+        "entities": {
+            "hashtags": [
+                {
+                    "text": "駆け出しエンジニアと繋がりたい",
+                    "indices": [
+                        98,
+                        114
+                    ]
+                },
+                {
+                    "text": "プログラミング初心者",
+                    "indices": [
+                        115,
+                        126
+                    ]
+                }
+            ],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": []
+        },
+        "metadata": {
+            "iso_language_code": "ja",
+            "result_type": "recent"
+        },
+        "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 860767551097196546,
+            "id_str": "860767551097196546",
+            "name": "小松八千代",
+            "screen_name": "o94WfLJwPASlCIH",
+            "location": "日本　千葉県　松戸市",
+            "description": "昭和24年生まれ７２歳！小松八千代と申します！\nこの歳にしてプログラミングに興味を持ちまして日々勉強に励んでいます。\nJavaScript、HTML、CSS、PHP勉強中。\n#プログラミング初心者 の方、仲良くしてください。\nYoutube動画編集、小説家！おばあちゃんですけど😅",
+            "url": "https://t.co/HZubzGYhyS",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/HZubzGYhyS",
+                            "expanded_url": "http://www.akomatsu.com.py/",
+                            "display_url": "akomatsu.com.py",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 2452,
+            "friends_count": 27,
+            "listed_count": 8,
+            "created_at": "Sat May 06 08:05:51 +0000 2017",
+            "favourites_count": 517,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 218,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1389592778703785985/Hj5oxt8n_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1389592778703785985/Hj5oxt8n_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/860767551097196546/1620140921",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": true,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none",
+            "withheld_in_countries": []
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 1221,
+        "favorite_count": 7898,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "ja"
+    },
+    {
+        "created_at": "Sat Jul 03 09:42:31 +0000 2021",
+        "id": 1411259049379651586,
+        "id_str": "1411259049379651586",
+        "text": "ﾜｲﾙﾄﾞｱﾙｺｰｰﾙﾊﾞﾛｯｸ https://t.co/s9k0R0ZhGA",
+        "truncated": false,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [],
+            "media": [
+                {
+                    "id": 1411259045336342535,
+                    "id_str": "1411259045336342535",
+                    "indices": [
+                        17,
+                        40
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/E5XMn-NUYAch2KR.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/E5XMn-NUYAch2KR.jpg",
+                    "url": "https://t.co/s9k0R0ZhGA",
+                    "display_url": "pic.twitter.com/s9k0R0ZhGA",
+                    "expanded_url": "https://twitter.com/python_octopus/status/1411259049379651586/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "large": {
+                            "w": 1086,
+                            "h": 2048,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "medium": {
+                            "w": 636,
+                            "h": 1200,
+                            "resize": "fit"
+                        },
+                        "small": {
+                            "w": 361,
+                            "h": 680,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "id": 1411259045336342535,
+                    "id_str": "1411259045336342535",
+                    "indices": [
+                        17,
+                        40
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/E5XMn-NUYAch2KR.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/E5XMn-NUYAch2KR.jpg",
+                    "url": "https://t.co/s9k0R0ZhGA",
+                    "display_url": "pic.twitter.com/s9k0R0ZhGA",
+                    "expanded_url": "https://twitter.com/python_octopus/status/1411259049379651586/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "large": {
+                            "w": 1086,
+                            "h": 2048,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "medium": {
+                            "w": 636,
+                            "h": 1200,
+                            "resize": "fit"
+                        },
+                        "small": {
+                            "w": 361,
+                            "h": 680,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "metadata": {
+            "iso_language_code": "ja",
+            "result_type": "recent"
+        },
+        "source": "<a href=\"http://twitter.com/#!/download/ipad\" rel=\"nofollow\">Twitter for iPad</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 2387814306,
+            "id_str": "2387814306",
+            "name": "たこぱいそん",
+            "screen_name": "python_octopus",
+            "location": "大阪府 神浜市",
+            "description": "絵とか描く軟体動物",
+            "url": "https://t.co/8uMgcR6C1K",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/8uMgcR6C1K",
+                            "expanded_url": "https://python-tako.hatenablog.com/",
+                            "display_url": "python-tako.hatenablog.com",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 7237,
+            "friends_count": 768,
+            "listed_count": 180,
+            "created_at": "Thu Mar 13 20:16:55 +0000 2014",
+            "favourites_count": 116322,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 282772,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1260583399154122752/0gmVxYR2_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1260583399154122752/0gmVxYR2_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/2387814306/1482301278",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none",
+            "withheld_in_countries": []
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 1941,
+        "favorite_count": 4113,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "ja"
+    },
+    {
+        "created_at": "Fri Jun 25 23:58:00 +0000 2021",
+        "id": 1408575235465433089,
+        "id_str": "1408575235465433089",
+        "text": "Visual Studio Codeの小説執筆機能拡張 novel-writer で、任意のフォルダー内にあるテキストファイルの文字数を表示する「締切フォルダー」で、目標文字数を設定できるようになりました。\n次は締切日の設定と、今… https://t.co/ia0g092ikK",
+        "truncated": true,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/ia0g092ikK",
+                    "expanded_url": "https://twitter.com/i/web/status/1408575235465433089",
+                    "display_url": "twitter.com/i/web/status/1…",
+                    "indices": [
+                        117,
+                        140
+                    ]
+                }
+            ]
+        },
+        "metadata": {
+            "iso_language_code": "ja",
+            "result_type": "recent"
+        },
+        "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 4554421,
+            "id_str": "4554421",
+            "name": "藤井 太洋, Taiyo Fujii",
+            "screen_name": "t_trace",
+            "location": "Tokyo Suginami",
+            "description": "writer, author of ORBITAL CLOUD and Gene Mapper 『オービタル・クラウド』で日本SF大賞と星雲賞、『ハロー・ワールド』で第40回吉川英治文学新人賞を受賞しました。最新刊は2021年3月に講談社文庫から刊行された『ハロー・ワールド』",
+            "url": "https://t.co/YQlriCYgyi",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/YQlriCYgyi",
+                            "expanded_url": "http://taiyolab.com/",
+                            "display_url": "taiyolab.com",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 11277,
+            "friends_count": 2064,
+            "listed_count": 475,
+            "created_at": "Sat Apr 14 00:22:19 +0000 2007",
+            "favourites_count": 7692,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": true,
+            "verified": false,
+            "statuses_count": 97023,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "B2DFDA",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme13/bg.gif",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme13/bg.gif",
+            "profile_background_tile": true,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/875181058861314049/KRt4nvFx_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/875181058861314049/KRt4nvFx_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/4554421/1616981491",
+            "profile_link_color": "93A644",
+            "profile_sidebar_border_color": "EEEEEE",
+            "profile_sidebar_fill_color": "FFFFFF",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": true,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "regular",
+            "withheld_in_countries": []
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 334,
+        "favorite_count": 694,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "ja"
+    }
+]

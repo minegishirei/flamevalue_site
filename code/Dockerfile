@@ -1,0 +1,3 @@
+FROM node:18.12.1-alpine
+WORKDIR /code
+RUN apk add git

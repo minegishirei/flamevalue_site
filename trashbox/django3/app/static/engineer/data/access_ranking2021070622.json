@@ -1,0 +1,1496 @@
+[
+    {
+        "created_at": "Sat Jul 03 12:31:47 +0000 2021",
+        "id": 1411301643291750405,
+        "id_str": "1411301643291750405",
+        "text": "Windows 11でLinuxのGUIアプリをシームレスに利用できる「WSLg」を試してみた。\n試したソフトは「Gimp」、OSはUbuntuで普通にaptでインストールしただけのもの。\n特になんの設定もしなくても、ただ実行すれ… https://t.co/kPKOapjpHV",
+        "truncated": true,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/kPKOapjpHV",
+                    "expanded_url": "https://twitter.com/i/web/status/1411301643291750405",
+                    "display_url": "twitter.com/i/web/status/1…",
+                    "indices": [
+                        117,
+                        140
+                    ]
+                }
+            ]
+        },
+        "metadata": {
+            "iso_language_code": "ja",
+            "result_type": "recent"
+        },
+        "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 5529772,
+            "id_str": "5529772",
+            "name": "清水正行",
+            "screen_name": "_shimizu",
+            "location": "群馬県高崎市",
+            "description": "群馬・東京間を行き来する出稼ぎフリーランスエンジニアです。地理空間データの分析やデータビジュアライゼーション実装などのお仕事をしています。",
+            "url": "https://t.co/1xtARutHQj",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/1xtARutHQj",
+                            "expanded_url": "https://gunmagisgeek.com/blog/",
+                            "display_url": "gunmagisgeek.com/blog/",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 2899,
+            "friends_count": 604,
+            "listed_count": 249,
+            "created_at": "Thu Apr 26 14:55:50 +0000 2007",
+            "favourites_count": 2471,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": true,
+            "verified": false,
+            "statuses_count": 23554,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "9AC95D",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/874109068972929024/ixC2SFXk_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/874109068972929024/ixC2SFXk_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/5529772/1529551720",
+            "profile_link_color": "18315F",
+            "profile_sidebar_border_color": "FFFFFF",
+            "profile_sidebar_fill_color": "8099C9",
+            "profile_text_color": "0F0F0F",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none",
+            "withheld_in_countries": []
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 420,
+        "favorite_count": 937,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "ja"
+    },
+    {
+        "created_at": "Tue Jun 29 01:02:26 +0000 2021",
+        "id": 1409678611032928257,
+        "id_str": "1409678611032928257",
+        "text": "ガンダム詳しい人は俺ガンダム詳しいっすよなんて火薬庫でタバコ吸うみたいなことは言わない。「ワタシLinuxチョトデキル」みたいな話だ",
+        "truncated": false,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": []
+        },
+        "metadata": {
+            "iso_language_code": "ja",
+            "result_type": "recent"
+        },
+        "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 106923358,
+            "id_str": "106923358",
+            "name": "芝村矜侍",
+            "screen_name": "kyouji0716",
+            "location": "青マナの出るところ",
+            "description": "※個人の感想です 基本的にその時その時思ったことを呟きます。 MtGプレイヤー・フリー麻雀勢。 アニメもラノベも漫画も好物です。 毎期アニメ・特撮を30本以上消化。よく実況してます。 PC自作もたまにやる系。 FGOのクラスはガーチャー。時間を開けるのもいいが…別に、出るまで回してしまっても構わんのだろう？",
+            "url": "https://t.co/EBw640xgbj",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/EBw640xgbj",
+                            "expanded_url": "http://twilog.org/kyouji0716",
+                            "display_url": "twilog.org/kyouji0716",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 7534,
+            "friends_count": 3857,
+            "listed_count": 245,
+            "created_at": "Thu Jan 21 02:45:01 +0000 2010",
+            "favourites_count": 194493,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": true,
+            "verified": false,
+            "statuses_count": 476886,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/3484963464/537e5dddd25f8f3de3b33b4ca240b628_normal.png",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/3484963464/537e5dddd25f8f3de3b33b4ca240b628_normal.png",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/106923358/1466572621",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": true,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none",
+            "withheld_in_countries": []
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 582,
+        "favorite_count": 976,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "ja"
+    },
+    {
+        "created_at": "Sat Jul 03 09:42:31 +0000 2021",
+        "id": 1411259049379651586,
+        "id_str": "1411259049379651586",
+        "text": "ﾜｲﾙﾄﾞｱﾙｺｰｰﾙﾊﾞﾛｯｸ https://t.co/s9k0R0ZhGA",
+        "truncated": false,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [],
+            "media": [
+                {
+                    "id": 1411259045336342535,
+                    "id_str": "1411259045336342535",
+                    "indices": [
+                        17,
+                        40
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/E5XMn-NUYAch2KR.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/E5XMn-NUYAch2KR.jpg",
+                    "url": "https://t.co/s9k0R0ZhGA",
+                    "display_url": "pic.twitter.com/s9k0R0ZhGA",
+                    "expanded_url": "https://twitter.com/python_octopus/status/1411259049379651586/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "large": {
+                            "w": 1086,
+                            "h": 2048,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "medium": {
+                            "w": 636,
+                            "h": 1200,
+                            "resize": "fit"
+                        },
+                        "small": {
+                            "w": 361,
+                            "h": 680,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "id": 1411259045336342535,
+                    "id_str": "1411259045336342535",
+                    "indices": [
+                        17,
+                        40
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/E5XMn-NUYAch2KR.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/E5XMn-NUYAch2KR.jpg",
+                    "url": "https://t.co/s9k0R0ZhGA",
+                    "display_url": "pic.twitter.com/s9k0R0ZhGA",
+                    "expanded_url": "https://twitter.com/python_octopus/status/1411259049379651586/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "large": {
+                            "w": 1086,
+                            "h": 2048,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "medium": {
+                            "w": 636,
+                            "h": 1200,
+                            "resize": "fit"
+                        },
+                        "small": {
+                            "w": 361,
+                            "h": 680,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "metadata": {
+            "iso_language_code": "ja",
+            "result_type": "recent"
+        },
+        "source": "<a href=\"http://twitter.com/#!/download/ipad\" rel=\"nofollow\">Twitter for iPad</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 2387814306,
+            "id_str": "2387814306",
+            "name": "たこぱいそん",
+            "screen_name": "python_octopus",
+            "location": "大阪府 神浜市",
+            "description": "絵とか描く軟体動物",
+            "url": "https://t.co/8uMgcR6C1K",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/8uMgcR6C1K",
+                            "expanded_url": "https://python-tako.hatenablog.com/",
+                            "display_url": "python-tako.hatenablog.com",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 7256,
+            "friends_count": 768,
+            "listed_count": 177,
+            "created_at": "Thu Mar 13 20:16:55 +0000 2014",
+            "favourites_count": 116432,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 282830,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1260583399154122752/0gmVxYR2_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1260583399154122752/0gmVxYR2_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/2387814306/1482301278",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none",
+            "withheld_in_countries": []
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 2329,
+        "favorite_count": 5000,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "ja"
+    },
+    {
+        "created_at": "Tue Jul 06 02:30:00 +0000 2021",
+        "id": 1412237363837816840,
+        "id_str": "1412237363837816840",
+        "text": "【7月6日発売】最新刊プレゼントキャンペーン\n➡抽選で下記書籍を3名様にプレゼント\n✅応募方法\n❶当アカウントをフォロー❷このツイートをRT\n応募締切7/12まで／当選連絡はDM\n\n『初めてのSQL 第3版』… https://t.co/OyPjqVVyNZ",
+        "truncated": true,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/OyPjqVVyNZ",
+                    "expanded_url": "https://twitter.com/i/web/status/1412237363837816840",
+                    "display_url": "twitter.com/i/web/status/1…",
+                    "indices": [
+                        106,
+                        129
+                    ]
+                }
+            ]
+        },
+        "metadata": {
+            "iso_language_code": "ja",
+            "result_type": "recent"
+        },
+        "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 18382977,
+            "id_str": "18382977",
+            "name": "O'Reilly Japan",
+            "screen_name": "oreilly_japan",
+            "location": "東京都新宿区四谷坂町12-22",
+            "description": "オライリー・ジャパンの情報を淡々とお伝えします。",
+            "url": "https://t.co/975fJwroOl",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/975fJwroOl",
+                            "expanded_url": "http://www.oreilly.co.jp",
+                            "display_url": "oreilly.co.jp",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 22581,
+            "friends_count": 22,
+            "listed_count": 865,
+            "created_at": "Fri Dec 26 02:35:20 +0000 2008",
+            "favourites_count": 34,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": true,
+            "statuses_count": 4109,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "FFFFFF",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": true,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/449448302879059968/F97BD_kj_normal.png",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/449448302879059968/F97BD_kj_normal.png",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/18382977/1471574387",
+            "profile_link_color": "B9002D",
+            "profile_sidebar_border_color": "CCCCFF",
+            "profile_sidebar_fill_color": "CCCCCC",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": true,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none",
+            "withheld_in_countries": []
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 562,
+        "favorite_count": 137,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "ja"
+    },
+    {
+        "created_at": "Tue Jun 29 01:03:27 +0000 2021",
+        "id": 1409678866608656385,
+        "id_str": "1409678866608656385",
+        "text": "Windows 11対応可否を知らせる「PC正常性チェック」が一時撤回 https://t.co/pjYPnsE5i5 #Windows11 https://t.co/oQNAotPXKN",
+        "truncated": false,
+        "entities": {
+            "hashtags": [
+                {
+                    "text": "Windows11",
+                    "indices": [
+                        60,
+                        70
+                    ]
+                }
+            ],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/pjYPnsE5i5",
+                    "expanded_url": "https://pc.watch.impress.co.jp/docs/news/1334630.html",
+                    "display_url": "pc.watch.impress.co.jp/docs/news/1334…",
+                    "indices": [
+                        36,
+                        59
+                    ]
+                }
+            ],
+            "media": [
+                {
+                    "id": 1409678864821800960,
+                    "id_str": "1409678864821800960",
+                    "indices": [
+                        71,
+                        94
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/E5AvdXEUUAAx1n2.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/E5AvdXEUUAAx1n2.jpg",
+                    "url": "https://t.co/oQNAotPXKN",
+                    "display_url": "pic.twitter.com/oQNAotPXKN",
+                    "expanded_url": "https://twitter.com/pc_watch/status/1409678866608656385/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "medium": {
+                            "w": 800,
+                            "h": 799,
+                            "resize": "fit"
+                        },
+                        "small": {
+                            "w": 680,
+                            "h": 679,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 800,
+                            "h": 799,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "id": 1409678864821800960,
+                    "id_str": "1409678864821800960",
+                    "indices": [
+                        71,
+                        94
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/E5AvdXEUUAAx1n2.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/E5AvdXEUUAAx1n2.jpg",
+                    "url": "https://t.co/oQNAotPXKN",
+                    "display_url": "pic.twitter.com/oQNAotPXKN",
+                    "expanded_url": "https://twitter.com/pc_watch/status/1409678866608656385/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "medium": {
+                            "w": 800,
+                            "h": 799,
+                            "resize": "fit"
+                        },
+                        "small": {
+                            "w": 680,
+                            "h": 679,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 800,
+                            "h": 799,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "metadata": {
+            "iso_language_code": "ja",
+            "result_type": "recent"
+        },
+        "source": "<a href=\"http://pc.watch.impress.co.jp/\" rel=\"nofollow\">PC Watch</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 33802188,
+            "id_str": "33802188",
+            "name": "PC Watch",
+            "screen_name": "pc_watch",
+            "location": "東京都千代田区",
+            "description": "「PC Watch」の公式Twitterアカウントです。記事リンクと告知などをツイートしております。個別にお返事はできませんが、コメントは編集部一同で読ませていただきます",
+            "url": "http://t.co/xqsOvqPDAR",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://t.co/xqsOvqPDAR",
+                            "expanded_url": "http://pc.watch.impress.co.jp/",
+                            "display_url": "pc.watch.impress.co.jp",
+                            "indices": [
+                                0,
+                                22
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 104478,
+            "friends_count": 46,
+            "listed_count": 4296,
+            "created_at": "Tue Apr 21 03:55:35 +0000 2009",
+            "favourites_count": 21,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": true,
+            "statuses_count": 51666,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "3366FF",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1410228249225924615/_DNMtCmG_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1410228249225924615/_DNMtCmG_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/33802188/1587309918",
+            "profile_link_color": "4F58FD",
+            "profile_sidebar_border_color": "FFFFFF",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": false,
+            "has_extended_profile": false,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none",
+            "withheld_in_countries": []
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 515,
+        "favorite_count": 584,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "ja"
+    },
+    {
+        "created_at": "Tue Jun 29 00:49:22 +0000 2021",
+        "id": 1409675324271456266,
+        "id_str": "1409675324271456266",
+        "text": "Windows 11の最小システム要件が緩和、第7世代Core/Zen 1のRyzenも対象に https://t.co/66vCHp4OgE #Windows11 https://t.co/Wuf6x5pVO1",
+        "truncated": false,
+        "entities": {
+            "hashtags": [
+                {
+                    "text": "Windows11",
+                    "indices": [
+                        72,
+                        82
+                    ]
+                }
+            ],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/66vCHp4OgE",
+                    "expanded_url": "https://pc.watch.impress.co.jp/docs/news/1334629.html",
+                    "display_url": "pc.watch.impress.co.jp/docs/news/1334…",
+                    "indices": [
+                        48,
+                        71
+                    ]
+                }
+            ],
+            "media": [
+                {
+                    "id": 1409675322157502466,
+                    "id_str": "1409675322157502466",
+                    "indices": [
+                        83,
+                        106
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/E5AsPJnVEAIXWW7.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/E5AsPJnVEAIXWW7.jpg",
+                    "url": "https://t.co/Wuf6x5pVO1",
+                    "display_url": "pic.twitter.com/Wuf6x5pVO1",
+                    "expanded_url": "https://twitter.com/pc_watch/status/1409675324271456266/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "medium": {
+                            "w": 800,
+                            "h": 450,
+                            "resize": "fit"
+                        },
+                        "small": {
+                            "w": 680,
+                            "h": 383,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 800,
+                            "h": 450,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "id": 1409675322157502466,
+                    "id_str": "1409675322157502466",
+                    "indices": [
+                        83,
+                        106
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/E5AsPJnVEAIXWW7.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/E5AsPJnVEAIXWW7.jpg",
+                    "url": "https://t.co/Wuf6x5pVO1",
+                    "display_url": "pic.twitter.com/Wuf6x5pVO1",
+                    "expanded_url": "https://twitter.com/pc_watch/status/1409675324271456266/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "medium": {
+                            "w": 800,
+                            "h": 450,
+                            "resize": "fit"
+                        },
+                        "small": {
+                            "w": 680,
+                            "h": 383,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 800,
+                            "h": 450,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "metadata": {
+            "iso_language_code": "ja",
+            "result_type": "recent"
+        },
+        "source": "<a href=\"http://pc.watch.impress.co.jp/\" rel=\"nofollow\">PC Watch</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 33802188,
+            "id_str": "33802188",
+            "name": "PC Watch",
+            "screen_name": "pc_watch",
+            "location": "東京都千代田区",
+            "description": "「PC Watch」の公式Twitterアカウントです。記事リンクと告知などをツイートしております。個別にお返事はできませんが、コメントは編集部一同で読ませていただきます",
+            "url": "http://t.co/xqsOvqPDAR",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://t.co/xqsOvqPDAR",
+                            "expanded_url": "http://pc.watch.impress.co.jp/",
+                            "display_url": "pc.watch.impress.co.jp",
+                            "indices": [
+                                0,
+                                22
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 104478,
+            "friends_count": 46,
+            "listed_count": 4296,
+            "created_at": "Tue Apr 21 03:55:35 +0000 2009",
+            "favourites_count": 21,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": true,
+            "statuses_count": 51666,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "3366FF",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1410228249225924615/_DNMtCmG_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1410228249225924615/_DNMtCmG_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/33802188/1587309918",
+            "profile_link_color": "4F58FD",
+            "profile_sidebar_border_color": "FFFFFF",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": false,
+            "has_extended_profile": false,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none",
+            "withheld_in_countries": []
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 1072,
+        "favorite_count": 1282,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "ja"
+    },
+    {
+        "created_at": "Sun Jul 04 10:34:36 +0000 2021",
+        "id": 1411634544239906816,
+        "id_str": "1411634544239906816",
+        "text": "【Windows基本編】パソコン作業が爆速になる便利なショートカットキーをまとめてみました。こんなにあるんか……(いやもっとある https://t.co/e6Tz6dlaGM",
+        "truncated": false,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [],
+            "media": [
+                {
+                    "id": 1411634539349303296,
+                    "id_str": "1411634539349303296",
+                    "indices": [
+                        65,
+                        88
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/E5ciImaWYAAqtVM.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/E5ciImaWYAAqtVM.jpg",
+                    "url": "https://t.co/e6Tz6dlaGM",
+                    "display_url": "pic.twitter.com/e6Tz6dlaGM",
+                    "expanded_url": "https://twitter.com/vivi_magazine/status/1411634544239906816/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "medium": {
+                            "w": 913,
+                            "h": 1024,
+                            "resize": "fit"
+                        },
+                        "small": {
+                            "w": 606,
+                            "h": 680,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 913,
+                            "h": 1024,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "id": 1411634539349303296,
+                    "id_str": "1411634539349303296",
+                    "indices": [
+                        65,
+                        88
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/E5ciImaWYAAqtVM.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/E5ciImaWYAAqtVM.jpg",
+                    "url": "https://t.co/e6Tz6dlaGM",
+                    "display_url": "pic.twitter.com/e6Tz6dlaGM",
+                    "expanded_url": "https://twitter.com/vivi_magazine/status/1411634544239906816/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "medium": {
+                            "w": 913,
+                            "h": 1024,
+                            "resize": "fit"
+                        },
+                        "small": {
+                            "w": 606,
+                            "h": 680,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 913,
+                            "h": 1024,
+                            "resize": "fit"
+                        }
+                    }
+                },
+                {
+                    "id": 1411634542557945856,
+                    "id_str": "1411634542557945856",
+                    "indices": [
+                        65,
+                        88
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/E5ciIyXWYAARvSB.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/E5ciIyXWYAARvSB.jpg",
+                    "url": "https://t.co/e6Tz6dlaGM",
+                    "display_url": "pic.twitter.com/e6Tz6dlaGM",
+                    "expanded_url": "https://twitter.com/vivi_magazine/status/1411634544239906816/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "large": {
+                            "w": 913,
+                            "h": 1024,
+                            "resize": "fit"
+                        },
+                        "medium": {
+                            "w": 913,
+                            "h": 1024,
+                            "resize": "fit"
+                        },
+                        "small": {
+                            "w": 606,
+                            "h": 680,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "metadata": {
+            "iso_language_code": "ja",
+            "result_type": "recent"
+        },
+        "source": "<a href=\"https://www.sprinklr.com\" rel=\"nofollow\">Sprinklr</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 596161773,
+            "id_str": "596161773",
+            "name": "ViVi",
+            "screen_name": "vivi_magazine",
+            "location": "",
+            "description": "雑誌『ViVi』公式Twitter(毎月23日発売KODANSHA) 八木アリサ／谷まりあ／miu／藤井サチ／古畑星夏／藤田ニコル ／愛花 ／アリアナさくら／嵐莉菜／山﨑天",
+            "url": "https://t.co/yKOYLb8qN5",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/yKOYLb8qN5",
+                            "expanded_url": "http://vivi.tv/",
+                            "display_url": "vivi.tv",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 269316,
+            "friends_count": 24,
+            "listed_count": 1018,
+            "created_at": "Fri Jun 01 03:32:17 +0000 2012",
+            "favourites_count": 2120,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 25033,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme17/bg.gif",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme17/bg.gif",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1113323485898530816/oOfkrrDy_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1113323485898530816/oOfkrrDy_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/596161773/1621838884",
+            "profile_link_color": "F58EA8",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "0084B4",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none",
+            "withheld_in_countries": []
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 376,
+        "favorite_count": 2783,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "ja"
+    },
+    {
+        "created_at": "Sat Jul 03 09:22:03 +0000 2021",
+        "id": 1411253897524486144,
+        "id_str": "1411253897524486144",
+        "text": "学生よ。社会人になったらExcelめちゃ使うから、マジのマジで今のうちに勉強しておけ。Excel詳しい人なら5分で終わることを、本当に5時間かけてやってるからな。ショートカットを知ってるだけでも無双できるぞ👍\n\nExcelショート… https://t.co/twM2XntZSK",
+        "truncated": true,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/twM2XntZSK",
+                    "expanded_url": "https://twitter.com/i/web/status/1411253897524486144",
+                    "display_url": "twitter.com/i/web/status/1…",
+                    "indices": [
+                        117,
+                        140
+                    ]
+                }
+            ]
+        },
+        "metadata": {
+            "iso_language_code": "ja",
+            "result_type": "recent"
+        },
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 1277804748779819008,
+            "id_str": "1277804748779819008",
+            "name": "Excel医@デザイン勉強中",
+            "screen_name": "Excel_design_Dr",
+            "location": "ブログはじめました→",
+            "description": "30代内科医｜Excel大好きVBAer｜職場の悲惨なデータベースを見てExcel猛勉強→初心者からVBA使えるようになる→ユーザーフォームでシステム構築。何も伝わらない学会の発表スライドに唖然→デザイン勉強中。全国民のOfficeリテラシー上げたい。Excelとデザインのこと呟きます。#Excel関数天下一武道会",
+            "url": "https://t.co/5CWrCtGuvv",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/5CWrCtGuvv",
+                            "expanded_url": "https://excel-design-dr.com/",
+                            "display_url": "excel-design-dr.com",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 78756,
+            "friends_count": 38,
+            "listed_count": 429,
+            "created_at": "Tue Jun 30 03:23:00 +0000 2020",
+            "favourites_count": 7116,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 3395,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1401444839577690117/DRbZtY67_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1401444839577690117/DRbZtY67_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1277804748779819008/1603110329",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": true,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none",
+            "withheld_in_countries": []
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 11994,
+        "favorite_count": 43374,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": true,
+        "lang": "ja"
+    },
+    {
+        "created_at": "Tue Jul 06 09:38:16 +0000 2021",
+        "id": 1412345139448619008,
+        "id_str": "1412345139448619008",
+        "text": "これは、子供たちにプログラミングを教える上でも大変効果的な方法✨。面白いし、結果を見てどんな改善が必要なのか考えるのでアルゴリズムの基礎が学べる。\n\nhttps://t.co/JoCJcINg9u",
+        "truncated": false,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [],
+            "media": [
+                {
+                    "id": 1409954549226475526,
+                    "id_str": "1409954549226475526",
+                    "indices": [
+                        75,
+                        98
+                    ],
+                    "media_url": "http://pbs.twimg.com/ext_tw_video_thumb/1409954549226475526/pu/img/fM_nTwz7CSUw01ex.jpg",
+                    "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/1409954549226475526/pu/img/fM_nTwz7CSUw01ex.jpg",
+                    "url": "https://t.co/JoCJcINg9u",
+                    "display_url": "pic.twitter.com/JoCJcINg9u",
+                    "expanded_url": "https://twitter.com/manekinekko/status/1409954929956032517/video/1",
+                    "type": "photo",
+                    "sizes": {
+                        "small": {
+                            "w": 460,
+                            "h": 460,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "medium": {
+                            "w": 460,
+                            "h": 460,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 460,
+                            "h": 460,
+                            "resize": "fit"
+                        }
+                    },
+                    "source_status_id": 1409954929956032517,
+                    "source_status_id_str": "1409954929956032517",
+                    "source_user_id": 64427784,
+                    "source_user_id_str": "64427784"
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "id": 1409954549226475526,
+                    "id_str": "1409954549226475526",
+                    "indices": [
+                        75,
+                        98
+                    ],
+                    "media_url": "http://pbs.twimg.com/ext_tw_video_thumb/1409954549226475526/pu/img/fM_nTwz7CSUw01ex.jpg",
+                    "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/1409954549226475526/pu/img/fM_nTwz7CSUw01ex.jpg",
+                    "url": "https://t.co/JoCJcINg9u",
+                    "display_url": "pic.twitter.com/JoCJcINg9u",
+                    "expanded_url": "https://twitter.com/manekinekko/status/1409954929956032517/video/1",
+                    "type": "video",
+                    "sizes": {
+                        "small": {
+                            "w": 460,
+                            "h": 460,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "medium": {
+                            "w": 460,
+                            "h": 460,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 460,
+                            "h": 460,
+                            "resize": "fit"
+                        }
+                    },
+                    "source_status_id": 1409954929956032517,
+                    "source_status_id_str": "1409954929956032517",
+                    "source_user_id": 64427784,
+                    "source_user_id_str": "64427784",
+                    "video_info": {
+                        "aspect_ratio": [
+                            1,
+                            1
+                        ],
+                        "duration_millis": 140000,
+                        "variants": [
+                            {
+                                "bitrate": 432000,
+                                "content_type": "video/mp4",
+                                "url": "https://video.twimg.com/ext_tw_video/1409954549226475526/pu/vid/320x320/SDPw1iuZ24bRhnKY.mp4?tag=12"
+                            },
+                            {
+                                "bitrate": 832000,
+                                "content_type": "video/mp4",
+                                "url": "https://video.twimg.com/ext_tw_video/1409954549226475526/pu/vid/460x460/yE3oQCtfylkrVOum.mp4?tag=12"
+                            },
+                            {
+                                "content_type": "application/x-mpegURL",
+                                "url": "https://video.twimg.com/ext_tw_video/1409954549226475526/pu/pl/O1eRnTNTSC5LZxnq.m3u8?tag=12&container=fmp4"
+                            }
+                        ]
+                    },
+                    "additional_media_info": {
+                        "monetizable": false
+                    }
+                }
+            ]
+        },
+        "metadata": {
+            "iso_language_code": "ja",
+            "result_type": "recent"
+        },
+        "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 15170178,
+            "id_str": "15170178",
+            "name": "Sangmin @ChoimiraiSchool",
+            "screen_name": "gijigae",
+            "location": "Yokohama, Japan",
+            "description": "@ChoimiraiHQ 運営。＃Roamで学ぶ #ChoimiraiSchool #Roam部",
+            "url": "https://t.co/BJQh0pQCjN",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/BJQh0pQCjN",
+                            "expanded_url": "http://www.choimirai.com",
+                            "display_url": "choimirai.com",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 20684,
+            "friends_count": 6100,
+            "listed_count": 371,
+            "created_at": "Thu Jun 19 15:36:08 +0000 2008",
+            "favourites_count": 205737,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": true,
+            "verified": false,
+            "statuses_count": 51741,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "000000",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/688238074153713664/ZQZdzRir_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/688238074153713664/ZQZdzRir_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/15170178/1551508809",
+            "profile_link_color": "3B94D9",
+            "profile_sidebar_border_color": "000000",
+            "profile_sidebar_fill_color": "000000",
+            "profile_text_color": "000000",
+            "profile_use_background_image": false,
+            "has_extended_profile": true,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none",
+            "withheld_in_countries": []
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 740,
+        "favorite_count": 2274,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "ja"
+    },
+    {
+        "created_at": "Mon Jul 05 09:08:03 +0000 2021",
+        "id": 1411975150795374592,
+        "id_str": "1411975150795374592",
+        "text": "「ちょっと自転車を動かして」\nぐらいのテンションで\n「サイト内にある矢印、全部逆向きにして」\nっていう依頼を軽くしてくる方がいらっしゃるんですが、その変更はプログラミング上\n「荷台に荷物がガンガン積まれた4tトラックを素手で10m… https://t.co/Tilim9ejNq",
+        "truncated": true,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/Tilim9ejNq",
+                    "expanded_url": "https://twitter.com/i/web/status/1411975150795374592",
+                    "display_url": "twitter.com/i/web/status/1…",
+                    "indices": [
+                        117,
+                        140
+                    ]
+                }
+            ]
+        },
+        "metadata": {
+            "iso_language_code": "ja",
+            "result_type": "recent"
+        },
+        "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 1019265671287451649,
+            "id_str": "1019265671287451649",
+            "name": "アルトゥル🥰日本推しラトビア人",
+            "screen_name": "ArturGalata",
+            "location": "日本とジョージアで暮らすラトビア人",
+            "description": "ラトビア出身の日本大好きマン😍日本語🇯🇵英語🇬🇧ロシア語🇷🇺ラトビア語🇱🇻 お仕事の依頼はDMへ📩💻よろしくお願いします🥰ジョージアでケーキ焼いてる🎂メロンパン食いたい🍈YouTubeチャンネル《アルトゥルShow Time》で日本語頑張って話す勉強中📺",
+            "url": "https://t.co/ZbxcnHUIlM",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/ZbxcnHUIlM",
+                            "expanded_url": "https://www.youtube.com/channel/UCAuCJtn7iQDj07xjLX6-_Ag",
+                            "display_url": "youtube.com/channel/UCAuCJ…",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 211196,
+            "friends_count": 197,
+            "listed_count": 739,
+            "created_at": "Tue Jul 17 17:00:47 +0000 2018",
+            "favourites_count": 15887,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 5769,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "000000",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1021445304426663936/9daX_9ek_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1021445304426663936/9daX_9ek_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1019265671287451649/1561784739",
+            "profile_link_color": "E81C4F",
+            "profile_sidebar_border_color": "000000",
+            "profile_sidebar_fill_color": "000000",
+            "profile_text_color": "000000",
+            "profile_use_background_image": false,
+            "has_extended_profile": true,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none",
+            "withheld_in_countries": []
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 914,
+        "favorite_count": 5183,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "ja"
+    }
+]

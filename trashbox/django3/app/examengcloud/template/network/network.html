@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title id="id_title">{{title}}</title>
+    <meta name="description" id="description" content="{{ username }}さんの人間関係をtwitter上から観察してみましょう。きっと新たな発見があるはずです。" />
+
+
+    <link rel="icon" href="http://www.minekawada.com/static/assets/img/chain.png">
+
+
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/themes/black/pace-theme-center-circle.min.css" />
+
+
+    {% block meta %}
+    <meta name="twitter:card" content="summary_large_image" />
+    <!--①-->
+    <meta name="twitter:site" content="@matuki_no_ukiwa" />
+    <!--②-->
+    <meta property="og:url" content="http://www.minekawada.com/twitter_network/{{ username }}" />
+    <!--③-->
+    <meta property="og:title" content="{{ username }}のtwitter相関図" />
+    <!--④-->
+    <meta property="og:description" content="{{ username }}" />
+    <!--⑤-->
+    <meta property="og:image" content="http://www.minekawada.com/static/assets/img/relation.png" />
+    {% endblock %}
+
+
+    <script data-ad-client="ca-pub-6548366793980519" async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158902034-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-158902034-1');
+    </script>
+
+
+
+    <!--    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.1.1/d3.js"></script>-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <style>
+        @import url(http://fonts.googleapis.com/css?family=Source+Code+Pro:400,600);
+
+        /*
+        body {
+            background-color: #23282e;
+            font-family: "Source Code Pro", Consolas, monaco, monospace;
+            line-height: 160%;
+            font-size: 16px;
+            margin: 0;
+        }
+
+*/
+        body {
+            background-color: #000;
+            font-family: "Source Code Pro", Consolas, monaco, monospace;
+            line-height: 160%;
+            font-size: 16px;
+            margin: 0;
+        }
+
+        path.link {
+            fill: none;
+            stroke-width: 2px;
+        }
+
+        .node:not(:hover) .nodetext {
+            display: none;
+        }
+
+
+
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+
+
+
+        @media screen and (max-width: 560px) {
+
+            /*
+            mobile ver
+            */
+            #pconly {
+                visibility: hidden;
+                display: none;
+            }
+
+            home {
+                position: absolute;
+                top: 0;
+                right: 0;
+                color: white;
+            }
+
+            other {
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                color: white;
+            }
+
+            footer {
+                padding: 20px;
+                color: white;
+            }
+
+
+
+            footer {
+                padding: 20px;
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                color: white;
+            }
+
+            status {
+                padding: 5px;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                color: white;
+            }
+
+
+            #mobileonly {
+                padding: 20px;
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                color: white;
+            }
+
+
+
+            h1 {
+                font-size: 18px;
+                margin: 10px 0;
+                text-transform: uppercase;
+                font-weight: normal;
+            }
+
+            h2,
+            h3 {
+                font-size: 8px;
+                margin: 5px 0;
+                font-weight: normal;
+            }
+
+
+            header {
+                position: absolute;
+                top: 0;
+                left: 0;
+                color: white;
+            }
+        }
+
+        @media screen and (min-width: 560px) {
+
+            /*
+            pc ver
+            */
+
+            home {
+                visibility: hidden;
+                display: none;
+            }
+
+            other {
+                position: absolute;
+                top: 0;
+                right: 0;
+                color: white;
+            }
+
+            #mobileonly {
+                visibility: hidden;
+                display: none;
+            }
+
+
+
+
+            footer {
+                padding: 20px;
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                color: white;
+            }
+
+            status {
+                padding: 5px;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                color: white;
+            }
+
+
+
+
+            h1 {
+                font-size: 36px;
+                margin: 10px 0;
+                text-transform: uppercase;
+                font-weight: normal;
+            }
+
+            h2,
+            h3 {
+                font-size: 18px;
+                margin: 5px 0;
+                font-weight: normal;
+            }
+
+            header {
+                position: absolute;
+                top: 0;
+                left: 0;
+                color: white;
+            }
+
+
+
+        }
+    </style>
+</head>
+
+<body id="body">
+    <header>
+        <h1>{{ username }} Frends</h1>
+        <h2>click nodes!</h2>
+    </header>
+
+    <home>
+        <div class="home">
+            <a href="./index.html">
+                <img width="50px" src="https://free-icon-rainbow.com/i/icon_04512/icon_045122_64.png">
+            </a>
+        </div>
+    </home>
+
+    <other>
+        <h2>
+            <div class="updown">
+                <a id="pconly" href="./index.html">
+                    <img width="50px" src="https://free-icon-rainbow.com/i/icon_04512/icon_045122_64.png">
+                </a>
+                <a href="https://twitter.com/intent/tweet?ref_src=twsrc%5Etfw&url=http%3A%2F%2Fwww.minekawada.com/twitter_network/{{ username }}"
+                    data-show-count="false">
+                    <img width="50px" src="https://free-icon-rainbow.com/i/icon_01789/icon_017892_64.png">
+                </a>
+
+                <a href="http://www.minekawada.com/twitter_network/lively_pages.html">
+                    <img width="50px" src="https://free-icon-rainbow.com/i/icon_01425/icon_014252_64.png">
+                </a>
+
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+                <a href=""
+                    onclick="alert('この図は{{ username }}の相関図です。メンションを行った関係、もしくはフォロー関係の関係が確認されて初めてアカウント同士のリンクが形成されます。')">
+
+                    <img width="50px" src="https://free-icon-rainbow.com/i/icon_02730/icon_027302_64.png">
+                </a>
+            </div>
+        </h2>
+    </other>
+    <style>
+        .updown {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        svg {
+            width: 100%;
+            height: 2000;
+            background-color: #23282e;
+        }
+
+        .circle {
+            border-radius: 50%;
+        }
+    </style>
+
+
+
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+
+    {% include 'twitter_network/network_jscode.html' %}
+    <footer id="pconly">
+        <div id="twitter-timeline-handler">
+            <div id="timeline">
+                <a id="twitter-timeline" class="twitter-timeline" data-theme="dark" data-width="400" data-height="500"
+                    href="https://twitter.com/{{ username }}?ref_src=twsrc%5Etfw"></a>
+                <script id="tw-script" async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+        </div>
+    </footer>
+
+
+    <status>
+        <table>
+            <tbody>
+                <tr>
+                    <th>
+                        <a id="new-network" href="./{{username}}">
+                            <img id="new_network_image" class="circle" width="50px"
+                                src="https://applimura.com/wp-content/uploads/2019/08/twittericon13.jpg">
+                        </a>
+                    </th>
+                    <th>
+                        <div id="screenname">screenname</div>
+                    </th>
+                </tr>
+                <tr>
+                    <th>follower:</th>
+                    <td id="follower-num">-</td>
+                </tr>
+                <tr>
+                    <th>follow:</th>
+                    <td id="follow-num">-</td>
+                </tr>
+                <tr>
+                    <th>tweet:</th>
+                    <td id="tweet-num">-</td>
+                </tr>
+                <!--
+                <tr>
+                    <th>description:</th>
+                    <td id="explain">-</td>
+                </tr>
+            -->
+            </tbody>
+        </table>
+
+    </status>
+</body>
+
+<button onclick="upload_image()">
+
+    <img id="result">
+
+</html>

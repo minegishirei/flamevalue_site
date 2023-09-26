@@ -1,0 +1,38 @@
+{% extends "question/base.html" %}
+
+{% block mainblock %}
+
+{% for page in page_info_list %}
+<pre>
+{{ page.title }}
+</pre>
+
+
+{% for answer in page.answer_list %}
+<pre>
+{{ answer }}
+</pre>
+{% endfor %}
+
+<a href="{{ page.url }}">
+    元ネタ
+</a>
+<br>
+<a href="/{{ category }}/{{ page.id }}?add=True">
+    add to json
+</a>
+
+
+<br>
+<br>
+<br>
+<hr>
+
+{% endfor %}
+
+{% endblock %}
+
+
+
+
+

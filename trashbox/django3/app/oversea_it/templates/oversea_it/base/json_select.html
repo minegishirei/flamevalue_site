@@ -1,0 +1,34 @@
+<div class="main_contents">
+
+    {% for tweet in tweet_list %}
+    <div>
+        {% if tweet.title %}
+        <a href = "/index.html?editor=True&user={{ tweet.user.screen_name }}&tweet_id={{ tweet.id }}&since={{ tweet.date }}&until={{ tweet.date2 }}">
+            <h2>
+                {{ tweet.title }}
+            </h2>
+        </a>
+
+        <h3>
+            {{ tweet.supplement }}
+        </h3>
+
+        <div class="">
+            <div class="">
+                <blockquote class="twitter-tweet" data-theme="dark">
+                    <a href="https://twitter.com/WealthNation__/status/{{ tweet.id }}/"></a>
+                </blockquote>
+            </div>
+            <p>
+{{ tweet.ja_text }}
+            </p>
+            <br>
+        </div>
+        {% endif %}
+    </div>
+    {% endfor %}
+
+
+</div>
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

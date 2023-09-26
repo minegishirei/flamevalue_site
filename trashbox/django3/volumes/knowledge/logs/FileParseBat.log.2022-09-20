@@ -1,0 +1,10 @@
+INFO  2022-09-20 09:55:51,173 AbstractBat(31) FileParseBat is start.
+INFO  2022-09-20 09:55:52,227 FileParseBat(186) file target count: 0
+INFO  2022-09-20 09:55:52,287 AbstractBat(43) Finished
+INFO  2022-09-20 10:56:44,857 AbstractBat(31) FileParseBat is start.
+INFO  2022-09-20 11:59:05,494 AbstractBat(31) FileParseBat is start.
+INFO  2022-09-20 11:59:06,502 FileParseBat(186) file target count: 0
+INFO  2022-09-20 11:59:06,588 AbstractBat(43) Finished
+INFO  2022-09-20 16:26:12,097 AbstractBat(31) FileParseBat is start.
+INFO  2022-09-20 16:26:13,078 FileParseBat(186) file target count: 0
+INFO  2022-09-20 16:26:13,132 AbstractBat(43) Finished
