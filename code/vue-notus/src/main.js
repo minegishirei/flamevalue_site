@@ -42,7 +42,7 @@ const routes = [
     component: Admin,
     children: [
       {
-        path: "/admin/dashboard",
+        path: "/flamevalue_site/code/vue-notus/dist/index.html",
         component: Dashboard,
       },
       {

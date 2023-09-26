@@ -23,12 +23,12 @@
           <tbody v-if="lang_info">
             <tr v-for="item in lang_info.wikipedia_related" :key="item">
               <th class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left">
-                <a :href="`/admin/dashboard?name=${item.name}`">
+                <a :href="`${baselink}?name=${item.name}`">
                   <img :src="`${item.image}`">
                 </a>
               </th>
               <th class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left">
-                <a :href="`/admin/dashboard?name=${item.name}`">
+                <a :href="`${baselink}?name=${item.name}`">
                   {{ item["name"] }} : {{ item["stars"] }}
                   <br>
                   {{ item.basic.money }} 万円 / 年<br>
@@ -53,11 +53,14 @@
 </template>
 <script>
 import get_lang_url from '../../store/store';
+import baselink from '../../store/baselink';
+
 
 export default {
   data() {
     return {
-      lang_info: null
+      lang_info: null,
+      baselink:baselink
     }
   },
   mounted() {

@@ -1,7 +1,7 @@
 
 
 const get_lang_url = (name) => {
-    return `http://localhost:8080/flamevalue/${name}.json`
+    return `https://minegishirei.github.io/flamevalue_site/code/vue-notus/dist/flamevaluedict/${name}.json`
 }
 
 export default get_lang_url
