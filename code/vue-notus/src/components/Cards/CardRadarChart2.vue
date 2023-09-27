@@ -10,9 +10,6 @@
             </h2>
           </div>
         </div>
-      </div>
-
-      <div class="flex flex-wrap">
         <div class="lg:w-12/12 xl:w-12/12 px-4 pt-8">
           <div class="relative h-350-px">
             <canvas :id="`radar-chart-${lang_info.name}`"></canvas>

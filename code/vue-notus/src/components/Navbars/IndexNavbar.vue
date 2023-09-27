@@ -93,14 +93,7 @@
   </nav>
 </template>
 
-<style>
-@media(min-width:751px) {
-  .mobile-size {
-    padding-left: 12%;
-    padding-right: 12%;
-  }
-}
-</style>
+
 <script>
 import IndexDropdown from "@/components/Dropdowns/IndexDropdown.vue";
 

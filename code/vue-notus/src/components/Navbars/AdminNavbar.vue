@@ -26,6 +26,14 @@
   </nav>
   <!-- End Navbar -->
 </template>
+<style>
+@media(min-width:751px) {
+  .mobile-size {
+    padding-left: 11%;
+    padding-right: 11%;
+  }
+}
+</style>
 
 <script>
 import UserDropdown from "@/components/Dropdowns/UserDropdown.vue";

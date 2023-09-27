@@ -2,7 +2,7 @@
   <div class="flex flex-wrap mt-4">
     <div v-if="lang_info_list">
       <div class="flex flex-wrap">
-        <div class="xl:w-12/12 mb-12 px-4" v-for="lang_info in lang_info_list" :key="lang_info">
+        <div class="xl:w-4/12 mb-6 px-2" v-for="lang_info in lang_info_list" :key="lang_info">
           <card-radar-chart2 :lang_info="lang_info" />
         </div>
       </div>
