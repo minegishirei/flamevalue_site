@@ -28,6 +28,8 @@ import CardBarChart from "@/components/Cards/CardBarChart.vue";
 import CardSocialTraffic from "@/components/Cards/CardSocialTraffic.vue";
 import CardSocialTraffic2 from "@/components/Cards/CardSocialTraffic2.vue";
 import CardRadarChart from "@/components/Cards/CardRadarChart.vue";
+import get_lang_url from '../../store/store';
+
 export default {
   name: "dashboard-page",
   components: {
@@ -38,5 +40,13 @@ export default {
     CardSocialTraffic,
     CardSocialTraffic2
   },
+  mounted () {
+    fetch(get_lang_url(this.$route.query.name))
+      .then(response => response.json())
+      .then(function(LangInfo){
+        this.lang_info = LangInfo;
+        document.title = this.lang_info.title;
+      }.bind(this))
+  }
 };
 </script>

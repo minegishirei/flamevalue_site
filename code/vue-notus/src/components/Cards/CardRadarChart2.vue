@@ -1,6 +1,6 @@
 <template>
   <div class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded bg-white">
-    <a :href="`/admin/dashboard?name=${ lang_info.name }`">
+    <a :href="`${baselink}?name=${ lang_info.name }`">
       <div class="rounded-t mb-0 px-4 py-3 bg-transparent">
         <div class="flex flex-wrap items-center">
           <div class="relative w-full max-w-full flex-grow flex-1">
@@ -26,13 +26,15 @@
 import Chart from "chart.js";
 import labels from '/code/vue-notus/public/flamevalue_meta/labels.json';
 import labels_color from '/code/vue-notus/public/flamevalue_meta/labels_color.json';
+import baselink from '../../store/baselink';
 
 export default {
   props: ["lang_info"],
   data() {
     return {
       labels: labels,
-      labels_color: labels_color
+      labels_color: labels_color,
+      baselink:baselink
     }
   }, mounted() {
     if (this.lang_info !== null) {
