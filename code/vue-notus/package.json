@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "NODE_OPTIONS='--openssl-legacy-provider' vue-cli-service build && gulp licenses",
+    "build": "NODE_OPTIONS='--openssl-legacy-provider' vue-cli-service build && gulp licenses && cp /code/vue-notus/dist/index.html /code/vue-notus/dist/tables.html",
     "lint": "vue-cli-service lint",
     "build:tailwind": "tailwind build src/assets/styles/index.css -o src/assets/styles/tailwind.css",
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm run build:tailwind && npm run serve"
