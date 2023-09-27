@@ -50,6 +50,10 @@ const routes = [
         component: Settings,
       },
       {
+        path: "/flamevalue_site/code/vue-notus/dist/",
+        component: Tables,
+      },
+      {
         path: "/flamevalue_site/code/vue-notus/dist/tables.html",
         component: Tables,
       },
