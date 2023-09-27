@@ -204,19 +204,22 @@ def GEN_FLAMEWORKDICT(folder):
     jsonIO = JsonIO(folder)
     flameworkdict = []
     for filename in os.listdir(path=f'{folder}'):
-        name = filename.replace(".json", "")
-        row = jsonIO.read(name)
-        new_row = {
-            "basic" : row["basic"],
-            "score" : row["score"],
-            "name" : name,
-            "stars" : row["stars"],
-            "total_score" : row["total_score"],
-            "image" : row["image"],
-            "explain" : row["explain"],
-            "admin_comment" : row.get("admin_comment")
-        }
-        flameworkdict.append(new_row)
+        try:
+            name = filename.replace(".json", "")
+            row = jsonIO.read(name)
+            new_row = {
+                "basic" : row["basic"],
+                "score" : row["score"],
+                "name" : name,
+                "stars" : row["stars"],
+                "total_score" : row["total_score"],
+                "image" : row["image"],
+                "explain" : row["explain"],
+                "admin_comment" : row.get("admin_comment")
+            }
+            flameworkdict.append(new_row)
+        except:
+            pass
     return flameworkdict
 
 if __name__=="__main__":

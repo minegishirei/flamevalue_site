@@ -25,7 +25,6 @@ def getCareerJet(q):
         "jobs"  : clear_jobs(result_json["jobs"]) + clear_jobs(fetch(200)["jobs"]) ,
         "hits"  : result_json["hits"]
     }
-    print(result_json)
     return result_json
 
 
