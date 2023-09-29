@@ -1,7 +1,7 @@
 {
     "name": "PHP",
     "explain": "株式会社PHP研究所（ピーエイチピーけんきゅうしょ、英語: PHP Institute, Inc.）は、日本の出版社。\n1946年創業で、松下幸之助が創設した企業の1つ。当初は株式会社PHP総合研究所という名称でトータルシンクタンクを標榜していたが、2010年10月1日に子会社で出版社であった株式会社PHP研究所を吸収合併し、現在の名称に改名した。",
-    "date": "2023/09/29 00:06:30",
+    "date": "2023/09/29 00:30:02",
     "total_score": 3.62,
     "stars": "★★★★☆",
     "basic": {
@@ -8850,48 +8850,48 @@
     "wikipedia_related": [
         {
             "basic": {
-                "money": 317,
-                "overtime": 395,
+                "money": 320,
+                "overtime": 423,
                 "age": 30,
-                "size": 395,
-                "remote": 14,
-                "count": 110889,
-                "qiita_score": 83719
+                "size": 423,
+                "remote": 34,
+                "count": 110372,
+                "qiita_score": 83787
             },
             "score": {
-                "money": 2.2642857142857142,
-                "overtime": 1.975,
+                "money": 2.2857142857142856,
+                "overtime": 2.1149999999999998,
                 "age": 2.5,
-                "size": 1.975,
-                "remote": 1.0,
+                "size": 2.1149999999999998,
+                "remote": 2.4285714285714284,
                 "count": 5,
                 "qiita_score": 5
             },
             "name": "Java",
             "stars": "★★★☆☆",
-            "total_score": 2.82,
+            "total_score": 3.06,
             "image": "https://s3-ap-northeast-1.amazonaws.com/qiita-tag-image/6072fa4965bc9540233fc4179fdfef2cd1ea1964/medium.jpg?1650353809",
             "explain": "Java（ジャバ、ジャヴァ）は、汎用プログラミング言語とソフトウェアプラットフォームの双方を指している総称ブランドである。オラクルおよびその関連会社の登録商標である。1996年にサン・マイクロシステムズによって市場リリースされ、2010年に同社がオラクルに吸収合併された事によりJavaの版権もそちらに移行した。\nプログラミング言語Javaは、C++に類似の構文、クラスベースのオブジェクト指向、マルチスレッド、ガベージコレクション、コンポーネントベース、分散コンピューティングといった特徴を持ち、平易性重視のプログラム書式による堅牢性と、仮想マシン上での実行によるセキュリティ性およびプラットフォーム非依存性が理念とされている",
             "admin_comment": null
         },
         {
             "basic": {
-                "money": 485,
-                "overtime": 618,
+                "money": 489,
+                "overtime": 626,
                 "age": 30,
-                "size": 618,
-                "remote": 52,
-                "count": 18222,
-                "qiita_score": 10697
+                "size": 626,
+                "remote": 50,
+                "count": 18018,
+                "qiita_score": 10716
             },
             "score": {
-                "money": 3.4642857142857144,
-                "overtime": 3.09,
+                "money": 3.492857142857143,
+                "overtime": 3.13,
                 "age": 2.5,
-                "size": 3.09,
-                "remote": 3.7142857142857144,
+                "size": 3.13,
+                "remote": 3.5714285714285716,
                 "count": 5,
-                "qiita_score": 2.6742500000000002
+                "qiita_score": 2.6790000000000003
             },
             "name": "Swift",
             "stars": "★★★☆☆",
@@ -8902,106 +8902,132 @@
         },
         {
             "basic": {
-                "money": 528,
-                "overtime": 724,
+                "money": 532,
+                "overtime": 714,
                 "age": 30,
-                "size": 724,
-                "remote": 54,
-                "count": 62323,
-                "qiita_score": 64939
+                "size": 714,
+                "remote": 59,
+                "count": 62042,
+                "qiita_score": 64971
             },
             "score": {
-                "money": 3.771428571428572,
-                "overtime": 3.62,
+                "money": 3.8,
+                "overtime": 3.57,
                 "age": 2.5,
-                "size": 3.62,
-                "remote": 3.857142857142857,
+                "size": 3.57,
+                "remote": 4.214285714285714,
                 "count": 5,
                 "qiita_score": 5
             },
             "name": "Ruby",
             "stars": "★★★★☆",
-            "total_score": 3.91,
+            "total_score": 3.95,
             "image": "https://s3-ap-northeast-1.amazonaws.com/qiita-tag-image/04ddc69fa03cd83041203ac067139d349ae8dee9/medium.jpg?1650353332",
             "explain": "Ruby（ルビー）は、まつもとゆきひろ（通称: Matz）により開発されたオブジェクト指向スクリプト言語（スクリプト言語とはプログラミング言語の一分類）。\n日本で開発されたプログラミング言語としては初めて国際電気標準会議（IEC）で国際規格に認証された事例となった。\n\n",
             "admin_comment": null
         },
         {
             "basic": {
-                "money": 395,
-                "overtime": 596,
+                "money": 387,
+                "overtime": 553,
                 "age": 30,
-                "size": 596,
+                "size": 553,
                 "remote": 64,
-                "count": 90943,
-                "qiita_score": 78724
+                "count": 90706,
+                "qiita_score": 78720
             },
             "score": {
-                "money": 2.821428571428571,
-                "overtime": 2.98,
+                "money": 2.7642857142857142,
+                "overtime": 2.765,
                 "age": 2.5,
-                "size": 2.98,
+                "size": 2.765,
                 "remote": 4.571428571428571,
                 "count": 5,
                 "qiita_score": 5
             },
             "name": "PHP",
             "stars": "★★★★☆",
-            "total_score": 3.69,
+            "total_score": 3.62,
             "image": "https://s3-ap-northeast-1.amazonaws.com/qiita-tag-image/7c64a9d81f287a4efc8559db7474202acc76cadc/medium.jpg?1650353379",
             "explain": "株式会社PHP研究所（ピーエイチピーけんきゅうしょ、英語: PHP Institute, Inc.）は、日本の出版社。\n1946年創業で、松下幸之助が創設した企業の1つ。当初は株式会社PHP総合研究所という名称でトータルシンクタンクを標榜していたが、2010年10月1日に子会社で出版社であった株式会社PHP研究所を吸収合併し、現在の名称に改名した。",
             "admin_comment": null
         },
         {
             "basic": {
-                "money": 603,
-                "overtime": 1009,
+                "money": 564,
+                "overtime": 910,
                 "age": 30,
-                "size": 1009,
-                "remote": 70,
-                "count": 2671,
+                "size": 910,
+                "remote": 77,
+                "count": 2643,
                 "qiita_score": 15673
             },
             "score": {
-                "money": 4.307142857142857,
-                "overtime": 5,
+                "money": 4.0285714285714285,
+                "overtime": 4.55,
                 "age": 2.5,
-                "size": 5,
-                "remote": 5.0,
-                "count": 1.3355000000000001,
+                "size": 4.55,
+                "remote": 5,
+                "count": 1.3215,
                 "qiita_score": 3.9182499999999996
             },
             "name": "Scala",
             "stars": "★★★★☆",
-            "total_score": 3.87,
+            "total_score": 3.7,
             "image": "https://s3-ap-northeast-1.amazonaws.com/qiita-tag-image/dc88b232098c780491d677e4a208fb4a657470af/medium.jpg?1568269339",
             "explain": "Scala（スカラ、SKAH-lah）はオブジェクト指向言語と関数型言語の特徴を統合したマルチパラダイムのプログラミング言語である。名前の「Scala」は英語の「scalable language」に由来するものである。",
             "admin_comment": null
         },
         {
             "basic": {
-                "money": 395,
-                "overtime": 566,
+                "money": 401,
+                "overtime": 589,
                 "age": 30,
-                "size": 566,
-                "remote": 43,
-                "count": 84975,
-                "qiita_score": 138186
+                "size": 589,
+                "remote": 50,
+                "count": 84306,
+                "qiita_score": 138295
             },
             "score": {
-                "money": 2.821428571428571,
-                "overtime": 2.8299999999999996,
+                "money": 2.8642857142857143,
+                "overtime": 2.945,
                 "age": 2.5,
-                "size": 2.8299999999999996,
-                "remote": 3.0714285714285716,
+                "size": 2.945,
+                "remote": 3.5714285714285716,
                 "count": 5,
                 "qiita_score": 5
             },
             "name": "Javascript",
-            "stars": "★★★☆☆",
-            "total_score": 3.44,
+            "stars": "★★★★☆",
+            "total_score": 3.55,
             "image": "https://s3-ap-northeast-1.amazonaws.com/qiita-tag-image/12ab79a9d2e703932a2c08dc6a4bcc9fb544f5c3/medium.jpg?1650353657",
             "explain": "JavaScript（ジャバスクリプト）は、プログラミング言語であり、HyperText Markup Language（HTML）やCascading Style Sheets（CSS）と並ぶ　World Wide Web（WWW）の中核技術の一つである。\nプロトタイプベースのオブジェクト指向スクリプト言語であるが、クラスなどのクラスベースに見られる機能も取り込んでいる。\n利用される場面はウェブサイト、ウェブアプリケーション、バックエンド、デスクトップアプリケーション、モバイルアプリケーションなど、ウェブブラウザからサーバ、デスクトップからスマートフォンまで多岐にわたっている。\nJavaと似た名称を持つが、異なるプログラミング言語である（#歴史を参照）",
+            "admin_comment": null
+        },
+        {
+            "basic": {
+                "money": 415,
+                "overtime": 588,
+                "age": 30,
+                "size": 588,
+                "remote": 33,
+                "count": 92954,
+                "qiita_score": 155464
+            },
+            "score": {
+                "money": 2.9642857142857144,
+                "overtime": 2.94,
+                "age": 2.5,
+                "size": 2.94,
+                "remote": 2.357142857142857,
+                "count": 5,
+                "qiita_score": 5
+            },
+            "name": "Python",
+            "stars": "★★★☆☆",
+            "total_score": 3.39,
+            "image": "https://s3-ap-northeast-1.amazonaws.com/qiita-tag-image/0ee2c162b0573701a6baf468f4d30549f8d03e9b/medium.jpg?1660803670",
+            "explain": "Python（パイソン）はインタープリタ型の高水準汎用プログラミング言語である。",
             "admin_comment": null
         }
     ],

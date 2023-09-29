@@ -30,8 +30,13 @@ import CardSocialTraffic2 from "@/components/Cards/CardSocialTraffic2.vue";
 import CardRadarChart from "@/components/Cards/CardRadarChart.vue";
 import get_lang_url from '../../store/store';
 
+
+
 export default {
   name: "dashboard-page",
+  data () {
+    document.title = `${this.$route.query.name} の市場価値はどのくらい? プログラミング言語を年収でスコアリングするサービス FlameValue`;
+  },
   components: {
     //CardSettings,
     CardRadarChart,
