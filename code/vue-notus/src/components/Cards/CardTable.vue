@@ -69,7 +69,7 @@
             </th>
             <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
               <a :href="`index.html?name=${item.name}`">
-                {{ item.basic[label] }} 万円 / 年
+                {{ item.basic[label] }} {{ labels_meta[label].unit }}
               </a>
             </td>
             <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">

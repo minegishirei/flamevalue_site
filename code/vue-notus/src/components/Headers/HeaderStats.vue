@@ -11,7 +11,7 @@
       </div>
       <div class="flex flex-wrap">
         <div class="lg:w-2/12 xl:w-2/12 px-4 pt-8">
-          <img :src="`${lang_info.image}`" style="width: 130px; border-radius: 50%;">
+          <img :src="`${lang_info.image}`" style="width: 100px; border-radius: 50%;">
         </div>
         <div class="lg:w-8/12 xl:w-8/12 px-4 pt-6">
           <div style="color: white;">
