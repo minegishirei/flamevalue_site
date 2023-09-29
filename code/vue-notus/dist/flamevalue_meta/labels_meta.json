@@ -1,0 +1,22 @@
+{
+    "money" :{
+        "name" : "下限年収",
+        "unit" : "万円 / 年"
+    },
+    "overtime" : {
+        "name":"上限年収",
+        "unit":"万円 / 年"
+    },
+    "qiita_score" : {
+        "name":"フォロワー数(Qiita)",
+        "unit":"人"
+    },
+    "remote" : {
+        "name" : "リモート率",
+        "unit" : "%"
+    },
+    "count" : {
+        "name" : "求人件数",
+        "unit" : "件"
+    }
+}

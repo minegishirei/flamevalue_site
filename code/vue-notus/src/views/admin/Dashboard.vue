@@ -2,14 +2,6 @@
   <div>
     <div class="flex flex-wrap">
       <div class="w-full xl:w-8/12 mb-12 xl:mb-0 px-4">
-        
-      </div>
-      <div class="w-full xl:w-4/12 px-4">
-
-      </div>
-    </div>
-    <div class="flex flex-wrap">
-      <div class="w-full xl:w-8/12 mb-12 xl:mb-0 px-4">
         <CardRadarChart />
         <card-bar-chart />
         <card-line-chart />

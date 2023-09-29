@@ -258,5 +258,31 @@
         "image": "https://s3-ap-northeast-1.amazonaws.com/qiita-tag-image/0ee2c162b0573701a6baf468f4d30549f8d03e9b/medium.jpg?1660803670",
         "explain": "Python（パイソン）はインタープリタ型の高水準汎用プログラミング言語である。",
         "admin_comment": null
+    },
+    {
+        "basic": {
+            "money": 376,
+            "overtime": 471,
+            "age": 30,
+            "size": 471,
+            "remote": 33,
+            "count": 14634,
+            "qiita_score": 1577
+        },
+        "score": {
+            "money": 2.685714285714286,
+            "overtime": 2.355,
+            "age": 2.5,
+            "size": 2.355,
+            "remote": 2.357142857142857,
+            "count": 5,
+            "qiita_score": 0.39425
+        },
+        "name": "PostgreSQL",
+        "stars": "★★★☆☆",
+        "total_score": 2.52,
+        "image": "https://s3-ap-northeast-1.amazonaws.com/qiita-tag-image/851256141e0ae6188e423c46805c52b0e0583db5/medium.jpg?1373008367",
+        "explain": "PostgreSQL（ポストグレス キューエル）は、拡張性とSQL準拠を強調するフリーでオープンソースの関係データベース管理システム（RDBMS）である。Postgresとしても知られている。もともとは、カリフォルニア大学バークレー校で開発されたIngresデータベースの後継としてその起源を根拠としたPOSTGRESという名前であった。1996年に、プロジェクトはSQLのサポートを反映してPostgreSQLに改名された",
+        "admin_comment": null
     }
 ]
