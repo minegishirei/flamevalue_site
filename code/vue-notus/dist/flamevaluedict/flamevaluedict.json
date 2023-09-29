@@ -232,31 +232,5 @@
         "image": "https://s3-ap-northeast-1.amazonaws.com/qiita-tag-image/adfd3568a429637ca558c7943fec8c96f9394294/medium.jpg?1457084234",
         "explain": "Kotlin（コトリン）は、ジェットブレインズのアンドリー・ブレスラフ、ドミトリー・ジェメロフが開発した、静的型付けのオブジェクト指向プログラミング言語である。\n\n",
         "admin_comment": null
-    },
-    {
-        "basic": {
-            "money": 428,
-            "overtime": 568,
-            "age": 30,
-            "size": 568,
-            "remote": 32,
-            "count": 93573,
-            "qiita_score": 155334
-        },
-        "score": {
-            "money": 3.057142857142857,
-            "overtime": 2.84,
-            "age": 2.5,
-            "size": 2.84,
-            "remote": 2.2857142857142856,
-            "count": 5,
-            "qiita_score": 5
-        },
-        "name": "Python",
-        "stars": "★★★☆☆",
-        "total_score": 3.36,
-        "image": "https://s3-ap-northeast-1.amazonaws.com/qiita-tag-image/0ee2c162b0573701a6baf468f4d30549f8d03e9b/medium.jpg?1660803670",
-        "explain": "Python（パイソン）はインタープリタ型の高水準汎用プログラミング言語である。",
-        "admin_comment": null
     }
 ]
