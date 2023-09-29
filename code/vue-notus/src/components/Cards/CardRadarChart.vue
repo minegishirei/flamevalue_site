@@ -7,8 +7,9 @@
             Overview
           </h6>
           <h2 v-if="lang_info" class="text-xl font-semibold">
-            {{ lang_info.name }} のプログラミング言語スコア
+            {{ lang_info.name }} {{ lang_info.stars }} ({{ lang_info.total_score }}) <small> {{ lang_info.date }}更新</small>
           </h2>
+
         </div>
       </div>
     </div>
