@@ -105,26 +105,52 @@
     },
     {
         "basic": {
-            "money": 564,
-            "overtime": 910,
+            "money": 547,
+            "overtime": 726,
             "age": 30,
-            "size": 910,
-            "remote": 77,
-            "count": 2643,
+            "size": 726,
+            "remote": 73,
+            "count": 21086,
+            "qiita_score": 25511
+        },
+        "score": {
+            "money": 3.9071428571428575,
+            "overtime": 3.63,
+            "age": 2.5,
+            "size": 3.63,
+            "remote": 5,
+            "count": 5,
+            "qiita_score": 5
+        },
+        "name": "React",
+        "stars": "★★★★☆",
+        "total_score": 4.1,
+        "image": "https://s3-ap-northeast-1.amazonaws.com/qiita-tag-image/4baa5d7b710edd14aa23c57088de50abaa520fb5/medium.jpg?1596705704",
+        "explain": "React (リアクト) は、Meta（旧Facebook）とコミュニティによって開発されているユーザインタフェース構築のためのJavaScriptライブラリである。React.jsまたはReactJSの名称でも知られている。\nReactはシングルページアプリケーションやモバイルアプリケーションの開発におけるベースとして使用することができる。複雑なReactアプリケーションでは通常、状態管理・ルーティング・APIとの対話のための追加のライブラリが必要となる",
+        "admin_comment": null
+    },
+    {
+        "basic": {
+            "money": 569,
+            "overtime": 938,
+            "age": 30,
+            "size": 938,
+            "remote": 76,
+            "count": 2431,
             "qiita_score": 15673
         },
         "score": {
-            "money": 4.0285714285714285,
-            "overtime": 4.55,
+            "money": 4.064285714285714,
+            "overtime": 4.6899999999999995,
             "age": 2.5,
-            "size": 4.55,
+            "size": 4.6899999999999995,
             "remote": 5,
-            "count": 1.3215,
+            "count": 1.2155,
             "qiita_score": 3.9182499999999996
         },
         "name": "Scala",
         "stars": "★★★★☆",
-        "total_score": 3.7,
+        "total_score": 3.73,
         "image": "https://s3-ap-northeast-1.amazonaws.com/qiita-tag-image/dc88b232098c780491d677e4a208fb4a657470af/medium.jpg?1568269339",
         "explain": "Scala（スカラ、SKAH-lah）はオブジェクト指向言語と関数型言語の特徴を統合したマルチパラダイムのプログラミング言語である。名前の「Scala」は英語の「scalable language」に由来するものである。",
         "admin_comment": null
@@ -183,26 +209,26 @@
     },
     {
         "basic": {
-            "money": 537,
-            "overtime": 775,
+            "money": 512,
+            "overtime": 791,
             "age": 30,
-            "size": 775,
+            "size": 791,
             "remote": 72,
-            "count": 18043,
-            "qiita_score": 22967
+            "count": 17182,
+            "qiita_score": 22978
         },
         "score": {
-            "money": 3.8357142857142854,
-            "overtime": 3.875,
+            "money": 3.657142857142857,
+            "overtime": 3.955,
             "age": 2.5,
-            "size": 3.875,
+            "size": 3.955,
             "remote": 5,
             "count": 5,
             "qiita_score": 5
         },
         "name": "Typescript",
         "stars": "★★★★☆",
-        "total_score": 4.16,
+        "total_score": 4.15,
         "image": "https://s3-ap-northeast-1.amazonaws.com/qiita-tag-image/5dd0a3684d0ad54cef6b7cd6c52918be777435a3/medium.jpg?1513494620",
         "explain": "TypeScript はマイクロソフトによって開発され、メンテナンスされているフリーでオープンソースのプログラミング言語である。TypeScriptはJavaScriptに対して、省略も可能な静的型付けとクラスベースオブジェクト指向を加えた厳密なスーパーセット（既存のものを全て含んだ上でより機能が拡張されている上位互換となるモノ）となっている。C#のリードアーキテクトであり、DelphiとTurbo Pascalの開発者でもあるアンダース・ヘルスバーグがTypeScriptの開発に関わっている。TypeScriptはクライアントサイド、あるいはサーバサイド (Node.js) で実行されるJavaScriptアプリケーションの開発に利用できる",
         "admin_comment": null
@@ -261,26 +287,52 @@
     },
     {
         "basic": {
-            "money": 376,
-            "overtime": 471,
+            "money": 408,
+            "overtime": 732,
             "age": 30,
-            "size": 471,
-            "remote": 33,
-            "count": 14634,
+            "size": 732,
+            "remote": 61,
+            "count": 29387,
+            "qiita_score": 31283
+        },
+        "score": {
+            "money": 2.914285714285714,
+            "overtime": 3.66,
+            "age": 2.5,
+            "size": 3.66,
+            "remote": 4.357142857142858,
+            "count": 5,
+            "qiita_score": 5
+        },
+        "name": "Vue",
+        "stars": "★★★★☆",
+        "total_score": 3.87,
+        "image": "https://s3-ap-northeast-1.amazonaws.com/qiita-tag-image/798b52773f9b91f4ffbf5a2e9d1ed6c4f91c88f4/medium.jpg?1364837741",
+        "explain": "Vue（ビュー、ヴュー）とは、e-on software社からリリースされている、3D景観ソフトウェアのシリーズ名称である。日本語版はイーフロンティアより提供されている。",
+        "admin_comment": null
+    },
+    {
+        "basic": {
+            "money": 438,
+            "overtime": 691,
+            "age": 30,
+            "size": 691,
+            "remote": 23,
+            "count": 13942,
             "qiita_score": 1577
         },
         "score": {
-            "money": 2.685714285714286,
-            "overtime": 2.355,
+            "money": 3.128571428571428,
+            "overtime": 3.4549999999999996,
             "age": 2.5,
-            "size": 2.355,
-            "remote": 2.357142857142857,
+            "size": 3.4549999999999996,
+            "remote": 1.6428571428571428,
             "count": 5,
             "qiita_score": 0.39425
         },
         "name": "PostgreSQL",
         "stars": "★★★☆☆",
-        "total_score": 2.52,
+        "total_score": 2.8,
         "image": "https://s3-ap-northeast-1.amazonaws.com/qiita-tag-image/851256141e0ae6188e423c46805c52b0e0583db5/medium.jpg?1373008367",
         "explain": "PostgreSQL（ポストグレス キューエル）は、拡張性とSQL準拠を強調するフリーでオープンソースの関係データベース管理システム（RDBMS）である。Postgresとしても知られている。もともとは、カリフォルニア大学バークレー校で開発されたIngresデータベースの後継としてその起源を根拠としたPOSTGRESという名前であった。1996年に、プロジェクトはSQLのサポートを反映してPostgreSQLに改名された",
         "admin_comment": null
